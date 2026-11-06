@@ -15,7 +15,8 @@ are recorded in `assets/asset_manifest.json`; bundle contents are recorded in
 | HIQL framework adaptations | OGBench MIT source notices apply to the adapted implementation. They do not establish a separate license for the custom trained HIQL checkpoint. |
 | DMControl, MyoSuite and MetaWorld | Respect their separately distributed package and asset terms. The retained package profiles do not replace upstream licenses. |
 | ManiSkill2 0.5.3 / SAPIEN 2.2.2 runtime | [Versioned ManiSkill2 code license](https://raw.githubusercontent.com/mani-skill/ManiSkill/v0.5.3/LICENSE) is Apache-2.0; the [same version's asset statement](https://raw.githubusercontent.com/mani-skill/ManiSkill/v0.5.3/README.md#license) identifies CC BY-NC 4.0 for its assets. Simulator meshes and complete environments are not included in the model/data bundles. |
-| SWAAP-authored code, custom checkpoints and collected buffers | These retain their respective author-supplied terms; do not infer a grant from a different upstream component. The source snapshot makes no blanket license assignment to these different categories. |
+| SWAAP-authored source code | MIT selected for the original implementation; final copyright holder and root LICENSE pending confirmation. This statement is not itself a completed license grant. |
+| Custom checkpoints and collected buffers | Separate redistribution permissions and terms are required. They are not automatically covered by the MIT source-code license. |
 
 ## I-JEPA-derived portions
 
