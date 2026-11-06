@@ -1,0 +1,1012 @@
+[
+  {
+    "action_dim": 6,
+    "embedding": 0,
+    "family": "DMC",
+    "native_action_repeat": 2,
+    "observation_dim": 24,
+    "outer_steps": 500,
+    "seed_methods": [
+      "cfg.seed before make_env"
+    ],
+    "task": "walker-stand"
+  },
+  {
+    "action_dim": 6,
+    "embedding": 1,
+    "family": "DMC",
+    "native_action_repeat": 2,
+    "observation_dim": 24,
+    "outer_steps": 500,
+    "seed_methods": [
+      "cfg.seed before make_env"
+    ],
+    "task": "walker-walk"
+  },
+  {
+    "action_dim": 6,
+    "embedding": 2,
+    "family": "DMC",
+    "native_action_repeat": 2,
+    "observation_dim": 24,
+    "outer_steps": 500,
+    "seed_methods": [
+      "cfg.seed before make_env"
+    ],
+    "task": "walker-run"
+  },
+  {
+    "action_dim": 6,
+    "embedding": 3,
+    "family": "DMC",
+    "native_action_repeat": 2,
+    "observation_dim": 17,
+    "outer_steps": 500,
+    "seed_methods": [
+      "cfg.seed before make_env"
+    ],
+    "task": "cheetah-run"
+  },
+  {
+    "action_dim": 2,
+    "embedding": 4,
+    "family": "DMC",
+    "native_action_repeat": 2,
+    "observation_dim": 6,
+    "outer_steps": 500,
+    "seed_methods": [
+      "cfg.seed before make_env"
+    ],
+    "task": "reacher-easy"
+  },
+  {
+    "action_dim": 2,
+    "embedding": 5,
+    "family": "DMC",
+    "native_action_repeat": 2,
+    "observation_dim": 6,
+    "outer_steps": 500,
+    "seed_methods": [
+      "cfg.seed before make_env"
+    ],
+    "task": "reacher-hard"
+  },
+  {
+    "action_dim": 1,
+    "embedding": 6,
+    "family": "DMC",
+    "native_action_repeat": 2,
+    "observation_dim": 6,
+    "outer_steps": 500,
+    "seed_methods": [
+      "cfg.seed before make_env"
+    ],
+    "task": "acrobot-swingup"
+  },
+  {
+    "action_dim": 1,
+    "embedding": 7,
+    "family": "DMC",
+    "native_action_repeat": 2,
+    "observation_dim": 3,
+    "outer_steps": 500,
+    "seed_methods": [
+      "cfg.seed before make_env"
+    ],
+    "task": "pendulum-swingup"
+  },
+  {
+    "action_dim": 1,
+    "embedding": 8,
+    "family": "DMC",
+    "native_action_repeat": 2,
+    "observation_dim": 5,
+    "outer_steps": 500,
+    "seed_methods": [
+      "cfg.seed before make_env"
+    ],
+    "task": "cartpole-balance"
+  },
+  {
+    "action_dim": 1,
+    "embedding": 9,
+    "family": "DMC",
+    "native_action_repeat": 2,
+    "observation_dim": 5,
+    "outer_steps": 500,
+    "seed_methods": [
+      "cfg.seed before make_env"
+    ],
+    "task": "cartpole-balance-sparse"
+  },
+  {
+    "action_dim": 1,
+    "embedding": 10,
+    "family": "DMC",
+    "native_action_repeat": 2,
+    "observation_dim": 5,
+    "outer_steps": 500,
+    "seed_methods": [
+      "cfg.seed before make_env"
+    ],
+    "task": "cartpole-swingup"
+  },
+  {
+    "action_dim": 1,
+    "embedding": 11,
+    "family": "DMC",
+    "native_action_repeat": 2,
+    "observation_dim": 5,
+    "outer_steps": 500,
+    "seed_methods": [
+      "cfg.seed before make_env"
+    ],
+    "task": "cartpole-swingup-sparse"
+  },
+  {
+    "action_dim": 2,
+    "embedding": 12,
+    "family": "DMC",
+    "native_action_repeat": 2,
+    "observation_dim": 8,
+    "outer_steps": 500,
+    "seed_methods": [
+      "cfg.seed before make_env"
+    ],
+    "task": "cup-catch"
+  },
+  {
+    "action_dim": 2,
+    "embedding": 13,
+    "family": "DMC",
+    "native_action_repeat": 2,
+    "observation_dim": 9,
+    "outer_steps": 500,
+    "seed_methods": [
+      "cfg.seed before make_env"
+    ],
+    "task": "finger-spin"
+  },
+  {
+    "action_dim": 2,
+    "embedding": 14,
+    "family": "DMC",
+    "native_action_repeat": 2,
+    "observation_dim": 12,
+    "outer_steps": 500,
+    "seed_methods": [
+      "cfg.seed before make_env"
+    ],
+    "task": "finger-turn-easy"
+  },
+  {
+    "action_dim": 2,
+    "embedding": 15,
+    "family": "DMC",
+    "native_action_repeat": 2,
+    "observation_dim": 12,
+    "outer_steps": 500,
+    "seed_methods": [
+      "cfg.seed before make_env"
+    ],
+    "task": "finger-turn-hard"
+  },
+  {
+    "action_dim": 5,
+    "embedding": 16,
+    "family": "DMC",
+    "native_action_repeat": 2,
+    "observation_dim": 24,
+    "outer_steps": 500,
+    "seed_methods": [
+      "cfg.seed before make_env"
+    ],
+    "task": "fish-swim"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 17,
+    "family": "DMC",
+    "native_action_repeat": 2,
+    "observation_dim": 15,
+    "outer_steps": 500,
+    "seed_methods": [
+      "cfg.seed before make_env"
+    ],
+    "task": "hopper-stand"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 18,
+    "family": "DMC",
+    "native_action_repeat": 2,
+    "observation_dim": 15,
+    "outer_steps": 500,
+    "seed_methods": [
+      "cfg.seed before make_env"
+    ],
+    "task": "hopper-hop"
+  },
+  {
+    "action_dim": 6,
+    "embedding": 19,
+    "family": "DMC",
+    "native_action_repeat": 2,
+    "observation_dim": 24,
+    "outer_steps": 500,
+    "seed_methods": [
+      "cfg.seed before make_env"
+    ],
+    "task": "walker-walk-backwards"
+  },
+  {
+    "action_dim": 6,
+    "embedding": 20,
+    "family": "DMC",
+    "native_action_repeat": 2,
+    "observation_dim": 24,
+    "outer_steps": 500,
+    "seed_methods": [
+      "cfg.seed before make_env"
+    ],
+    "task": "walker-run-backwards"
+  },
+  {
+    "action_dim": 6,
+    "embedding": 21,
+    "family": "DMC",
+    "native_action_repeat": 2,
+    "observation_dim": 17,
+    "outer_steps": 500,
+    "seed_methods": [
+      "cfg.seed before make_env"
+    ],
+    "task": "cheetah-run-backwards"
+  },
+  {
+    "action_dim": 6,
+    "embedding": 22,
+    "family": "DMC",
+    "native_action_repeat": 2,
+    "observation_dim": 17,
+    "outer_steps": 500,
+    "seed_methods": [
+      "cfg.seed before make_env"
+    ],
+    "task": "cheetah-run-front"
+  },
+  {
+    "action_dim": 6,
+    "embedding": 23,
+    "family": "DMC",
+    "native_action_repeat": 2,
+    "observation_dim": 17,
+    "outer_steps": 500,
+    "seed_methods": [
+      "cfg.seed before make_env"
+    ],
+    "task": "cheetah-run-back"
+  },
+  {
+    "action_dim": 6,
+    "embedding": 24,
+    "family": "DMC",
+    "native_action_repeat": 2,
+    "observation_dim": 17,
+    "outer_steps": 500,
+    "seed_methods": [
+      "cfg.seed before make_env"
+    ],
+    "task": "cheetah-jump"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 25,
+    "family": "DMC",
+    "native_action_repeat": 2,
+    "observation_dim": 15,
+    "outer_steps": 500,
+    "seed_methods": [
+      "cfg.seed before make_env"
+    ],
+    "task": "hopper-hop-backwards"
+  },
+  {
+    "action_dim": 3,
+    "embedding": 26,
+    "family": "DMC",
+    "native_action_repeat": 2,
+    "observation_dim": 8,
+    "outer_steps": 500,
+    "seed_methods": [
+      "cfg.seed before make_env"
+    ],
+    "task": "reacher-three-easy"
+  },
+  {
+    "action_dim": 3,
+    "embedding": 27,
+    "family": "DMC",
+    "native_action_repeat": 2,
+    "observation_dim": 8,
+    "outer_steps": 500,
+    "seed_methods": [
+      "cfg.seed before make_env"
+    ],
+    "task": "reacher-three-hard"
+  },
+  {
+    "action_dim": 2,
+    "embedding": 28,
+    "family": "DMC",
+    "native_action_repeat": 2,
+    "observation_dim": 8,
+    "outer_steps": 500,
+    "seed_methods": [
+      "cfg.seed before make_env"
+    ],
+    "task": "cup-spin"
+  },
+  {
+    "action_dim": 1,
+    "embedding": 29,
+    "family": "DMC",
+    "native_action_repeat": 2,
+    "observation_dim": 3,
+    "outer_steps": 500,
+    "seed_methods": [
+      "cfg.seed before make_env"
+    ],
+    "task": "pendulum-spin"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 30,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-assembly"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 31,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-basketball"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 32,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-button-press-topdown"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 33,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-button-press-topdown-wall"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 34,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-button-press"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 35,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-button-press-wall"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 36,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-coffee-button"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 37,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-coffee-pull"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 38,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-coffee-push"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 39,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-dial-turn"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 40,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-disassemble"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 41,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-door-open"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 42,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-door-close"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 43,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-drawer-close"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 44,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-drawer-open"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 45,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-faucet-open"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 46,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-faucet-close"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 47,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-hammer"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 48,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-handle-press-side"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 49,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-handle-press"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 50,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-handle-pull-side"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 51,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-handle-pull"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 52,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-lever-pull"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 53,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-peg-insert-side"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 54,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-peg-unplug-side"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 55,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-pick-out-of-hole"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 56,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-pick-place"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 57,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-pick-place-wall"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 58,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-plate-slide"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 59,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-plate-slide-side"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 60,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-plate-slide-back"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 61,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-plate-slide-back-side"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 62,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-push-back"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 63,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-push"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 64,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-push-wall"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 65,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-reach"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 66,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-reach-wall"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 67,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-shelf-place"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 68,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-soccer"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 69,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-stick-push"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 70,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-stick-pull"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 71,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-sweep-into"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 72,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-sweep"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 73,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-window-open"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 74,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-window-close"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 75,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-bin-picking"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 76,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-box-close"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 77,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-door-lock"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 78,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-door-unlock"
+  },
+  {
+    "action_dim": 4,
+    "embedding": 79,
+    "family": "MetaWorld",
+    "native_action_repeat": 2,
+    "observation_dim": 39,
+    "outer_steps": 100,
+    "seed_methods": [
+      "cfg.seed before make_env",
+      "isolated numpy.random seed for MetaWorld reset"
+    ],
+    "task": "mw-hand-insert"
+  }
+]

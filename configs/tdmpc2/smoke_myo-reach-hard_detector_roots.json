@@ -1,0 +1,14 @@
+{
+  "roots": [
+    {
+      "environment_seed": 1590400001,
+      "episode_index": 0,
+      "planner_seed": 1590410001
+    },
+    {
+      "environment_seed": 1590400002,
+      "episode_index": 1,
+      "planner_seed": 1590410002
+    }
+  ]
+}

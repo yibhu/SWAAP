@@ -1,0 +1,10 @@
+family: graybox
+task: mw-soccer
+data:
+  mode: detector_saved
+assets:
+  victim: asset:graybox.mt80.original
+  detector_roots: config:detector_roots.json
+  detector_statistics: asset:graybox.mt80.detector-statistics
+  detector_threshold: asset:graybox.mt80.detector-threshold
+  detector_clean_test: asset:graybox.mt80.detector-clean-test

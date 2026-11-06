@@ -1,0 +1,73 @@
+family: maniskill
+task: lift-cube
+checkpoint_number: 1
+method: swaap
+seed: 0
+assets:
+  original: asset:maniskill.lift-cube.original
+  clean: asset:maniskill.lift-cube.clean-bank
+  reference: asset:maniskill.lift-cube.reference-bank
+  roots: config:smoke_lift-cube_roots.json
+  collection_roots: config:lift-cube_collection_roots.json
+  target: asset:maniskill.lift-cube.run1.target
+  detector_smoke_roots: config:smoke_lift-cube_detector_roots.json
+model:
+  model_size: 5
+runtime:
+  compile: true
+  maniskill_rendererless: true
+data:
+  rows: 5000
+  reference_rows: 50000
+  clean_random_action_chance: 0.0
+  reference_random_action_chance: 0.03
+  reference_use_environment: false
+stage1:
+  iterations: 400
+  lambda: 1.0
+  collect_trajectories: 5
+  checkpoint_stride: 10
+  evaluation_seeds:
+  - 100000
+  - 100001
+  - 100002
+  - 100003
+  - 100004
+  - 100005
+  - 100006
+  - 100007
+  - 100008
+  - 100009
+stage2:
+  alpha: 0.5
+  rp: 0.1
+  epsilon: 1.0
+  step_size: 10.0
+  steps: 2
+selection:
+  phase: targets
+  candidate_limit: 20
+  development_orders: 3
+  final_orders: 3
+  stealth_qualification:
+    delta_d_max_multiple: 1.25
+    tpr5_max_above_clean_fpr5: 0.05
+fit:
+  epochs: 25
+  batch_size: 256
+  learning_rate: 0.000175
+fit_seed: 3851814259
+evaluation:
+  episodes: 1
+  save_trajectories: true
+aggregation:
+  fit_orders: 3
+recipe_provenance:
+  retained: ordinary cosine-only SWAAP, not exploratory DIRMAG
+  selection: development-informed, stealth-qualified before return ranking
+  final_clean_98_gate: report only; no final order replacement
+  independent_stage1_runs: 2
+purpose: engineering integration only; not a paper result
+engineering:
+  enabled: true
+  budget_gpu_minutes: 20

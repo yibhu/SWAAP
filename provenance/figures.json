@@ -1,0 +1,77 @@
+{
+  "manuscript": "main (18).tex",
+  "pdf": "World_Model_Poison_NeurIPS_2026 (16).pdf",
+  "figures": [
+    {
+      "filename": "dp_baseline_ours_comparison_plot_table1_9.png",
+      "paper_pdf_page": 9,
+      "sha256": "26171956d75f5a04296d102cf6c54e5d988c64734e7c7db9cadb300a152aaba6",
+      "match": "exact decoded RGB pixels",
+      "plotter": "swaap.plotting.main",
+      "data": [
+        "FIGURE_GRID_BAR_VALUES.csv",
+        "FIGURE_GRID_POOL_VALUES.csv"
+      ]
+    },
+    {
+      "filename": "appendix_delta_norm_grid_1.pdf",
+      "sha256": "acfcd00b6035087105d72ab59520fedd6110575a07a0762830bee49095cdaab4",
+      "match": "exact decoded PDF form stream",
+      "pdf_xobject": 105,
+      "plotter": "swaap.plotting.delta_d"
+    },
+    {
+      "filename": "humanoid-walk_trim_defense_comparison_corrected.pdf",
+      "sha256": "25ed23035c22ea2990234450ebd1d5dcec9a49ecbfd1999ea4a73861e4dd794e",
+      "match": "exact decoded PDF form stream",
+      "pdf_xobject": 22,
+      "plotter": "swaap.plotting.trim"
+    },
+    {
+      "filename": "humanoid-walk_scatter.pdf",
+      "sha256": "6beb2f0faca243b4fc7347603174ab5cd09a8aec1835215c2fd02f18f9184c6b",
+      "match": "exact decoded PDF form stream",
+      "pdf_xobject": 20,
+      "plotter": "swaap.plotting.scatter"
+    },
+    {
+      "filename": "myo-pen-twirl-hard_scatter.pdf",
+      "sha256": "a8a9ba4013ff9ea8f2b99b2202d6a3e4e85acf03e6d0acd7fe49d80aaff28c35",
+      "match": "exact decoded PDF form stream",
+      "pdf_xobject": 21,
+      "plotter": "swaap.plotting.scatter"
+    },
+    {
+      "filename": "model_poisoning_plot.png",
+      "sha256": "986f1ec7259a525f840c3b189830ab692cd8be0ab8e9b727eb1c97efe4a050c3",
+      "match": "exact decoded RGB pixels",
+      "plotter": null,
+      "status": "archived image only; original numerical arrays unavailable"
+    },
+    {
+      "filename": "pca_next_latent.png",
+      "sha256": "a09fa2e6eb636d4a43acee7ac6717de17f3f8324015319675f43598a90d3a01e",
+      "match": "exact decoded RGB pixels",
+      "plotter": null,
+      "status": "archived image only; original numerical arrays unavailable"
+    },
+    {
+      "filename": "pca_next_latent_clean.png",
+      "sha256": "4cc283bc72c719f5c03b9f96a37464a367102dbdd4952fb3eefdccf503059e62",
+      "match": "exact decoded RGB pixels",
+      "plotter": null,
+      "status": "archived image only; original numerical arrays unavailable"
+    },
+    {
+      "filename": "dp_appendix_full_results.png",
+      "paper_pdf_page": 26,
+      "pdf_xobject": 93,
+      "match": "all RGB pixels outside legend bbox [1088,218,2638,266] match old adopted grid; PDF16 legend is Clean delta_m",
+      "plotter": "swaap.plotting.grid",
+      "red_line_definition": "fitted Clean own-rollout error",
+      "caption": "main18 line1188",
+      "numerical_inputs_unchanged": true,
+      "status": "public plotter uses author-adopted corrected legend"
+    }
+  ]
+}

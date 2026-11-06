@@ -1,0 +1,29 @@
+# Retained native DINO execution versions; original nightly wheels require verified access.
+# This file is a recipe, not a claim that a fresh installation has passed.
+name: swaap-dino
+channels: [conda-forge]
+dependencies:
+  - python=3.11.13
+  - pip
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/nightly/cu128
+      - torch==2.9.0.dev20250723+cu128
+      - torchvision==0.24.0.dev20250723+cu128
+      - numpy==1.26.4
+      - gym==0.24.1
+      - tensordict==0.9.1
+      - hydra-core==1.3.2
+      - omegaconf==2.3.0
+      - einops==0.8.1
+      - cloudpickle==3.1.1
+      - pygame==2.5.2
+      - pymunk==6.8.0
+      - shapely==2.0.3
+      - opencv-python==4.11.0.86
+      - scikit-image==0.20.0
+      - imageio==2.37.0
+      - imageio-ffmpeg==0.6.0
+      - matplotlib==3.10.0
+      - h5py==3.14.0
+      - tqdm==4.67.1
+      - psutil==5.9.0

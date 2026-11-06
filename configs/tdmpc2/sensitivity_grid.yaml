@@ -1,0 +1,29 @@
+tasks:
+- mw-push
+- mw-soccer
+- humanoid-walk
+- humanoid-run
+- dog-walk
+- dog-run
+- cheetah-run
+- myo-reach-hard
+- myo-pen-twirl-hard
+methods:
+- swaap
+- swaap_legacy_random
+alpha:
+- 0.1
+- 0.5
+- 0.9
+poison_fraction:
+- 0.1
+- 0.2
+- 0.3
+fitting_orders: 3
+evaluation_episodes: 100
+extra_humanoid_walk:
+  alpha: 0.9
+  poison_fraction:
+  - 0.01
+  - 0.05
+target_reselection: false

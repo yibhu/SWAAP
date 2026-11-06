@@ -1,0 +1,60 @@
+{
+  "source_receipt": "MYO_QUALIFICATION_V3.json",
+  "source_receipt_sha256": "9679a4b46b41cfa6f1cb2d2445f8a61f54c843a3cf59915df5fbc80b6f6f6403",
+  "retained_status": "PASS",
+  "retained_versions": {
+    "numpy": "1.23.5",
+    "mujoco": "3.3.0",
+    "gym": "0.23.1",
+    "myosuite": "2.10.3"
+  },
+  "retained_torch": "2.6.0.dev20241112",
+  "retained_GPU": "NVIDIA A100 80GB PCIe",
+  "qualification_scope": "dependency, exact-input, compatible-Clean, order, and reset identity only; zero fit updates and no full-fit qualification",
+  "new_public_installation_qualified": false,
+  "installed_distribution_metadata": {
+    "file": "myosuite-2.10.3.dist-info/METADATA",
+    "sha256": "9706ec63e98e7c040aba6b0599583e045e634ea93be7cfa5f741420e22075b30",
+    "version": "2.10.3",
+    "git_commit": "not retained in installed distribution metadata"
+  },
+  "required_task_assets": [
+    {
+      "package_relative_path": "myosuite/envs/myo/assets/hand/myohand_pen.xml",
+      "bytes": 3763,
+      "sha256": "d3f1f559e556b7059323df15da89e17bad8429ad40a968645a7fc464af385ecc",
+      "identity_scope": "present local2.10.3 package; complete qualified overlay byte parity not established"
+    },
+    {
+      "package_relative_path": "myosuite/envs/myo/assets/hand/myohand_pose.xml",
+      "bytes": 2585,
+      "sha256": "fdf2070fa95201f1c1662d908d9da90750147b0338cd495b799ae3203386fe7c",
+      "identity_scope": "present local2.10.3 package; complete qualified overlay byte parity not established"
+    },
+    {
+      "package_relative_path": "myosuite/simhive/myo_sim/hand/assets/myohand_assets.xml",
+      "bytes": 32320,
+      "sha256": "2d6bd1f8c2dce2f0793ee8cd15b01281beb076be1cc6070dc0316f0dbe093dc8",
+      "identity_scope": "present local2.10.3 package; complete qualified overlay byte parity not established"
+    },
+    {
+      "package_relative_path": "myosuite/simhive/myo_sim/hand/assets/myohand_body.xml",
+      "bytes": 65373,
+      "sha256": "4b55b3fb1b33b4934f25668d3e8a03f84dec3a51dc6383ca6a1da20d5d6b4862",
+      "identity_scope": "present local2.10.3 package; complete qualified overlay byte parity not established"
+    },
+    {
+      "package_relative_path": "myosuite/simhive/myo_sim/scene/myosuite_scene.xml",
+      "bytes": 3284,
+      "sha256": "39e342fc0f4669b10fe28bfb6542fd06563db41b95cad3c4dc673ab126f4e11a",
+      "identity_scope": "present local2.10.3 package; complete qualified overlay byte parity not established"
+    }
+  ],
+  "bundled_simhive_myo_sim_VERSION": "0.1.0",
+  "optional_myo_model": {
+    "needed_by_published_hand_tasks": false,
+    "initializer_commit": "619b1a876113e91a302b9baeaad6c2341e12ac81",
+    "license_acceptance": "separate explicit decision if that optional family is requested; never automatically accept"
+  },
+  "environment_declaration_note": "Only versions reported by retained receipt are execution-proven; dm-control1.0.28 and gymnasium0.29.1 are constraints from2.10.3 package metadata, not a separately qualified fresh installation"
+}

@@ -1,0 +1,36 @@
+family: graybox
+task: mw-soccer
+seed: 370105
+method: swaap
+assets:
+  victim: asset:graybox.mt80.original
+  roots: config:detailed_roots100.json
+  task_map: config:mt80_task_map.json
+  clean_lr25: asset:graybox.mt80.clean-lr25
+  swaap_lr25: asset:graybox.mt80.swaap-lr25
+  clean_lr50: asset:graybox.mt80.clean-lr50
+  swaap_lr50: asset:graybox.mt80.swaap-lr50
+model:
+  model_size: 5
+  obs_shape:
+    state:
+    - 39
+  action_dim: 4
+runtime:
+  compile: true
+evaluation:
+  multitask: true
+  task: mw-soccer
+  episodes: 100
+  eval_mode: false
+  scope: detailed_frozen
+  endpoints:
+    Original: null
+    Clean_lr25: clean_lr25
+    SWAAP_lr25: swaap_lr25
+    Clean_lr50: clean_lr50
+    SWAAP_lr50: swaap_lr50
+  tasks:
+  - mw-soccer
+  - mw-push
+reproduction_path: released_five_endpoints_detailed_evaluation_only

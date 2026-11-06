@@ -1,0 +1,317 @@
+[
+  {
+    "source_file": "ordinary_stage2.py",
+    "source_sha256": "e4bfbbf8eee479a70a5a3036c5397bb34b8e18fe7677c22e23c1e14084c9e684",
+    "definition": "latent_next",
+    "definition_sha256": "07165cb2e2d2c29e74cae45cafa5f34b57ff043d042e075054d3f50fee6ba1e7",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "constructor.py",
+    "source_sha256": "affde1037e5ba61550058cb10c10969aaa83a3a61cc5010fda4275fcc5bac949",
+    "definition": "rms_regularizer",
+    "definition_sha256": "6916438816eed02b29f06583c30a2590dcc6a25d31c43ec4b5c1011139ff6491",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "constructor.py",
+    "source_sha256": "affde1037e5ba61550058cb10c10969aaa83a3a61cc5010fda4275fcc5bac949",
+    "definition": "cosine_vector",
+    "definition_sha256": "410891f68035b351c951036ecb1ecde5f8cd87a50aff69d26a71273e1b073cc5",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "constructor.py",
+    "source_sha256": "affde1037e5ba61550058cb10c10969aaa83a3a61cc5010fda4275fcc5bac949",
+    "definition": "GradientEngine",
+    "definition_sha256": "389e77137536be1bb09b7a9519898af37619f86822f869f8fb6b9ea0fa2ed103",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "data.py",
+    "source_sha256": "b76223eba98db734192bc4ea0319fffd531e7b9381979de34aafe79cff51ac24",
+    "definition": "project",
+    "definition_sha256": "e5e4285784b5303403b053dfc1f0d770cfb8b6c55fa17c104db74f89c25cec9f",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "data.py",
+    "source_sha256": "b76223eba98db734192bc4ea0319fffd531e7b9381979de34aafe79cff51ac24",
+    "definition": "deviation",
+    "definition_sha256": "877b8caa0ecd681da96ec8a57f4c7ef07a4fb733a7af620e1a75dec8a4166484",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "data.py",
+    "source_sha256": "b76223eba98db734192bc4ea0319fffd531e7b9381979de34aafe79cff51ac24",
+    "definition": "function_metrics",
+    "definition_sha256": "4a4d63187277108c3c56f01a6215de8633a840e1a40e0dbca2986b53bc41f49f",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "data.py",
+    "source_sha256": "b76223eba98db734192bc4ea0319fffd531e7b9381979de34aafe79cff51ac24",
+    "definition": "predictor_distance",
+    "definition_sha256": "e05b7a3d2a31df3acc44d6f8bddf47d06b9254d6714edfb27c36f37c71050ea3",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "fit.py",
+    "source_sha256": "1f0a479ec8a9fd822b2548e82ed79e6f92caedc9950bb7a0f66a44d3105094af",
+    "definition": "slate_hash",
+    "definition_sha256": "fe8fb16a58dff8d3b44de630c56c6b7b680ae7590beb49d2bef6b5c5bf5fa2ce",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "fit.py",
+    "source_sha256": "1f0a479ec8a9fd822b2548e82ed79e6f92caedc9950bb7a0f66a44d3105094af",
+    "definition": "make_source_slate",
+    "definition_sha256": "ef752c20ca9ef942a55d0a6ddd9f1a85545038e6797e4be014b10182b289e07f",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "constructor.py",
+    "source_sha256": "affde1037e5ba61550058cb10c10969aaa83a3a61cc5010fda4275fcc5bac949",
+    "definition": "rms_regularizer",
+    "definition_sha256": "6916438816eed02b29f06583c30a2590dcc6a25d31c43ec4b5c1011139ff6491",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "constructor.py",
+    "source_sha256": "affde1037e5ba61550058cb10c10969aaa83a3a61cc5010fda4275fcc5bac949",
+    "definition": "cosine_vector",
+    "definition_sha256": "410891f68035b351c951036ecb1ecde5f8cd87a50aff69d26a71273e1b073cc5",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "data.py",
+    "source_sha256": "b76223eba98db734192bc4ea0319fffd531e7b9381979de34aafe79cff51ac24",
+    "definition": "project",
+    "definition_sha256": "e5e4285784b5303403b053dfc1f0d770cfb8b6c55fa17c104db74f89c25cec9f",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "recovered_source.py",
+    "source_sha256": "fb4f6b838b2127fcef75a031ec1e27494a5758d8a2e4af58c30d9b256a9b95ab",
+    "definition": "HierarchicalGoalDataset",
+    "definition_sha256": "4ac9201e7ee733f551e1b9241768b031a68489d9a5789c936e964096ed92e95f",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "recovered_source.py",
+    "source_sha256": "fb4f6b838b2127fcef75a031ec1e27494a5758d8a2e4af58c30d9b256a9b95ab",
+    "definition": "get_hiql_dataset_config",
+    "definition_sha256": "9fb9ef45ab8150a738b371c696e32edcb20d504760928a715523374d5550435b",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "recovered_source.py",
+    "source_sha256": "fb4f6b838b2127fcef75a031ec1e27494a5758d8a2e4af58c30d9b256a9b95ab",
+    "definition": "ResnetStack",
+    "definition_sha256": "edae3c0397897f0117f6d3ee72c8bf1ca23e4aee303e805580e510d19ad40445",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "recovered_source.py",
+    "source_sha256": "fb4f6b838b2127fcef75a031ec1e27494a5758d8a2e4af58c30d9b256a9b95ab",
+    "definition": "ImpalaEncoder",
+    "definition_sha256": "ccbfbc0ff6fa67d01e73854ae491e5750a0a9b0a7ca6eff2ca1aaa633c1596f0",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "recovered_source.py",
+    "source_sha256": "fb4f6b838b2127fcef75a031ec1e27494a5758d8a2e4af58c30d9b256a9b95ab",
+    "definition": "GCEncoder",
+    "definition_sha256": "9a58b8ef4ae3a3978a7c77690a3fab8e93fe982cbf8ac898ce19fa6e8824f61b",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "recovered_source.py",
+    "source_sha256": "fb4f6b838b2127fcef75a031ec1e27494a5758d8a2e4af58c30d9b256a9b95ab",
+    "definition": "Identity",
+    "definition_sha256": "919f464f9caf244dfd4bf8c0a385d5811e19ec1fee53d59f5098b270b7213251",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "recovered_source.py",
+    "source_sha256": "fb4f6b838b2127fcef75a031ec1e27494a5758d8a2e4af58c30d9b256a9b95ab",
+    "definition": "MLP",
+    "definition_sha256": "d0654cb4862cd3ce739be7740d440f1ba33867090f2302e09a880de004c9e621",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "recovered_source.py",
+    "source_sha256": "fb4f6b838b2127fcef75a031ec1e27494a5758d8a2e4af58c30d9b256a9b95ab",
+    "definition": "LengthNormalize",
+    "definition_sha256": "b2a6e52aac7503009c83dd9c7ff97795f678342a03c60a528ef8061ca14d337a",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "recovered_source.py",
+    "source_sha256": "fb4f6b838b2127fcef75a031ec1e27494a5758d8a2e4af58c30d9b256a9b95ab",
+    "definition": "GCActor",
+    "definition_sha256": "6489186ce6e0db0a17e26695adeee8c26d32fa699aa8a9d5ba12454f793cae68",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "recovered_source.py",
+    "source_sha256": "fb4f6b838b2127fcef75a031ec1e27494a5758d8a2e4af58c30d9b256a9b95ab",
+    "definition": "GCValue",
+    "definition_sha256": "108fd892bbe77e7a5d6bf2a2700a3a86f27fb989bbfc48adbdfd47857df1dfa8",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "recovered_source.py",
+    "source_sha256": "fb4f6b838b2127fcef75a031ec1e27494a5758d8a2e4af58c30d9b256a9b95ab",
+    "definition": "HIQLAgent",
+    "definition_sha256": "a033f3611b138f2d555d8f3ddc428a7e52bdc29e8cb15b0954096305bb49c05d",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "recovered_source.py",
+    "source_sha256": "fb4f6b838b2127fcef75a031ec1e27494a5758d8a2e4af58c30d9b256a9b95ab",
+    "definition": "get_config",
+    "definition_sha256": "c6c380cd57909ea34de4b4df5459ea8a136f8052c5b243578b5498bbf72a737a",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "recovered_source.py",
+    "source_sha256": "fb4f6b838b2127fcef75a031ec1e27494a5758d8a2e4af58c30d9b256a9b95ab",
+    "definition": "plot_obses",
+    "definition_sha256": "cda200fea150579dbc53010450ee0597bb7934f5f7c37c73f522319770a8f753",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "recovered_source.py",
+    "source_sha256": "fb4f6b838b2127fcef75a031ec1e27494a5758d8a2e4af58c30d9b256a9b95ab",
+    "definition": "get_cached_model",
+    "definition_sha256": "8f609bc7c64dee752f9fcfab3e79beaaa36950f3f981f4e4a31ff5fcc25087db",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "recovered_source.py",
+    "source_sha256": "fb4f6b838b2127fcef75a031ec1e27494a5758d8a2e4af58c30d9b256a9b95ab",
+    "definition": "get_cached_env",
+    "definition_sha256": "41694dcd5cf5e59265e8cdd38300012283700d1008ee499934c4a18265ceae5c",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "recovered_source.py",
+    "source_sha256": "fb4f6b838b2127fcef75a031ec1e27494a5758d8a2e4af58c30d9b256a9b95ab",
+    "definition": "get_cached_dataset",
+    "definition_sha256": "a2715eee5d450ed9f50ee6c9f1cd94378b337d8bbd8a590484b14891854dade5",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "recovered_source.py",
+    "source_sha256": "fb4f6b838b2127fcef75a031ec1e27494a5758d8a2e4af58c30d9b256a9b95ab",
+    "definition": "load_model",
+    "definition_sha256": "a1cf385668e6494318092794c1838badcb3b872208d8de6c5744584869303be4",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "recovered_source.py",
+    "source_sha256": "fb4f6b838b2127fcef75a031ec1e27494a5758d8a2e4af58c30d9b256a9b95ab",
+    "definition": "load_ckpt",
+    "definition_sha256": "d3838849431554e381a1eb7a98e64120e6ce6d3ff41967e0abc944fb6df7dc92",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "recovered_source.py",
+    "source_sha256": "fb4f6b838b2127fcef75a031ec1e27494a5758d8a2e4af58c30d9b256a9b95ab",
+    "definition": "SimulationWorkspace",
+    "definition_sha256": "4bb75bb83a2c21b6b329df2a4049d3f4d6ec6691ea4eb89f7bd78f9430d64a77",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "recovered_source.py",
+    "source_sha256": "fb4f6b838b2127fcef75a031ec1e27494a5758d8a2e4af58c30d9b256a9b95ab",
+    "definition": "resize_obs",
+    "definition_sha256": "9f694f6e794c29e35eeb9a14d6ba214afd24316db6d7864a2853421c2ea5c8d5",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "recovered_source.py",
+    "source_sha256": "fb4f6b838b2127fcef75a031ec1e27494a5758d8a2e4af58c30d9b256a9b95ab",
+    "definition": "print_cuda_stats",
+    "definition_sha256": "41775732ca73e4906bf6465ec257c5bb4de2d46bb01b068e5612fd71e3e08afa",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "recovered_source.py",
+    "source_sha256": "fb4f6b838b2127fcef75a031ec1e27494a5758d8a2e4af58c30d9b256a9b95ab",
+    "definition": "batched_forward",
+    "definition_sha256": "80151406bd9385d2ca6122d8fa31893c43594e3049928f44eb349b18e67e8ef4",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "recovered_source.py",
+    "source_sha256": "fb4f6b838b2127fcef75a031ec1e27494a5758d8a2e4af58c30d9b256a9b95ab",
+    "definition": "apply_flat_grads_to_model",
+    "definition_sha256": "1e387e30b464053db27d2c6faec0557721fef32b702128b59426917083b31038",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "recovered_source.py",
+    "source_sha256": "fb4f6b838b2127fcef75a031ec1e27494a5758d8a2e4af58c30d9b256a9b95ab",
+    "definition": "ThetaPsi",
+    "definition_sha256": "6453193e6296df0e9904e95655c3394b48be919ef5dd8d784121643e30eedc13",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "recovered_source.py",
+    "source_sha256": "fb4f6b838b2127fcef75a031ec1e27494a5758d8a2e4af58c30d9b256a9b95ab",
+    "definition": "build_dino_transition_dataset",
+    "definition_sha256": "ef1cbbfea3ded493ba2a1749a2c4677abb1f70284047da67a94dff6c2598d579",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "recovered_source.py",
+    "source_sha256": "fb4f6b838b2127fcef75a031ec1e27494a5758d8a2e4af58c30d9b256a9b95ab",
+    "definition": "DinoWMSystem",
+    "definition_sha256": "f36918640faf4a0e08d7865252b5390d9ad385fa2374d0eefb9fc23945a00410",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "collection.py",
+    "source_sha256": "1910cc1c3df2716abfe7b017f2eec6745b43fdea8806c7654d74ab1e5d7523b0",
+    "definition": "collect",
+    "transformation": "Numerical computation unchanged; two instance-method logging assignments replaced by explicit recording environment proxy and evaluator subclass. Logging and output directories configurable."
+  },
+  {
+    "source_file": "recovered_source.py",
+    "definition": "SimulationWorkspace.interact_mpc",
+    "transformation": "One assignment stores already-computed native final evaluator tuple for logging; no forward, replay or random draw added."
+  },
+  {
+    "source_file": "final_measurements_v1/detector.py",
+    "source_sha256": "58ff1e30347958d2d4d700b97a0bb022805bdfa36c6620d0b348575f9dbed1da",
+    "definitions": [
+      "_tensor32",
+      "_state_fields",
+      "_record_ids",
+      "residuals_from_predictions",
+      "normalized_deviation"
+    ],
+    "transformation": "verbatim pure CPU metric definitions; model inference and controller omitted"
+  },
+  {
+    "source_file": "datasets/pusht_dset.py",
+    "source_sha256": "7e630c07f34f83ed06d6ccd558d189679ab7869a4cd817ad0199d151ffe939e7",
+    "definitions": [
+      "ACTION_MEAN",
+      "ACTION_STD",
+      "PROPRIO_MEAN",
+      "PROPRIO_STD",
+      "STATE_MEAN",
+      "STATE_STD"
+    ],
+    "transformation": "six normalization tensor assignments copied verbatim; avoid importing optional video decoder for recorded-goal/observed-environment workflows"
+  },
+  {
+    "source_file": "final_measurements_v1/direct.py",
+    "source_sha256": "2d504439be85082ffbb08762d24bd1640e3db790e7c8e8b38e6887f22ee088b4",
+    "definition": "predictor_replacement",
+    "transformation": "verbatim; Direct preserves Original modes/flags, construction explicitly uses its separate eval-mode BF16copy"
+  }
+]

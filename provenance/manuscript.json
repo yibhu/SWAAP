@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "title": "Stealthy World Model Manipulation via Data Poisoning",
+  "authors": [
+    "Yibin Hu",
+    "Zizhan Zheng"
+  ],
+  "year": 2026,
+  "authoritative_inputs": [
+    {
+      "filename": "main (18).tex",
+      "sha256": "689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552",
+      "bytes": 151039
+    },
+    {
+      "filename": "World_Model_Poison_NeurIPS_2026 (16).pdf",
+      "sha256": "2aac5cdcf507138cbaad3eedf6c7e262fdcc7b38ad0027032b82a049d6893c21",
+      "bytes": 3922089
+    }
+  ],
+  "status": "PAPER_SNAPSHOT_FOR_REPRODUCTION",
+  "checklist_in_scope": false,
+  "correspondence_checks": {
+    "identity_bytes_and_sha256": "VERIFIED",
+    "pdf_pages_checked": "1-10 only; checklist not read",
+    "title": "MATCH",
+    "main_table_mean_sample_sd_cells": {
+      "source_cells": 144,
+      "matching_rendered_values": 144,
+      "comparison": "Whitespace and U+2212 minus normalized pdftotext against 144 TeX numeric cells, preserving displayed precision."
+    },
+    "author_rendering": "TeX contains named authors; supplied PDF renders Anonymous Author(s), consistent with active neurips package lacking final option. Author must confirm final submission mode.",
+    "limit": "This targeted identity/correspondence check is not an assertion that the full appendix, bibliography or actual final included figure bytes are synchronized."
+  },
+  "figure_note": "The PDF16 adopted Clean delta_m legend and own-rollout caption for the full alpha/fraction grid; plotted values are unchanged."
+}

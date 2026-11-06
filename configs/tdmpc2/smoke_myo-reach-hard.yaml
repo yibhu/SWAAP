@@ -1,0 +1,70 @@
+family: tdmpc2
+task: myo-reach-hard
+checkpoint_number: 1
+method: swaap
+seed: 0
+assets:
+  original: asset:tdmpc2.myo-reach-hard.original
+  clean: asset:tdmpc2.myo-reach-hard.clean-bank
+  reference: asset:tdmpc2.myo-reach-hard.reference-bank
+  roots: config:smoke_myo-reach-hard_roots.json
+  target: asset:tdmpc2.myo-reach-hard.main-run1.target
+  detector_smoke_roots: config:smoke_myo-reach-hard_detector_roots.json
+model:
+  model_size: 5
+runtime:
+  compile: true
+  mujoco_gl: egl
+data:
+  rows: 5000
+  reference_rows: 50000
+  clean_random_action_chance: 0.03
+  reference_random_action_chance: 0.03
+  reference_use_environment: false
+stage1:
+  iterations: 400
+  lambda: 10
+  collect_trajectories: 5
+  checkpoint_stride: 10
+  evaluation_seeds:
+  - 100000
+  - 100001
+  - 100002
+  - 100003
+  - 100004
+  - 100005
+  - 100006
+  - 100007
+  - 100008
+  - 100009
+selection:
+  phase: targets
+  construction_alpha: 0.5
+  candidate_limit: 20
+  development_orders: 3
+  final_orders: 3
+stage2:
+  alpha: 0.9
+  rp: 0.1
+  epsilon: 1.0
+  step_size: 10.0
+  steps: 2
+fit:
+  epochs: 10
+  batch_size: 256
+  learning_rate: 0.0064
+fit_seed: 51801
+evaluation:
+  episodes: 1
+  save_trajectories: true
+aggregation:
+  fit_orders: 3
+recipe_provenance:
+  stage1: frozen fresh recipe; new generation seed is user-configurable
+  target_selection_alpha: 0.5
+  adopted_primary_alpha: 0.9
+  final_root_panel: first published contributing Stage-1 run; all runs in published_orders.json
+purpose: engineering integration only; not a paper result
+engineering:
+  enabled: true
+  budget_gpu_minutes: 20

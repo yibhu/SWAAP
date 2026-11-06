@@ -1,0 +1,61 @@
+family: graybox
+task: mw-soccer
+checkpoint_number: 1
+method: swaap
+seed: 0
+assets:
+  original: asset:graybox.soccer.original
+model:
+  model_size: 5
+runtime:
+  compile: true
+  mujoco_gl: egl
+data:
+  rows: 5000
+  reference_rows: 50000
+  clean_random_action_chance: 0.03
+  reference_random_action_chance: 0.03
+  reference_use_environment: false
+stage1:
+  iterations: 1000
+  lambda: 0
+  collect_trajectories: 5
+  checkpoint_stride: 10
+  evaluation_seeds:
+  - 100000
+  - 100001
+  - 100002
+  - 100003
+  - 100004
+  - 100005
+  - 100006
+  - 100007
+  - 100008
+  - 100009
+selection:
+  phase: targets
+  construction_alpha: 0.9
+  candidate_limit: 20
+  development_orders: 3
+  final_orders: 3
+stage2:
+  alpha: 0.9
+  rp: 0.1
+  epsilon: 1.0
+  step_size: 10.0
+  steps: 5000
+fit:
+  epochs: 10
+  batch_size: 256
+  learning_rate: 0.0001
+fit_seed: 43601
+evaluation:
+  episodes: 100
+  save_trajectories: true
+aggregation:
+  fit_orders: 3
+recipe_provenance:
+  stage1: shared executed TD-MPC2 Stage1; new run, not claimed historical target regeneration
+  target_selection: shared unchanged fresh eligibility/Pareto K20; no victimMT80 outcome
+    feedback
+reproduction_path: fresh_surrogate

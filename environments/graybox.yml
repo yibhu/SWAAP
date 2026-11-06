@@ -1,0 +1,15 @@
+# Install the exact TD-MPC2 base as described in docs/latent.md, then run
+# bash environments/install-graybox.sh /absolute/new/runtime-prefix
+# This declaration does not ask a channel resolver to find an expired nightly.
+name: swaap-graybox
+channels:
+- conda-forge
+dependencies:
+- python=3.9.21
+- pip=24.0
+- pip:
+  - -r graybox-requirements.lock
+# Base: Torch2.6.0.dev20241112+cu124, TensorDictnightly2025.1.1, NumPy1.24.4.
+# MetaWorld: 04be337a12305e393c0caf0cbf5ec7755c7c8feb (installed by script).
+# Engine: MuJoCo210; exact official archive/body hashes in native asset manifest.
+# OpenGL headers are only needed to build mujoco_py; evaluation is state-only.

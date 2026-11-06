@@ -1,0 +1,27 @@
+# Source-bound simulator profile; frozen Torch wheel from official nightly cu124.
+# Corrected adopted Gymnasium source matches official ManiSkill2 0.5.3,
+# not the older Gym-based 0.4.1 rendererless qualification. Source hashes are
+# enforced by the tracked state-only subclass adapter. SAPIEN2.2.2 follows
+# the matching package dependency; no old native-A binary parity is asserted.
+name: swaap-maniskill
+channels:
+- pytorch-nightly
+- nvidia
+- conda-forge
+dependencies:
+- python=3.9.21
+- pip=24.0
+- pip:
+  - --extra-index-url https://download.pytorch.org/whl/nightly/cu124
+  - torch @ https://download.pytorch.org/whl/nightly/cu124/torch-2.6.0.dev20241112%2Bcu124-cp39-cp39-linux_x86_64.whl#sha256=387a1fc1e164c97c149c868a276ce205b8a2ffa5b59209747e5bcc8c103533fb
+  - numpy==1.23.5
+  - mani-skill2==0.5.3
+  - sapien==2.2.2
+  - gymnasium==0.29.1
+  - omegaconf==2.3.0
+  - hydra-core==1.3.2
+  - tensordict-nightly==2025.1.1
+  - termcolor==2.4.0
+  - tqdm==4.66.4
+  - PyYAML==6.0.2
+  - opencv-python==4.11.0.86

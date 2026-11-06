@@ -1,0 +1,114 @@
+family: graybox
+task: mw-soccer
+seed: 370105
+method: swaap
+assets:
+  victim: asset:graybox.mt80.original
+  roots: config:mt80_roots50.json
+  task_map: config:mt80_task_map.json
+  clean_lr25: asset:graybox.mt80.clean-lr25
+  swaap_lr25: asset:graybox.mt80.swaap-lr25
+  clean_lr50: asset:graybox.mt80.clean-lr50
+  swaap_lr50: asset:graybox.mt80.swaap-lr50
+model:
+  model_size: 5
+  obs_shape:
+    state:
+    - 39
+  action_dim: 4
+runtime:
+  compile: true
+evaluation:
+  multitask: true
+  task: mw-soccer
+  episodes: 50
+  eval_mode: false
+  scope: breadth
+  endpoints:
+    Original: null
+    Clean_lr25: clean_lr25
+    SWAAP_lr25: swaap_lr25
+    Clean_lr50: clean_lr50
+    SWAAP_lr50: swaap_lr50
+  tasks:
+  - walker-stand
+  - walker-walk
+  - walker-run
+  - cheetah-run
+  - reacher-easy
+  - reacher-hard
+  - acrobot-swingup
+  - pendulum-swingup
+  - cartpole-balance
+  - cartpole-balance-sparse
+  - cartpole-swingup
+  - cartpole-swingup-sparse
+  - cup-catch
+  - finger-spin
+  - finger-turn-easy
+  - finger-turn-hard
+  - fish-swim
+  - hopper-stand
+  - hopper-hop
+  - walker-walk-backwards
+  - walker-run-backwards
+  - cheetah-run-backwards
+  - cheetah-run-front
+  - cheetah-run-back
+  - cheetah-jump
+  - hopper-hop-backwards
+  - reacher-three-easy
+  - reacher-three-hard
+  - cup-spin
+  - pendulum-spin
+  - mw-assembly
+  - mw-basketball
+  - mw-button-press-topdown
+  - mw-button-press-topdown-wall
+  - mw-button-press
+  - mw-button-press-wall
+  - mw-coffee-button
+  - mw-coffee-pull
+  - mw-coffee-push
+  - mw-dial-turn
+  - mw-disassemble
+  - mw-door-open
+  - mw-door-close
+  - mw-drawer-close
+  - mw-drawer-open
+  - mw-faucet-open
+  - mw-faucet-close
+  - mw-hammer
+  - mw-handle-press-side
+  - mw-handle-press
+  - mw-handle-pull-side
+  - mw-handle-pull
+  - mw-lever-pull
+  - mw-peg-insert-side
+  - mw-peg-unplug-side
+  - mw-pick-out-of-hole
+  - mw-pick-place
+  - mw-pick-place-wall
+  - mw-plate-slide
+  - mw-plate-slide-side
+  - mw-plate-slide-back
+  - mw-plate-slide-back-side
+  - mw-push-back
+  - mw-push
+  - mw-push-wall
+  - mw-reach
+  - mw-reach-wall
+  - mw-shelf-place
+  - mw-soccer
+  - mw-stick-push
+  - mw-stick-pull
+  - mw-sweep-into
+  - mw-sweep
+  - mw-window-open
+  - mw-window-close
+  - mw-bin-picking
+  - mw-box-close
+  - mw-door-lock
+  - mw-door-unlock
+  - mw-hand-insert
+reproduction_path: released_five_endpoints_evaluation_only

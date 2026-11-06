@@ -1,0 +1,9 @@
+family: dino
+task: pusht
+data:
+  mode: detector_saved
+assets:
+  original: asset:dino.pusht.original
+  detector_statistics: asset:dino.pusht.detector-statistics
+  detector_threshold: asset:dino.pusht.detector-threshold
+  detector_clean_test: asset:dino.pusht.detector-clean-test

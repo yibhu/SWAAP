@@ -1,0 +1,633 @@
+{
+  "closed_execution_receipt": "receipt_HWA01_CONFIG.json",
+  "closed_execution_receipt_sha256": "cd97c795ed62d577c5ac918a70d97fe310d729dc007716a04dd97ee89bb828c7",
+  "stage1_bridge_sources": [
+    {
+      "source": "fresh_stage1_budget_bridge_v1.py",
+      "sha256": "150cd2ab24ef7225ad2cffe21ab8fac68f59fddb6989cb55878becde67763064"
+    },
+    {
+      "source": "stage1_trajectory_runner_v1.py",
+      "sha256": "b2f878cf63505ceccbb470352e9fe7dbfd055bf38f35a97a8d962a7631afc9dc"
+    },
+    {
+      "source": "dense_stage1_runner_v2.py",
+      "sha256": "3fd97081d2a62d5b443d7895edfd648fcc241fbf1a1022387c51778dc6fba57f"
+    }
+  ],
+  "sources": [
+    {
+      "source": "common/__init__.py",
+      "source_sha256": "d7714a0f5a5ed2a40542cf5cd69f9504fcd876dc8f9f5cba02e877c435c88e99",
+      "source_bytes": 2837,
+      "public_path": "_vendor/common/__init__.py",
+      "changes": [],
+      "public_sha256": "d7714a0f5a5ed2a40542cf5cd69f9504fcd876dc8f9f5cba02e877c435c88e99"
+    },
+    {
+      "source": "common/init.py",
+      "source_sha256": "652eb32a8f9e98fc57b5e0b1449cc074da90f838ab9549a6ed7fc13b2b9e024d",
+      "source_bytes": 579,
+      "public_path": "_vendor/common/init.py",
+      "changes": [],
+      "public_sha256": "652eb32a8f9e98fc57b5e0b1449cc074da90f838ab9549a6ed7fc13b2b9e024d"
+    },
+    {
+      "source": "common/layers.py",
+      "source_sha256": "3f453053f3a5abf459667b5270e4bd6c564d40966afd2b9e3510368857628696",
+      "source_bytes": 7078,
+      "public_path": "_vendor/common/layers.py",
+      "changes": [],
+      "public_sha256": "3f453053f3a5abf459667b5270e4bd6c564d40966afd2b9e3510368857628696"
+    },
+    {
+      "source": "common/math.py",
+      "source_sha256": "43f2c33ba2370a50fa302693a87f15ed0f79bf50102c1356cb1d79794d40f294",
+      "source_bytes": 3327,
+      "public_path": "_vendor/common/math.py",
+      "changes": [],
+      "public_sha256": "43f2c33ba2370a50fa302693a87f15ed0f79bf50102c1356cb1d79794d40f294"
+    },
+    {
+      "source": "common/scale.py",
+      "source_sha256": "cf61f2c7a1ac0f13a2638f5022adcf20283d6544f8ce218581b3290d9a03d5a7",
+      "source_bytes": 1667,
+      "public_path": "_vendor/common/scale.py",
+      "changes": [
+        "effective runtime immutable-per-forward denominator clone; stateful scale.update preserved"
+      ],
+      "public_sha256": "401efd11632475daadca25aae3b44bfbd431f088759976c57f20bc7f7b865d97"
+    },
+    {
+      "source": "common/seed.py",
+      "source_sha256": "f77ca34f6ae0b489d740ad25bf6a8efc217a4610e19fec4a83d5b30a995b7dbd",
+      "source_bytes": 206,
+      "public_path": "_vendor/common/seed.py",
+      "changes": [],
+      "public_sha256": "f77ca34f6ae0b489d740ad25bf6a8efc217a4610e19fec4a83d5b30a995b7dbd"
+    },
+    {
+      "source": "common/world_model.py",
+      "source_sha256": "0cc1abe71360ba087ff6efd41b091817db5c6dda1f705ed39c16424dc5225ce0",
+      "source_bytes": 7131,
+      "public_path": "_vendor/common/world_model.py",
+      "changes": [
+        "namespace-only imports"
+      ],
+      "public_sha256": "120ec4abd12790bf0308bd95250717d707744b887fa8cd7227ae0e0fa0ceaf12"
+    },
+    {
+      "source": "envs/__init__.py",
+      "source_sha256": "87beb86141809c785c3265843c222738deb36722ec7ce57dfbf6b6078974bc8c",
+      "source_bytes": 2322,
+      "public_path": "_vendor/envs/__init__.py",
+      "changes": [
+        "explicit deferred family dispatcher replaces broad import/fallback loop; environment factory/wrapper method ASTs retained"
+      ],
+      "public_sha256": "e300c9b1f99168e3a83fbcc5027ec88e1bfa187ca842380de46521a2332b621a"
+    },
+    {
+      "source": "envs/dmcontrol.py",
+      "source_sha256": "3e921c1c1b40a84bf1c2f44134333a51f3be7c31b01c48567658e187fca309a1",
+      "source_bytes": 3461,
+      "public_path": "_vendor/envs/dmcontrol.py",
+      "changes": [
+        "namespace-only imports"
+      ],
+      "public_sha256": "53ed79eef567398d9db18d97d64428825339911dbf17f782865bc52da8ffdcd2"
+    },
+    {
+      "source": "envs/metaworld.py",
+      "source_sha256": "b89e2920b3f7c8b3ab878e825812add8e7528bc6355ad8dd991651f2b7a97d76",
+      "source_bytes": 1844,
+      "public_path": "_vendor/envs/metaworld.py",
+      "changes": [
+        "namespace-only imports",
+        "statically binds exact legacy-Gym Timeout base projection used by executed worker"
+      ],
+      "public_sha256": "9c0ea205cda1d220e488c2e2fe43f1edd50f17e019ce9c23896adfdd6c49f850"
+    },
+    {
+      "source": "envs/mujoco.py",
+      "source_sha256": "fa80a221f560bc7ada49e2ee38cd5f74fd2d46789a3f89184b06337e9b2307ab",
+      "source_bytes": 1812,
+      "public_path": "_vendor/envs/mujoco.py",
+      "changes": [
+        "namespace-only imports"
+      ],
+      "public_sha256": "d7fff2e6322d4822ab865e05e1ff267209ce14350198dfb5036d3a9cdf6f787d"
+    },
+    {
+      "source": "envs/myosuite.py",
+      "source_sha256": "c2b2f05d74f5b91d50022c021f6c640f8fcb4784940818a0939d88afc2ba3280",
+      "source_bytes": 1874,
+      "public_path": "_vendor/envs/myosuite.py",
+      "changes": [
+        "namespace-only imports"
+      ],
+      "public_sha256": "5a511c59edb6e205d6fc976f2b6a97a240a4fc688594a20269bdf5f38c391eef"
+    },
+    {
+      "source": "envs/tasks/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes": 0,
+      "public_path": "_vendor/envs/tasks/__init__.py",
+      "changes": [],
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "envs/tasks/ball_in_cup.py",
+      "source_sha256": "e7d0a29c97f2ede402cb4bf86adddc97c82483af83d8e6688bc73ab2606c537a",
+      "source_bytes": 3772,
+      "public_path": "_vendor/envs/tasks/ball_in_cup.py",
+      "changes": [],
+      "public_sha256": "e7d0a29c97f2ede402cb4bf86adddc97c82483af83d8e6688bc73ab2606c537a"
+    },
+    {
+      "source": "envs/tasks/cheetah.py",
+      "source_sha256": "98b09bff2d32d9ea94109fcbefcbe19d6691a464cfc111d3d10bbea7433cf15a",
+      "source_bytes": 12110,
+      "public_path": "_vendor/envs/tasks/cheetah.py",
+      "changes": [],
+      "public_sha256": "98b09bff2d32d9ea94109fcbefcbe19d6691a464cfc111d3d10bbea7433cf15a"
+    },
+    {
+      "source": "envs/tasks/fish.py",
+      "source_sha256": "7ded518285c364e6913999de51c26a80e94c9f056d31d710c01a338c8a34ddc3",
+      "source_bytes": 2971,
+      "public_path": "_vendor/envs/tasks/fish.py",
+      "changes": [],
+      "public_sha256": "7ded518285c364e6913999de51c26a80e94c9f056d31d710c01a338c8a34ddc3"
+    },
+    {
+      "source": "envs/tasks/hopper.py",
+      "source_sha256": "8f815b648b7aa1223b25a89b7d28bdf75e406c93b3b66469ffadca094486f066",
+      "source_bytes": 3666,
+      "public_path": "_vendor/envs/tasks/hopper.py",
+      "changes": [],
+      "public_sha256": "8f815b648b7aa1223b25a89b7d28bdf75e406c93b3b66469ffadca094486f066"
+    },
+    {
+      "source": "envs/tasks/pendulum.py",
+      "source_sha256": "2ce9060621e355c1a1984925602c08b936dc46bd81a8d248b020553a3e66a0e4",
+      "source_bytes": 1412,
+      "public_path": "_vendor/envs/tasks/pendulum.py",
+      "changes": [],
+      "public_sha256": "2ce9060621e355c1a1984925602c08b936dc46bd81a8d248b020553a3e66a0e4"
+    },
+    {
+      "source": "envs/tasks/reacher.py",
+      "source_sha256": "3e607a8d0bbb005a3468a4a4a7bcc9ba8731e22750b6d5f35e98169f6a85b6a6",
+      "source_bytes": 3558,
+      "public_path": "_vendor/envs/tasks/reacher.py",
+      "changes": [],
+      "public_sha256": "3e607a8d0bbb005a3468a4a4a7bcc9ba8731e22750b6d5f35e98169f6a85b6a6"
+    },
+    {
+      "source": "envs/tasks/walker.py",
+      "source_sha256": "a51df23f1fc966bbd926a3614a0efd05933d11d3036fa279fd30f2c73d1017ce",
+      "source_bytes": 10640,
+      "public_path": "_vendor/envs/tasks/walker.py",
+      "changes": [],
+      "public_sha256": "a51df23f1fc966bbd926a3614a0efd05933d11d3036fa279fd30f2c73d1017ce"
+    },
+    {
+      "source": "envs/wrappers/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_bytes": 0,
+      "public_path": "_vendor/envs/wrappers/__init__.py",
+      "changes": [],
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "envs/wrappers/multitask.py",
+      "source_sha256": "bf1f26deb8f4f014b7dd0cdd4f68033aeba78b6fc2029a89484bcc6df6e51d08",
+      "source_bytes": 1584,
+      "public_path": "_vendor/envs/wrappers/multitask.py",
+      "changes": [],
+      "public_sha256": "bf1f26deb8f4f014b7dd0cdd4f68033aeba78b6fc2029a89484bcc6df6e51d08"
+    },
+    {
+      "source": "envs/wrappers/tensor.py",
+      "source_sha256": "b594b25c6fc0c358071c9219ad2126779b46aa8622f9db86d2c5cb4a237edc03",
+      "source_bytes": 1134,
+      "public_path": "_vendor/envs/wrappers/tensor.py",
+      "changes": [],
+      "public_sha256": "b594b25c6fc0c358071c9219ad2126779b46aa8622f9db86d2c5cb4a237edc03"
+    },
+    {
+      "source": "envs/wrappers/timeout.py",
+      "source_sha256": "bb00d092582d82eda7c0865033f256771fe700fefb5e700cf1495f0734e3f3c3",
+      "source_bytes": 564,
+      "public_path": "_vendor/envs/wrappers/timeout.py",
+      "changes": [],
+      "public_sha256": "bb00d092582d82eda7c0865033f256771fe700fefb5e700cf1495f0734e3f3c3"
+    },
+    {
+      "source": "envs/tasks/ball_in_cup.xml",
+      "source_sha256": "1c2cdb18db9adbe8822220662dd2281c01b5bc94d5dd6b4c2f7fca5da2ea0a06",
+      "source_bytes": 1870,
+      "public_path": "_vendor/envs/tasks/ball_in_cup.xml",
+      "changes": [],
+      "public_sha256": "1c2cdb18db9adbe8822220662dd2281c01b5bc94d5dd6b4c2f7fca5da2ea0a06"
+    },
+    {
+      "source": "envs/tasks/cheetah.xml",
+      "source_sha256": "e0ca07b18e50df0b4d4c65efa1a3ec45935fb05b7d3b1bb32b50b66950447465",
+      "source_bytes": 3318,
+      "public_path": "_vendor/envs/tasks/cheetah.xml",
+      "changes": [],
+      "public_sha256": "e0ca07b18e50df0b4d4c65efa1a3ec45935fb05b7d3b1bb32b50b66950447465"
+    },
+    {
+      "source": "envs/tasks/fish.xml",
+      "source_sha256": "52eb8249718c1944d2f011e0709fb84b1cc0d20da36f86cdbf2f7e61a7814b69",
+      "source_bytes": 4419,
+      "public_path": "_vendor/envs/tasks/fish.xml",
+      "changes": [],
+      "public_sha256": "52eb8249718c1944d2f011e0709fb84b1cc0d20da36f86cdbf2f7e61a7814b69"
+    },
+    {
+      "source": "envs/tasks/hopper.xml",
+      "source_sha256": "6e86c37515e34af796af664c4e24e0586e4047fe5243f304de119e83769048b8",
+      "source_bytes": 2605,
+      "public_path": "_vendor/envs/tasks/hopper.xml",
+      "changes": [],
+      "public_sha256": "6e86c37515e34af796af664c4e24e0586e4047fe5243f304de119e83769048b8"
+    },
+    {
+      "source": "envs/tasks/pendulum.xml",
+      "source_sha256": "6ce0aceacde5bd30bf9965d08a7f4e31e61319d85b59b03c1bda523e5710a115",
+      "source_bytes": 1058,
+      "public_path": "_vendor/envs/tasks/pendulum.xml",
+      "changes": [],
+      "public_sha256": "6ce0aceacde5bd30bf9965d08a7f4e31e61319d85b59b03c1bda523e5710a115"
+    },
+    {
+      "source": "envs/tasks/reacher_four_links.xml",
+      "source_sha256": "52caeddbd86759d11428facc620c28507cceb8c8e17ff6e9d653927de7239d48",
+      "source_bytes": 2560,
+      "public_path": "_vendor/envs/tasks/reacher_four_links.xml",
+      "changes": [],
+      "public_sha256": "52caeddbd86759d11428facc620c28507cceb8c8e17ff6e9d653927de7239d48"
+    },
+    {
+      "source": "envs/tasks/reacher_three_links.xml",
+      "source_sha256": "385877ac308bfc4ae9b601f8300e93a02b1789634cfde8b8c8de49faf57056ce",
+      "source_bytes": 2253,
+      "public_path": "_vendor/envs/tasks/reacher_three_links.xml",
+      "changes": [],
+      "public_sha256": "385877ac308bfc4ae9b601f8300e93a02b1789634cfde8b8c8de49faf57056ce"
+    },
+    {
+      "source": "envs/tasks/walker.xml",
+      "source_sha256": "083fe75724584a33716efe96b78f9adec333db9e31291f58a41e76e4a6782803",
+      "source_bytes": 2961,
+      "public_path": "_vendor/envs/tasks/walker.xml",
+      "changes": [],
+      "public_sha256": "083fe75724584a33716efe96b78f9adec333db9e31291f58a41e76e4a6782803"
+    },
+    {
+      "source": "stage1.py",
+      "source_sha256": "2504bd656c950ce8cf4519e83aa56ee8aad1389f09e8eacc4ea9e66caa9d8c51",
+      "public_path": "stage1.py",
+      "changes": [
+        "namespace imports",
+        "removed non-scientific Algorithm/run/save_log loop",
+        "effective bridge joint squared-norm assignment",
+        "family dispatcher deferred",
+        "configuration construction moved to runtime.py"
+      ],
+      "public_sha256": "ae6e084d1b077d38361e590c9f0dc36941a50e9b55b57ef73bac0362d3b417f5"
+    },
+    {
+      "source": "stage2.py",
+      "source_sha256": "ffca180dec6da175c49e60a5c59ac85b0d38198976fd12fc37abf464b08f1e99",
+      "public_path": "stage2.py",
+      "changes": [],
+      "public_sha256": "ffca180dec6da175c49e60a5c59ac85b0d38198976fd12fc37abf464b08f1e99"
+    },
+    {
+      "source": "native.py",
+      "source_sha256": "a4bdab22a8d798e81e496c7add8954cd48a563ce584a0713cfd86e0dee90663c",
+      "public_path": "native.py",
+      "changes": [
+        "selected numerical functions only",
+        "family factory import replaces operational project-path binding",
+        "explicit math import for finite scalar checks"
+      ],
+      "public_sha256": "9cfd4c9ef45fe560b1ab1a192caca57fabd55095c2593ce2aea2036c77adc0b2"
+    },
+    {
+      "source": "maniskill_family.py",
+      "source_sha256": "d5288007560bc03add72b6649931b0901dc92034ce61c2167cecf55584e46c7c",
+      "public_path": "maniskill.py",
+      "changes": [
+        "selected family adapter only; controller and host-path installation removed",
+        "explicit source-verified rendererless static subclass factory; original fixed-horizon wrapper arithmetic unchanged"
+      ],
+      "public_sha256": "81a9eb6b0d207879e424f50ec1b4e3a48d9adfe3d5def2f54f93380d283b49ba"
+    },
+    {
+      "source": "maniskill_realization_longfit_v1.py",
+      "source_sha256": "ff31b7b962386edb4e6a84016ce6a4e2dbe9911babec2af8e5c456cdeeb64b40",
+      "public_path": "fitting.py",
+      "changes": [
+        "only exact saved-permutation numerical continuation helper extracted; operational input validation handled by pipeline"
+      ],
+      "public_sha256": "2a65a00d298fa5a2286adc0263bb582aeee4fc92593250db472826b86300d536"
+    },
+    {
+      "source": "trim_defense.py",
+      "source_sha256": "10418c28915c2cc88d9625ff053c357cacf242a4ad748f60d828690fe173d90e",
+      "public_path": "trim.py",
+      "public_sha256": "10418c28915c2cc88d9625ff053c357cacf242a4ad748f60d828690fe173d90e",
+      "changes": []
+    },
+    {
+      "source": "j1_online_pgd_method.py",
+      "source_sha256": "1c6e2d01591403debf658c2be4c7ddae05a3b556e5e84e5b00c01eb7883711a9",
+      "public_path": "online_pgd.py",
+      "public_sha256": "1c6e2d01591403debf658c2be4c7ddae05a3b556e5e84e5b00c01eb7883711a9",
+      "changes": []
+    },
+    {
+      "source": "baselines.py",
+      "source_sha256": "97fab11e36bcc963ee423df7511b861033707b78ba044984a4f1f1cb2fb43434",
+      "public_path": "baselines.py",
+      "public_sha256": "847e3d2078042c4595d3fd314fcb1b6c117b811b960dc51d7c1e3248ab32583a",
+      "changes": []
+    },
+    {
+      "source": "sequential.py",
+      "source_sha256": "76cf01c1ae6e2f524b771ccfaffc112f0cc170b9fa83b394d3f247536666ffc0",
+      "public_path": "sequential.py",
+      "public_sha256": "76cf01c1ae6e2f524b771ccfaffc112f0cc170b9fa83b394d3f247536666ffc0",
+      "changes": []
+    },
+    {
+      "source": "construction.py",
+      "source_sha256": "5442d160864fad638d55108889b847a64db29d4e1c1a8177b836d07bff7084d0",
+      "public_path": "fixed_support.py",
+      "public_sha256": "6a21c998f1377453c594d552eb9f1e6efd1ffa26dddbfd5c38aee720072bd9d9",
+      "changes": [
+        "static local constructor import"
+      ]
+    },
+    {
+      "source": "j1_online_pgd_worker_v2.py",
+      "source_sha256": "a4c2baa0a9b77280e5e1f13e5c21ac20da043cf1355852d7b068e2ef3fa38dc3",
+      "public_path": "online_evaluation.py",
+      "public_sha256": "228abe34e1f7b77e3c9e937029b6e337a4f55defe3540079cc99f048c92a2795",
+      "changes": [
+        "only online_episode extracted; supplied native API replaces operational loader"
+      ]
+    },
+    {
+      "source": "tied_trajectory_worker.py",
+      "source_sha256": "64c948a8f5490f13df7596dc780382ab71765b5bb8c04db46ea502d1641d68c2",
+      "public_path": "tied_trajectory.py",
+      "public_sha256": "66c30db8e38557b04db09f53be955b82525158812c80a0ecc3c7ee831be3a26f",
+      "changes": [
+        "exact numerical functions lifted statically; A utility qualified names flattened; no runtime rewriting"
+      ]
+    },
+    {
+      "source": "buffer_worker_v1.py",
+      "source_sha256": "5666ed6b4d94b6c57ebb51751f4dcaab88847e5425947dfcf132e828d2be3fc7",
+      "public_path": "buffer_fitting.py",
+      "public_sha256": "dd35651dd36dced282df1ef2aebd5db9af45256b80e773febd58df76d9026f3b",
+      "changes": [
+        "same native dimensions transformation made static; supported rows5000/10000/15000/20000/25000; no runtime source mutation"
+      ]
+    },
+    {
+      "source": "block1_policy.py",
+      "source_sha256": "118586e7d14e1d006dad877143b886c8425b61542df40b0363484c790619057d",
+      "public_path": "selection.py",
+      "changes": [
+        "ordinary local finite/require utility import; exact Pareto/maximin method"
+      ],
+      "public_sha256": "87e995f4f3afb99862c2c2589ba9cc6993b8530580dfc23d3c318f19ce0f241d"
+    },
+    {
+      "source": "stage1.py",
+      "source_sha256": "2504bd656c950ce8cf4519e83aa56ee8aad1389f09e8eacc4ea9e66caa9d8c51",
+      "public_path": "kernels.py",
+      "changes": [
+        "static method copies from stage1.py with same effective bridge denominator replacement; output-container-only CPU fixture differs; scientific CUDA class AST parity is tested"
+      ],
+      "public_sha256": "d30f7405ad159fa17b96deed7f32ed0787a543561e30ee2b45280b732215968d"
+    },
+    {
+      "source": "bank_generation.py",
+      "source_sha256": "fc86295995eeb34386ced31b3c90e28a4495162cc3336a430cc5a950fa5e6c70",
+      "public_path": "collection.py",
+      "changes": [
+        "exact CollectionBoundary class only; ordinary file outputs replace operational dispatch",
+        "optional explicit-root collection wrapper and metadata only; original native collector body unchanged"
+      ],
+      "public_sha256": "9a9fce5d061861528cce0130235a425885d6df3c379f373e8a295a6f73575647"
+    },
+    {
+      "source": "swaap_repro_metrics.py",
+      "source_sha256": "e0e9af92cb1100d04549e023ad6d67c5bcf60a7b8199661f238b907348535eb3",
+      "public_path": "deviation.py",
+      "public_sha256": "e0e9af92cb1100d04549e023ad6d67c5bcf60a7b8199661f238b907348535eb3",
+      "changes": []
+    },
+    {
+      "source": "score_closed_metrics_bound.py",
+      "source_sha256": "757de8bb3d1c849266487b84eb9a777da0146971c152e00a080890ad00b01bf6",
+      "public_path": "saved_metrics.py",
+      "public_sha256": "6db9a9a1d54505007344dc98ae3d4ea46e0f6d46564101218812392c90263b09",
+      "changes": [
+        "exact Original float32 full-episode prediction call extracted from score_entry; ordinary explicit saved-array I/O",
+        "CPU metric reducer uses unmodified frozen episode_delta_m"
+      ]
+    }
+  ],
+  "paper": {
+    "tex": "main (18).tex",
+    "tex_sha256": "689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552",
+    "pdf": "World_Model_Poison_NeurIPS_2026 (16).pdf",
+    "pdf_sha256": "2aac5cdcf507138cbaad3eedf6c7e262fdcc7b38ad0027032b82a049d6893c21"
+  },
+  "closed_execution_binding": {
+    "receipt_HWA01_STAGE1_COMPLETE.json": {
+      "sha256": "a6a26cc0edd3c4747389b3b120374f2b83fd60d542fad2a1a857658d8ad39dbc",
+      "status": "BLOCK1_DENSE_V2_STAGE1_AND_SLATE_COMPLETE",
+      "task": "humanoid-walk",
+      "completed_iterations": 400,
+      "target_count": 40,
+      "automatic_retry": false,
+      "Q_V_updates": 0
+    },
+    "receipt_HWA01_STAGE1_PROCESS_EXIT.json": {
+      "sha256": "54fd1c34a918ad1d2b18eaa27e0e1cc8459b329221fa59850639daeb3985aaec",
+      "process_exit_code": 1,
+      "automatic_retry": false
+    },
+    "receipt_HWA01_CLOSED_EXPORT_COMPLETE.json": {
+      "sha256": "4007b9405747303b261026d96039d73996ae2f81e74df097836ee577d609535a",
+      "status": "FULL_POOL_AND_PRE_STAGE2_DECISION_COMPLETE"
+    },
+    "receipt_HWA01_PUBLICATION_OWNER_TERMINAL.json": {
+      "sha256": "fa912dcfcea7af5511ece53545ac1e36310e49adfaed6b47b60e2393a26c5507",
+      "status": "COMPLETE_NATIVE_STAGE1_CHILD"
+    },
+    "interpretation": "The400-iteration scientific run completed; its original wrapper subsequently exited1. Closed metadata publication adopted the preserved science without replay. Neither that failed wrapper nor its allocated compute is represented as a successful process."
+  },
+  "cpu_validation": {
+    "python": "3.12.11",
+    "torch": "2.11.0+cu128",
+    "numpy": "2.2.6",
+    "tests_passed": 26,
+    "gpu_initialized": false,
+    "real_model_forwards": 0,
+    "environment_episodes": 0,
+    "scientific_runtime_qualification": false,
+    "tests_passed_in_latest_group": 29,
+    "ordered_support_and_rng_tests_passed": 5
+  },
+  "unresolved": [
+    "exact MyoSuite installed revision",
+    "public target/poison/permutation/certifiedextra/calibration distribution and permissions",
+    "nine-task original collection acquisition provenance still import-first"
+  ],
+  "saved_reference_metric": {
+    "metric_source": "swaap_repro_metrics.py",
+    "prediction_source": "score_closed_metrics_bound.py#score_entry",
+    "predictor": "frozen Original",
+    "rollout": "exact matched Clean-fitted model",
+    "projection_or_fitting": false,
+    "producer_inference_executed_during_release": false,
+    "cpu_tests_added": 4,
+    "missing_prediction_policy": "explicit MISSING_MEASUREMENT; no own-rollout substitution"
+  },
+  "development_panel_export": {
+    "sha256": "dbefa8c0c546435252fcbbfae3040c06c9b3428878ffe608cbfd85d5d4d24d98",
+    "runs": 27,
+    "exact_confirmation_vector_joins": 81,
+    "each_run_disjoint_environment_seeds": 600,
+    "each_run_disjoint_planner_seeds": 600,
+    "new_rng_draws": 0,
+    "new_seed_policy": false,
+    "source_sha256": "9eb1e085489767f7cc59b999515270026f08f813a83077413c64ccac3ddc7097"
+  },
+  "detector_adapter": {
+    "nine_task_statistic_source": "SWAAP_vanilla_scripts/residual_cusum.py#reference_residual_signal",
+    "nine_task_statistic_source_sha256": "1d292421f777d4891e5b39a9f151c58d4a1e493862623a381254cd2b89588323",
+    "maniskill_source": "ops/reproduction_fresh/maniskill_appendix10_cusum_v1.py",
+    "maniskill_source_sha256": "b8aeaf0c990db0134fc0a9f369486406036ef18153078e042fb9db7caf176de9",
+    "new_collector": "Explicit Original-policy seeded rollouts; per-trajectory batch forwards; MS float32CPU norms, nine-taskfloat32native-device norms; no adapted rollouts",
+    "published_maniskill_cohorts": [
+      {
+        "task": "lift-cube",
+        "role": "stats",
+        "count": 500,
+        "file": "lift-cube_detector_stats_roots.json",
+        "source_sha256": "b4d25b8d11439e4a7487c9c51f754788ebc973a2309024a7a8a2c0852fa493ab"
+      },
+      {
+        "task": "lift-cube",
+        "role": "threshold",
+        "count": 500,
+        "file": "lift-cube_detector_threshold_roots.json",
+        "source_sha256": "155711e2b1e85166dd3eb62d9851e6faa9e53fa8640868a5b7b04539384d8eef"
+      },
+      {
+        "task": "lift-cube",
+        "role": "clean_test",
+        "count": 1000,
+        "file": "lift-cube_detector_clean_test_roots.json",
+        "source_sha256": "2e116f8675890c28c97c0eec2b1dcf44f080b68f28e2a8b6360b66ff2ba36d75"
+      },
+      {
+        "task": "pick-cube",
+        "role": "stats",
+        "count": 500,
+        "file": "pick-cube_detector_stats_roots.json",
+        "source_sha256": "1b87a0e3908b8b43241225c7bf75d0383b1b7a8899b0d2a12afb9119567518cd"
+      },
+      {
+        "task": "pick-cube",
+        "role": "threshold",
+        "count": 500,
+        "file": "pick-cube_detector_threshold_roots.json",
+        "source_sha256": "614e7fd1b1a4d9bf7370aa4bf71a63ad216568ad1fabdf2d8f13730fab254ed2"
+      },
+      {
+        "task": "pick-cube",
+        "role": "clean_test",
+        "count": 1000,
+        "file": "pick-cube_detector_clean_test_roots.json",
+        "source_sha256": "bd7b5b3005e76b432f5cacf77c369033e2f658dc4950d58a2d2b9ecdc4cca895"
+      },
+      {
+        "task": "stack-cube",
+        "role": "stats",
+        "count": 500,
+        "file": "stack-cube_detector_stats_roots.json",
+        "source_sha256": "f286e40dbda9e885c6dbfcfd8c5d80c6cb10a544895e08dc96e582c035414dca"
+      },
+      {
+        "task": "stack-cube",
+        "role": "threshold",
+        "count": 500,
+        "file": "stack-cube_detector_threshold_roots.json",
+        "source_sha256": "ea36fc27d37d9ded8626f2e51cb9e2b50dea5fb4705f8813e111614faa1a30d8"
+      },
+      {
+        "task": "stack-cube",
+        "role": "clean_test",
+        "count": 1000,
+        "file": "stack-cube_detector_clean_test_roots.json",
+        "source_sha256": "b90231674d8c690092effeed37232548566a91742d191b1b619c210e98e0880f"
+      }
+    ]
+  },
+  "maniskill_source_bound_runtime": {
+    "corrected_package": "ManiSkill2 0.5.3",
+    "wheel_sha256": "8d14c4af18791dba0dab31ac7c759e2180759657b2bd2317a0ea9726818264cc",
+    "corrected_source_matches": "native-A adopted runtime reference files (sapien_env.py, pick_cube.py, stack_cube.py)",
+    "dependency": "SAPIEN2.2.2 per matching officialpackage metadata; no originalbinaryidentity claim",
+    "rendererless_origin": "scripts/swaap_maniskill_v2/rendererless.py",
+    "rendererless_origin_sha256": "df89e23b55102e3f9a77c1b7030c1c8b56d483887ab8f882256516fdb90be2fd",
+    "export_change": "Static subclasses for the corrected Gymnasium source; unchanged inherited physics/control/task/reward/step/reset; omitted visualconstruction only; no upstreammonkeypatch or source rewriting",
+    "older_qualification_not_reused": "Gym-based0.4.1 36-trace native-A/A100 qualification doesnot qualify the corrected0.5.3 adapter"
+  },
+  "frozen_nightly_download": {
+    "version": "2.6.0.dev20241112+cu124",
+    "wheel_bytes": 985877927,
+    "sha256": "387a1fc1e164c97c149c868a276ce205b8a2ffa5b59209747e5bcc8c103533fb",
+    "body_inspected": true,
+    "zip_members": 11341,
+    "isolated_install_and_pip_check": "PASS Python3.9.21 Ubuntu22.04WSL3090"
+  },
+  "engineering_validation": {
+    "substrate": "RTX 3090, Ubuntu 22.04 under WSL2; separate from the native 3090A scientific qualification",
+    "core": "Python 3.9.21, Torch 2.6.0.dev20241112+cu124, TensorDict nightly 2025.1.1",
+    "DMC": "H-Walk passed one effective Stage-1 outer update, a fixed-target two-update construction, matched E10 fitting/save/reload, one 500-decision episode per endpoint, two Original detector trajectories, and the saved-Clean Original-reference prediction/CPU aggregation path",
+    "MyoSuite": "Myo-Reach passed one outer update, two construction updates, matched 20-update fitting/save/reload, one 100-step episode per endpoint, two Original detector trajectories, and one additional explicit-root Clean trajectory with an imagined reference",
+    "ManiSkill": "Lift passed one outer update, two construction updates, matched 20-update fitting/save/reload, one 100-decision/two-native-step episode per endpoint, and two Original detector trajectories. All three task source/method/reset checks passed on CPU. The Vulkan guard counted zero calls",
+    "MetaWorld": "Soccer passed one real outer update, two construction updates, matched 20-update fitting/save/reload, full 100-step endpoint episodes and two Original detector trajectories under the source-pinned legacy MetaWorld/MuJoCo210 environment",
+    "scope": "Reduced engineering fixtures, not paper efficacy measurements or full experimental reruns",
+    "total_closed_gpu_seconds": 765.7891747951508,
+    "failed_starts_and_handoffs_preserved": true
+  },
+  "frozen_rng_bindings": {
+    "legacy_main": "configs/tdmpc2/published_orders.json: construction_rng.swaap_legacy_random; frozen Block-G audit joined to 27 closed main conditions",
+    "random500": "Same index, separate CPU-generator/exact-count recipe; source RAW_RANDOM_METHOD_SOURCES_V1.json",
+    "shared_support_random_target": "Same index: nine records with exact seed, target-tensor SHA and support SHA; genuine H-Walk reference target bytes verified on CPU with the frozen Torch version",
+    "maniskill": "configs/maniskill/published_orders.json: nine final slots, eight contributing runs; Lift N01 explicitly has no qualified result"
+  },
+  "exact_tied_support_export": {
+    "index": "configs/tdmpc2/trajectory_conditions.json",
+    "conditions": 5,
+    "method": "exact full-buffer tied-variable objective, clean-state initialization",
+    "source_request_files": "tied_buffer_wave_v2/tied_validation_jobs/{009,002,006,004,008}.json",
+    "original_supports": "Four byte-identical source JSON files; one ordered int64 tensor extracted from an exact closed artifact; all source checksums verified",
+    "new_target_selection_or_forwards": 0
+  }
+}

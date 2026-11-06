@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "task": "humanoid-walk",
+  "support_rule": "Frozen Block-1 Random500 mask reused by the learned-target/random-support comparison",
+  "bank_rows": 5000,
+  "modified_rows": 500,
+  "order_preserved": true,
+  "scientific_generation_during_export": false,
+  "runs": [
+    {
+      "stage1_run": 1,
+      "ordered_indices_file": "random_support_humanoid-walk_run1.json",
+      "ordered_indices_json_sha256": "96d85ed2ad14ea07eeb96b556c6386d1638a58c1b1d32522322f235650d72260",
+      "ordered_int64_le_sha256": "01faa64830a979ee07490086bfe5f773c41e2dc79a187fc20c2838ad026e8122",
+      "source_support_pt_sha256": "366c7c1612390e83a49b20a9d8a4281c6f4e0271f2a004dba82f248d68baf608",
+      "source_support_pt_bytes": 5148,
+      "source_archive": "raw_comparison_humanoid-walk-A01-S19_r1.tar.gz",
+      "source_archive_sha256": "b24e067a79b4bc9990c1cc179ac37cd3cc6e21a8374082e9b09d9ac5b9f06ca2",
+      "source_archive_sha_basis": "Existing verified closed archive receipt; immutable archive preserved. Exact selected member SHA verified again during recovery.",
+      "source_random500_seed": 700001905,
+      "learned_target_constructor_seed": 0
+    },
+    {
+      "stage1_run": 2,
+      "ordered_indices_file": "random_support_humanoid-walk_run2.json",
+      "ordered_indices_json_sha256": "accf52f87811ff38d2c2f682845d0177f2a195fbd0647cce44690fed72297674",
+      "ordered_int64_le_sha256": "40667697a2806fe2500e252e5e036e6425d77fd7f4a57281c88433eb34ef90dc",
+      "source_support_pt_sha256": "8102398496830e92e419284f15bbd8b8e72c3bb3c6c8415315d55fa4c4b71280",
+      "source_support_pt_bytes": 5148,
+      "source_archive": "raw_comparison_humanoid-walk-A02-S118_r1.tar.gz",
+      "source_archive_sha256": "47b5a0e76bd7560689bcc41d19e6a69c78635c263ae78d552c8454bf7bff7716",
+      "source_archive_sha_basis": "Existing verified closed archive receipt; immutable archive preserved. Exact selected member SHA verified again during recovery.",
+      "source_random500_seed": 700011805,
+      "learned_target_constructor_seed": 0
+    },
+    {
+      "stage1_run": 3,
+      "ordered_indices_file": "random_support_humanoid-walk_run3.json",
+      "ordered_indices_json_sha256": "414f604b21adc94a989077496e56a78ab6aaa537fc241814c996368824e99fa6",
+      "ordered_int64_le_sha256": "c78c9948da70f61f3d012dd2fc9a01f5c636e1a6dec4e0ca8190e12724f57da6",
+      "source_support_pt_sha256": "f2798536c99f6a50254185c7945e5b0d3c616b8ee2b36350f22460b9432ac9b0",
+      "source_support_pt_bytes": 5148,
+      "source_archive": "raw_comparison_humanoid-walk-A03-S152_r1.tar.gz",
+      "source_archive_sha256": "8d88ab02d7610873ed429de4551eb360a486e03152518efd894d435b2c4866ff",
+      "source_archive_sha_basis": "Existing verified closed archive receipt; immutable archive preserved. Exact selected member SHA verified again during recovery.",
+      "source_random500_seed": 700015205,
+      "learned_target_constructor_seed": 0
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper listed below."
+type: software
+title: "SWAAP reproduction code"
+authors:
+  - family-names: Hu
+    given-names: Yibin
+    affiliation: Tulane University
+  - family-names: Zheng
+    given-names: Zizhan
+    affiliation: Tulane University
+preferred-citation:
+  type: article
+  title: "Stealthy World Model Manipulation via Data Poisoning"
+  authors:
+    - family-names: Hu
+      given-names: Yibin
+    - family-names: Zheng
+      given-names: Zizhan
+  year: 2026

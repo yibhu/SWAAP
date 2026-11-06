@@ -1,0 +1,145 @@
+task,method,metric,displayed_mean,displayed_sample_sd,dagger,manuscript_sha256
+humanoid-walk,Clean Reference,Return,857,4,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+humanoid-walk,Clean Reference,delta_d,.090,.000,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+humanoid-walk,Clean Reference,delta_m,.093,.000,True,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+humanoid-walk,SWAAP (Random),Return,854,5,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+humanoid-walk,SWAAP (Random),delta_d,.090,.000,True,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+humanoid-walk,SWAAP (Random),delta_m,.094,.001,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+humanoid-walk,Direct Model Poisoning,Return,33,45,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+humanoid-walk,Direct Model Poisoning,delta_d,.090,.005,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+humanoid-walk,Direct Model Poisoning,delta_m,.223,.014,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+humanoid-walk,SWAAP,Return,387,332,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+humanoid-walk,SWAAP,delta_d,.090,.000,True,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+humanoid-walk,SWAAP,delta_m,.163,.052,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+humanoid-run,Clean Reference,Return,595,5,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+humanoid-run,Clean Reference,delta_d,.051,.000,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+humanoid-run,Clean Reference,delta_m,.049,.001,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+humanoid-run,SWAAP (Random),Return,593,2,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+humanoid-run,SWAAP (Random),delta_d,.052,.000,True,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+humanoid-run,SWAAP (Random),delta_m,.048,.000,True,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+humanoid-run,Direct Model Poisoning,Return,2,1,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+humanoid-run,Direct Model Poisoning,delta_d,.056,.005,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+humanoid-run,Direct Model Poisoning,delta_m,.222,.045,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+humanoid-run,SWAAP,Return,349,78,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+humanoid-run,SWAAP,delta_d,.052,.000,True,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+humanoid-run,SWAAP,delta_m,.096,.011,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+dog-walk,Clean Reference,Return,770,13,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+dog-walk,Clean Reference,delta_d,.059,.000,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+dog-walk,Clean Reference,delta_m,.059,.001,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+dog-walk,SWAAP (Random),Return,778,14,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+dog-walk,SWAAP (Random),delta_d,.059,.000,True,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+dog-walk,SWAAP (Random),delta_m,.060,.001,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+dog-walk,Direct Model Poisoning,Return,351,151,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+dog-walk,Direct Model Poisoning,delta_d,.063,.002,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+dog-walk,Direct Model Poisoning,delta_m,.125,.020,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+dog-walk,SWAAP,Return,725,58,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+dog-walk,SWAAP,delta_d,.060,.000,True,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+dog-walk,SWAAP,delta_m,.067,.008,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+dog-run,Clean Reference,Return,648,0,True,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+dog-run,Clean Reference,delta_d,.051,.000,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+dog-run,Clean Reference,delta_m,.050,.000,True,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+dog-run,SWAAP (Random),Return,647,2,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+dog-run,SWAAP (Random),delta_d,.051,.000,True,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+dog-run,SWAAP (Random),delta_m,.049,.000,True,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+dog-run,Direct Model Poisoning,Return,62,61,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+dog-run,Direct Model Poisoning,delta_d,.055,.004,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+dog-run,Direct Model Poisoning,delta_m,.125,.034,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+dog-run,SWAAP,Return,507,124,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+dog-run,SWAAP,delta_d,.052,.000,True,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+dog-run,SWAAP,delta_m,.062,.009,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+cheetah-run,Clean Reference,Return,835,1,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+cheetah-run,Clean Reference,delta_d,.028,.000,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+cheetah-run,Clean Reference,delta_m,.030,.000,True,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+cheetah-run,SWAAP (Random),Return,834,2,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+cheetah-run,SWAAP (Random),delta_d,.028,.000,True,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+cheetah-run,SWAAP (Random),delta_m,.025,.000,True,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+cheetah-run,Direct Model Poisoning,Return,475,177,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+cheetah-run,Direct Model Poisoning,delta_d,.031,.001,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+cheetah-run,Direct Model Poisoning,delta_m,.087,.027,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+cheetah-run,SWAAP,Return,787,42,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+cheetah-run,SWAAP,delta_d,.030,.000,True,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+cheetah-run,SWAAP,delta_m,.035,.007,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+myo-pen-twirl-hard,Clean Reference,Return,3350,70,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+myo-pen-twirl-hard,Clean Reference,delta_d,.056,.000,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+myo-pen-twirl-hard,Clean Reference,delta_m,.057,.001,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+myo-pen-twirl-hard,SWAAP (Random),Return,3340,73,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+myo-pen-twirl-hard,SWAAP (Random),delta_d,.056,.000,True,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+myo-pen-twirl-hard,SWAAP (Random),delta_m,.046,.001,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+myo-pen-twirl-hard,Direct Model Poisoning,Return,1782,486,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+myo-pen-twirl-hard,Direct Model Poisoning,delta_d,.063,.003,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+myo-pen-twirl-hard,Direct Model Poisoning,delta_m,.104,.008,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+myo-pen-twirl-hard,SWAAP,Return,3285,118,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+myo-pen-twirl-hard,SWAAP,delta_d,.056,.000,True,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+myo-pen-twirl-hard,SWAAP,delta_m,.050,.002,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+myo-reach-hard,Clean Reference,Return,749,11,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+myo-reach-hard,Clean Reference,delta_d,.035,.000,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+myo-reach-hard,Clean Reference,delta_m,.061,.002,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+myo-reach-hard,SWAAP (Random),Return,749,12,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+myo-reach-hard,SWAAP (Random),delta_d,.035,.000,True,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+myo-reach-hard,SWAAP (Random),delta_m,.030,.000,True,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+myo-reach-hard,Direct Model Poisoning,Return,-925,2418,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+myo-reach-hard,Direct Model Poisoning,delta_d,.040,.002,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+myo-reach-hard,Direct Model Poisoning,delta_m,.161,.119,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+myo-reach-hard,SWAAP,Return,679,73,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+myo-reach-hard,SWAAP,delta_d,.035,.000,True,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+myo-reach-hard,SWAAP,delta_m,.088,.047,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+mw-push,Clean Reference,Return,1764,12,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+mw-push,Clean Reference,delta_d,.080,.000,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+mw-push,Clean Reference,delta_m,.082,.001,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+mw-push,SWAAP (Random),Return,1754,7,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+mw-push,SWAAP (Random),delta_d,.080,.000,True,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+mw-push,SWAAP (Random),delta_m,.085,.002,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+mw-push,Direct Model Poisoning,Return,1082,748,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+mw-push,Direct Model Poisoning,delta_d,.086,.002,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+mw-push,Direct Model Poisoning,delta_m,.194,.096,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+mw-push,SWAAP,Return,1409,275,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+mw-push,SWAAP,delta_d,.081,.000,True,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+mw-push,SWAAP,delta_m,.137,.036,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+mw-soccer,Clean Reference,Return,1720,5,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+mw-soccer,Clean Reference,delta_d,.046,.000,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+mw-soccer,Clean Reference,delta_m,.042,.001,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+mw-soccer,SWAAP (Random),Return,1721,3,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+mw-soccer,SWAAP (Random),delta_d,.046,.000,True,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+mw-soccer,SWAAP (Random),delta_m,.031,.000,True,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+mw-soccer,Direct Model Poisoning,Return,1090,613,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+mw-soccer,Direct Model Poisoning,delta_d,.046,.008,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+mw-soccer,Direct Model Poisoning,delta_m,.132,.079,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+mw-soccer,SWAAP,Return,1147,306,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+mw-soccer,SWAAP,delta_d,.046,.000,True,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+mw-soccer,SWAAP,delta_m,.114,.040,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+lift-cube,Clean Reference,Return,193,0,True,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+lift-cube,Clean Reference,delta_d,.018,.000,True,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+lift-cube,Clean Reference,delta_m,.021,.000,True,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+lift-cube,SWAAP (Random),Return,193,0,True,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+lift-cube,SWAAP (Random),delta_d,.026,.000,True,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+lift-cube,SWAAP (Random),delta_m,.023,.000,True,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+lift-cube,Direct Model Poisoning,Return,128,79,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+lift-cube,Direct Model Poisoning,delta_d,.029,.009,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+lift-cube,Direct Model Poisoning,delta_m,.164,.116,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+lift-cube,SWAAP,Return,192,1,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+lift-cube,SWAAP,delta_d,.022,.000,True,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+lift-cube,SWAAP,delta_m,.028,.002,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+pick-cube,Clean Reference,Return,160,2,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+pick-cube,Clean Reference,delta_d,.026,.000,True,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+pick-cube,Clean Reference,delta_m,.028,.002,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+pick-cube,SWAAP (Random),Return,161,1,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+pick-cube,SWAAP (Random),delta_d,.031,.001,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+pick-cube,SWAAP (Random),delta_m,.026,.002,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+pick-cube,Direct Model Poisoning,Return,133,18,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+pick-cube,Direct Model Poisoning,delta_d,.038,.005,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+pick-cube,Direct Model Poisoning,delta_m,.157,.053,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+pick-cube,SWAAP,Return,159,2,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+pick-cube,SWAAP,delta_d,.030,.001,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+pick-cube,SWAAP,delta_m,.034,.003,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+stack-cube,Clean Reference,Return,174,5,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+stack-cube,Clean Reference,delta_d,.042,.000,True,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+stack-cube,Clean Reference,delta_m,.043,.003,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+stack-cube,SWAAP (Random),Return,172,3,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+stack-cube,SWAAP (Random),delta_d,.047,.000,True,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+stack-cube,SWAAP (Random),delta_m,.045,.003,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+stack-cube,Direct Model Poisoning,Return,114,43,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+stack-cube,Direct Model Poisoning,delta_d,.042,.004,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+stack-cube,Direct Model Poisoning,delta_m,.118,.038,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+stack-cube,SWAAP,Return,156,13,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+stack-cube,SWAAP,delta_d,.043,.000,True,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552
+stack-cube,SWAAP,delta_m,.057,.010,False,689e4327b093449dce0a3bbbbb09ec806f6c5b6c417558c97984de2dc799c552

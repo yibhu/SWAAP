@@ -1,0 +1,3409 @@
+{
+  "schema_version": 1,
+  "components": [
+    {
+      "file": "endpoints.part01.tar",
+      "sha256": "8f1a3a7afb2cf742e34373f5ecca796f42055f88cc3c5e2c0b103fd0e4cb7c9b",
+      "bytes": 994887680,
+      "profiles": [
+        "endpoints"
+      ],
+      "asset_ids": [
+        "tdmpc2.cheetah-run.main-run1.order1.clean",
+        "tdmpc2.cheetah-run.main-run1.order1.swaap",
+        "tdmpc2.cheetah-run.main-run1.order2.swaap",
+        "tdmpc2.cheetah-run.main-run1.order3.clean",
+        "tdmpc2.cheetah-run.main-run1.order3.swaap",
+        "tdmpc2.cheetah-run.main-run2.order1.swaap",
+        "tdmpc2.cheetah-run.main-run2.order2.clean",
+        "tdmpc2.cheetah-run.main-run2.order2.swaap",
+        "tdmpc2.cheetah-run.main-run2.order3.clean",
+        "tdmpc2.cheetah-run.main-run3.order1.clean",
+        "tdmpc2.cheetah-run.main-run3.order2.clean",
+        "tdmpc2.cheetah-run.main-run3.order3.clean",
+        "tdmpc2.cheetah-run.sensitivity-run1.order2.permutations",
+        "tdmpc2.cheetah-run.sensitivity-run1.order3.permutations",
+        "tdmpc2.cheetah-run.sensitivity-run2.order1.permutations",
+        "tdmpc2.cheetah-run.sensitivity-run2.order2.permutations",
+        "tdmpc2.cheetah-run.sensitivity-run3.order1.permutations",
+        "tdmpc2.cheetah-run.sensitivity-run3.order3.permutations",
+        "tdmpc2.dog-run.main-run1.order2.clean",
+        "tdmpc2.dog-run.main-run1.order2.swaap",
+        "tdmpc2.dog-run.main-run1.order3.swaap",
+        "tdmpc2.dog-run.main-run2.order1.clean",
+        "tdmpc2.dog-run.main-run2.order1.swaap",
+        "tdmpc2.dog-run.main-run2.order2.clean",
+        "tdmpc2.dog-run.main-run2.order3.swaap",
+        "tdmpc2.dog-run.main-run3.order1.clean",
+        "tdmpc2.dog-run.main-run3.order1.swaap",
+        "tdmpc2.dog-run.main-run3.order2.clean",
+        "tdmpc2.dog-run.main-run3.order2.swaap",
+        "tdmpc2.dog-run.main-run3.order3.clean",
+        "tdmpc2.dog-run.main-run3.order3.swaap",
+        "tdmpc2.dog-run.sensitivity-run1.order1.permutations",
+        "tdmpc2.dog-run.sensitivity-run1.order2.permutations",
+        "tdmpc2.dog-run.sensitivity-run2.order1.permutations",
+        "tdmpc2.dog-run.sensitivity-run2.order3.permutations",
+        "tdmpc2.dog-walk.main-run1.order1.swaap",
+        "tdmpc2.dog-walk.main-run1.order2.swaap",
+        "tdmpc2.dog-walk.main-run1.order3.clean",
+        "tdmpc2.dog-walk.main-run2.order2.clean",
+        "tdmpc2.dog-walk.main-run2.order2.swaap",
+        "tdmpc2.dog-walk.main-run2.order3.clean",
+        "tdmpc2.dog-walk.main-run3.order1.swaap",
+        "tdmpc2.dog-walk.main-run3.order2.clean",
+        "tdmpc2.dog-walk.main-run3.order3.clean",
+        "tdmpc2.dog-walk.sensitivity-run1.order1.permutations",
+        "tdmpc2.dog-walk.sensitivity-run2.order1.permutations",
+        "tdmpc2.dog-walk.sensitivity-run2.order2.permutations",
+        "tdmpc2.dog-walk.sensitivity-run2.order3.permutations",
+        "tdmpc2.dog-walk.sensitivity-run3.order1.permutations",
+        "tdmpc2.dog-walk.sensitivity-run3.order2.permutations",
+        "tdmpc2.dog-walk.sensitivity-run3.order3.permutations",
+        "tdmpc2.humanoid-run.main-run1.order1.clean",
+        "tdmpc2.humanoid-run.main-run1.order1.swaap",
+        "tdmpc2.humanoid-run.main-run1.order2.clean",
+        "tdmpc2.humanoid-run.main-run1.order3.clean",
+        "tdmpc2.humanoid-run.main-run1.order3.swaap",
+        "tdmpc2.humanoid-run.main-run2.order1.swaap",
+        "tdmpc2.humanoid-run.main-run2.order2.clean",
+        "tdmpc2.humanoid-run.main-run2.order2.swaap",
+        "tdmpc2.humanoid-run.main-run2.order3.swaap",
+        "tdmpc2.humanoid-run.main-run3.order1.swaap",
+        "tdmpc2.humanoid-run.main-run3.order2.clean",
+        "tdmpc2.humanoid-run.main-run3.order2.swaap",
+        "tdmpc2.humanoid-run.main-run3.order3.clean",
+        "tdmpc2.humanoid-run.sensitivity-run1.order2.permutations",
+        "tdmpc2.humanoid-run.sensitivity-run1.order3.permutations",
+        "tdmpc2.humanoid-run.sensitivity-run2.order2.permutations",
+        "tdmpc2.humanoid-run.sensitivity-run2.order3.permutations",
+        "tdmpc2.humanoid-run.sensitivity-run3.order1.permutations",
+        "tdmpc2.humanoid-run.sensitivity-run3.order3.permutations",
+        "tdmpc2.humanoid-walk.main-run1.order2.clean",
+        "tdmpc2.humanoid-walk.main-run1.order2.swaap",
+        "tdmpc2.humanoid-walk.main-run2.order1.clean",
+        "tdmpc2.humanoid-walk.main-run2.order1.swaap",
+        "tdmpc2.humanoid-walk.main-run2.order2.swaap",
+        "tdmpc2.humanoid-walk.main-run2.order3.clean",
+        "tdmpc2.humanoid-walk.main-run2.order3.swaap",
+        "tdmpc2.humanoid-walk.main-run3.order1.clean",
+        "tdmpc2.humanoid-walk.main-run3.order2.clean",
+        "tdmpc2.humanoid-walk.main-run3.order2.swaap",
+        "tdmpc2.humanoid-walk.main-run3.order3.clean",
+        "tdmpc2.humanoid-walk.sensitivity-run1.order2.permutations",
+        "tdmpc2.humanoid-walk.sensitivity-run1.order3.permutations",
+        "tdmpc2.humanoid-walk.sensitivity-run2.order1.permutations",
+        "tdmpc2.humanoid-walk.sensitivity-run2.order2.permutations",
+        "tdmpc2.humanoid-walk.sensitivity-run2.order3.permutations",
+        "tdmpc2.humanoid-walk.sensitivity-run3.order1.permutations",
+        "tdmpc2.humanoid-walk.sensitivity-run3.order3.permutations",
+        "tdmpc2.mw-push.main-run1.order1.clean",
+        "tdmpc2.mw-push.main-run1.order1.swaap",
+        "tdmpc2.mw-push.main-run1.order2.clean",
+        "tdmpc2.mw-push.main-run2.order3.clean",
+        "tdmpc2.mw-push.main-run3.order1.clean",
+        "tdmpc2.mw-push.main-run3.order1.swaap",
+        "tdmpc2.mw-push.main-run3.order2.clean",
+        "tdmpc2.mw-push.main-run3.order2.swaap",
+        "tdmpc2.mw-push.main-run3.order3.clean",
+        "tdmpc2.mw-push.main-run3.order3.swaap",
+        "tdmpc2.mw-push.sensitivity-run1.order2.permutations",
+        "tdmpc2.mw-push.sensitivity-run1.order3.permutations",
+        "tdmpc2.mw-push.sensitivity-run2.order2.permutations",
+        "tdmpc2.mw-push.sensitivity-run2.order3.permutations",
+        "tdmpc2.mw-push.sensitivity-run3.order2.permutations",
+        "tdmpc2.mw-push.sensitivity-run3.order3.permutations",
+        "tdmpc2.mw-soccer.main-run1.order1.swaap",
+        "tdmpc2.mw-soccer.main-run1.order2.clean",
+        "tdmpc2.mw-soccer.main-run1.order2.swaap",
+        "tdmpc2.mw-soccer.main-run1.order3.swaap",
+        "tdmpc2.mw-soccer.main-run2.order2.clean",
+        "tdmpc2.mw-soccer.main-run2.order2.swaap",
+        "tdmpc2.mw-soccer.main-run2.order3.clean",
+        "tdmpc2.mw-soccer.main-run2.order3.swaap",
+        "tdmpc2.mw-soccer.main-run3.order1.clean",
+        "tdmpc2.mw-soccer.main-run3.order1.swaap",
+        "tdmpc2.mw-soccer.main-run3.order2.clean",
+        "tdmpc2.mw-soccer.main-run3.order3.clean",
+        "tdmpc2.mw-soccer.sensitivity-run1.order1.permutations",
+        "tdmpc2.mw-soccer.sensitivity-run1.order3.permutations",
+        "tdmpc2.mw-soccer.sensitivity-run2.order1.permutations",
+        "tdmpc2.mw-soccer.sensitivity-run2.order3.permutations",
+        "tdmpc2.mw-soccer.sensitivity-run3.order3.permutations",
+        "tdmpc2.myo-pen-twirl-hard.main-run1.order1.clean",
+        "tdmpc2.myo-pen-twirl-hard.main-run1.order2.clean",
+        "tdmpc2.myo-pen-twirl-hard.main-run1.order2.swaap",
+        "tdmpc2.myo-pen-twirl-hard.main-run1.order3.clean",
+        "tdmpc2.myo-pen-twirl-hard.main-run1.order3.swaap",
+        "tdmpc2.myo-pen-twirl-hard.main-run2.order1.clean",
+        "tdmpc2.myo-pen-twirl-hard.main-run2.order2.clean",
+        "tdmpc2.myo-pen-twirl-hard.main-run2.order2.swaap",
+        "tdmpc2.myo-pen-twirl-hard.main-run3.order1.swaap",
+        "tdmpc2.myo-pen-twirl-hard.main-run3.order3.clean",
+        "tdmpc2.myo-pen-twirl-hard.main-run3.order3.swaap",
+        "tdmpc2.myo-pen-twirl-hard.sensitivity-run1.order1.permutations",
+        "tdmpc2.myo-pen-twirl-hard.sensitivity-run1.order3.permutations",
+        "tdmpc2.myo-pen-twirl-hard.sensitivity-run2.order1.permutations",
+        "tdmpc2.myo-pen-twirl-hard.sensitivity-run3.order1.permutations",
+        "tdmpc2.myo-pen-twirl-hard.sensitivity-run3.order2.permutations",
+        "tdmpc2.myo-pen-twirl-hard.sensitivity-run3.order3.permutations",
+        "tdmpc2.myo-reach-hard.main-run1.order1.clean",
+        "tdmpc2.myo-reach-hard.main-run1.order2.swaap",
+        "tdmpc2.myo-reach-hard.main-run1.order3.clean",
+        "tdmpc2.myo-reach-hard.main-run1.order3.swaap",
+        "tdmpc2.myo-reach-hard.main-run2.order1.clean",
+        "tdmpc2.myo-reach-hard.main-run2.order2.clean",
+        "tdmpc2.myo-reach-hard.main-run2.order3.clean",
+        "tdmpc2.myo-reach-hard.main-run2.order3.swaap",
+        "tdmpc2.myo-reach-hard.main-run3.order2.clean",
+        "tdmpc2.myo-reach-hard.main-run3.order3.swaap",
+        "tdmpc2.myo-reach-hard.sensitivity-run1.order1.permutations",
+        "tdmpc2.myo-reach-hard.sensitivity-run1.order2.permutations",
+        "tdmpc2.myo-reach-hard.sensitivity-run1.order3.permutations",
+        "tdmpc2.myo-reach-hard.sensitivity-run2.order1.permutations",
+        "tdmpc2.myo-reach-hard.sensitivity-run2.order2.permutations",
+        "tdmpc2.myo-reach-hard.sensitivity-run2.order3.permutations",
+        "tdmpc2.myo-reach-hard.sensitivity-run3.order1.permutations",
+        "tdmpc2.myo-reach-hard.sensitivity-run3.order2.permutations",
+        "tdmpc2.myo-reach-hard.sensitivity-run3.order3.permutations"
+      ],
+      "objects": [
+        {
+          "sha256": "018ca4716adcf69a2251032fe884d9301c78865cf86af8a9754945895160c599",
+          "bytes": 9759872
+        },
+        {
+          "sha256": "022e2fbc2679496535dd3a1d04dde5ef4601ef5fab3434327a9fc5915d731701",
+          "bytes": 9544704
+        },
+        {
+          "sha256": "04a0b678debbd624a18e852136b8c85ad6c6bb6e46103da4142fe9989d5f060b",
+          "bytes": 402872
+        },
+        {
+          "sha256": "0746576f1afe8175ed83075c092d4159a4f06a2bf0fc57ceca7f40fccc87f96e",
+          "bytes": 9649280
+        },
+        {
+          "sha256": "07a3738f7a79e7409e5e3705c80788d295aab8a1503399056bcc114694b63c81",
+          "bytes": 402872
+        },
+        {
+          "sha256": "08631aeff1d0f267c42b3cf6dbc1123d8265930b1f18a3aa5c5ba535e43b1b5f",
+          "bytes": 402872
+        },
+        {
+          "sha256": "08b9e540a1e70962e04990e0906468fa441e1c6a4d70083f85d36aac0c9e9ec8",
+          "bytes": 402872
+        },
+        {
+          "sha256": "0dc5b9c9ecad978f5a5ba30f91bdfdb49d2a2b591281f0fc6f772c96004996b0",
+          "bytes": 9649216
+        },
+        {
+          "sha256": "100cbb017481f649a59e8951f22bcada31bb42e3024454491a564d34bb737d4b",
+          "bytes": 402872
+        },
+        {
+          "sha256": "107aed387e541814010c73480de0a3ef35d6e1a809b4544916d7e3346f59f4fb",
+          "bytes": 402872
+        },
+        {
+          "sha256": "10db85ef659b8b7fe66e7173bdb1fe26fc6ffb823efa6f88e0bdc853104011fb",
+          "bytes": 402872
+        },
+        {
+          "sha256": "10ea7bef73a788e151713c34bae5f563591fe8ac848d2b37f77af36cf3939f38",
+          "bytes": 402872
+        },
+        {
+          "sha256": "1197f6e3ddca46a3649382933ac848f9ced2cd076d683eb98ade6c80d76bdedc",
+          "bytes": 9759872
+        },
+        {
+          "sha256": "17062e3082efa54dcb4c83beb56087439689a1417cba06f5f4dab4d3a2dcf25a",
+          "bytes": 9649344
+        },
+        {
+          "sha256": "1754b998655aeb6ad377e01ad81ad44ac30f11e959dcf6b3a9863b39ef589d31",
+          "bytes": 9544832
+        },
+        {
+          "sha256": "176aca15c1104d6da27fd50c7c8717bdd7ad0c7ad753bbd800bf9cc17723340e",
+          "bytes": 9557056
+        },
+        {
+          "sha256": "1a415424c5d335010e744ed0f04414b35995ec12b642def1831997ef27e1fa2e",
+          "bytes": 9753728
+        },
+        {
+          "sha256": "1b7fdce7be43384c08d715c53b89c392255c3ccf1c39f998689828bd1a6bd53b",
+          "bytes": 9649280
+        },
+        {
+          "sha256": "1cd8c896a79e2b943cd9c58b8ebdb4364ed148fe5fdcbbdd0cabe636a0e100fb",
+          "bytes": 9759744
+        },
+        {
+          "sha256": "1d852d9f473d372ef09c550056f907b7522ff82540eaa6b09c452a62d18f6ead",
+          "bytes": 9753792
+        },
+        {
+          "sha256": "1e83bef8e407104d4de4e1c3825dc4a211111e2d27612af80c9f6270347fb0d1",
+          "bytes": 9544768
+        },
+        {
+          "sha256": "1eb51790aec11b68616b52cdf9cba6cb8d0e30ab102e4854f391cb53f6a46bb5",
+          "bytes": 9557184
+        },
+        {
+          "sha256": "1f470c84b6414b5d5e768c94ea2a04346687eb60950be714978156a5f46e3224",
+          "bytes": 402872
+        },
+        {
+          "sha256": "1fbbe55ad2287e894d31115ad127d80d985955e70b706da8ab3d63006b481bf7",
+          "bytes": 402872
+        },
+        {
+          "sha256": "2180eb444d611408cf3d9dc2d9e5d0bb21f90649cf713dd7c91e985542adb34f",
+          "bytes": 402872
+        },
+        {
+          "sha256": "21ad0dc54ee8205a55a925e6ee700d4c99f8578f6cc2f434cda8a06c48384e2c",
+          "bytes": 9753728
+        },
+        {
+          "sha256": "229ea8f2c4e6e15a8079d28b209a5b58f2a7c2464312fbc28772e5d9bff0db3e",
+          "bytes": 9649344
+        },
+        {
+          "sha256": "236092c114acd2f22ea03a06cf6c2b91fdbc237cb9097c8b99bdf198bbcd1623",
+          "bytes": 9759808
+        },
+        {
+          "sha256": "2382236c27f9cae71e2114402b9b7b787be4fdace777b18dbd6c43c298357e6c",
+          "bytes": 9759872
+        },
+        {
+          "sha256": "23da44aa5fe58adc71012b0cb566745296e04da644068b067b037c2bf4bd907e",
+          "bytes": 9544768
+        },
+        {
+          "sha256": "23e6663cb7dd067a77d9c4697b2ac7da2e6ad24e4857b9b9289394974df6aa61",
+          "bytes": 9759936
+        },
+        {
+          "sha256": "2683333c39971c9c3308b9b1366c37f8c087ec302559dc7d0c60c90a88e30dd9",
+          "bytes": 9759808
+        },
+        {
+          "sha256": "26b4f6e9a7413a1847cb237ca702ddc2b8eb2c67494fc0b17fb0dedd4cd4a560",
+          "bytes": 402872
+        },
+        {
+          "sha256": "26bd50751edf8123150683abc9b3e299337db8f06db987e8f30e6e94ca3f9af1",
+          "bytes": 9544832
+        },
+        {
+          "sha256": "2745c12dd308a513af6ae00d6976c61437a6dd21cb491c7fc84cf1cb73affb68",
+          "bytes": 402872
+        },
+        {
+          "sha256": "27643c5f407ab07c75212f01fb1766f8dcfe66e421a6da49e85caf6939911c3b",
+          "bytes": 9649216
+        },
+        {
+          "sha256": "28cfb7e1009bad493f3cecb9f9ad908484c7071bcd052e5c741fc336ff98a3b6",
+          "bytes": 9759872
+        },
+        {
+          "sha256": "2a1880ad849d0c9e110e8f1f3b390a35fbb0e6fabd6f1c24cfb580c2d5680a53",
+          "bytes": 402872
+        },
+        {
+          "sha256": "2a19ddbf8bb2098b14029c9e78fb90e93c97d2ad61e49427392d006bc3a7c642",
+          "bytes": 9544768
+        },
+        {
+          "sha256": "2bb85f86619cca60a81efff69ca0b17363d4a7726c07e88545abd0cc9c6bf754",
+          "bytes": 9557120
+        },
+        {
+          "sha256": "2bff01ba9e36c012760f3c96fc6bd11e511a4e6f1e7feccdd06e8dc1c18a00ff",
+          "bytes": 9544768
+        },
+        {
+          "sha256": "2d364951ebfc2270f17b9b9def078857966f97288312230473f3afff1edb7081",
+          "bytes": 9544768
+        },
+        {
+          "sha256": "2eca90fb35314b2b502c21d7e137257f282922d10ab75698c6dfa7ad4097b003",
+          "bytes": 9753792
+        },
+        {
+          "sha256": "2f6642dffe7d654b82311f6efc581b4e52296c101fc773885c533fe0a2721e8c",
+          "bytes": 9649280
+        },
+        {
+          "sha256": "300177d84efd68205edac9e9e23c35a40aaa6058daf556d97ec900a9222d7f97",
+          "bytes": 9753664
+        },
+        {
+          "sha256": "30d995a2718e0937aff38ee018997a24d4473cc276f74b0ed9daf3035e915b0f",
+          "bytes": 9649280
+        },
+        {
+          "sha256": "31436e32b6ca32bb862420ee5335e50d108e1a81dd2194d739e145fd9c20dea2",
+          "bytes": 402872
+        },
+        {
+          "sha256": "32f8e0f7c35917b1e8c7308902495cc7edaa51fdb06fe09dbccbaf35e2757f0b",
+          "bytes": 402872
+        },
+        {
+          "sha256": "338fbc4993fe2f82a03e6fea9e569ceddfab07f6da3eaf0c2eea657a97cbf810",
+          "bytes": 9753664
+        },
+        {
+          "sha256": "34094882596317dc30c9d27191f624a00982b95de9c7d17db499fdb881a60e29",
+          "bytes": 9544704
+        },
+        {
+          "sha256": "353a61f7e9d5098c83045efd9d127281410c88becd95f6f1bd1f15837f831af7",
+          "bytes": 9649280
+        },
+        {
+          "sha256": "3821ef11048121321cd736fb4f120282130c7773769f72a8f24d94e1b39615a3",
+          "bytes": 9557120
+        },
+        {
+          "sha256": "3cd7c09aa5f7d158fcceb7c766cda5cbcd9af81aed19c075ffe512e73f02f3a8",
+          "bytes": 9649280
+        },
+        {
+          "sha256": "3cdef896ccfeb0031a430f5d9adf849ff149a19accfe24d5682f4f52783e6075",
+          "bytes": 402872
+        },
+        {
+          "sha256": "3d970317cf3f727852c0476cc3655f4323ee1d67823d0c467d288f103d14e05c",
+          "bytes": 9544704
+        },
+        {
+          "sha256": "3dcf700c7d38f3e5576caeb048733aa512de3355c22c8f629cfcb9fcc3494746",
+          "bytes": 402872
+        },
+        {
+          "sha256": "3e728c7c028a8a5b646345e6eaa06e98fcbf5caa4dd73bdccd95d33b1efdb65b",
+          "bytes": 9649344
+        },
+        {
+          "sha256": "3ecd58c671a59376a0a85b7ff2b2472742f3b35321f58bf8117320f18f802299",
+          "bytes": 402872
+        },
+        {
+          "sha256": "3f86e5eb3bbeaf8136f6ae300457e42d1c3c95ab24827cd042b0e1a5d318b6a0",
+          "bytes": 9759872
+        },
+        {
+          "sha256": "4136f5c60e68d9b46c8ec35ca5dddb3354ea4f4203680f989500884131da9ab4",
+          "bytes": 9544896
+        },
+        {
+          "sha256": "418cc6e575e2a0b557e7f28655df41df51ed9958693836090287c07fee897876",
+          "bytes": 9649216
+        },
+        {
+          "sha256": "42a504335bb96e786b4fb12e43ca5b8eb1de4bf2a69ba42c798bdc2ba95089ae",
+          "bytes": 9557056
+        },
+        {
+          "sha256": "44aef3a8a6ce4d3ed58a9a3ced89c58fc4985d1621f0dcefbca6fde2a2e82b3b",
+          "bytes": 9544832
+        },
+        {
+          "sha256": "4636e8bc763aefef77005598c9c31e4f55bf0d72dbd575cc6e1f1b03711d0d22",
+          "bytes": 9544768
+        },
+        {
+          "sha256": "486207489a8e26d601f1d9cb2a7901d353182164bd385a0790ac33d0ae9d6029",
+          "bytes": 9753664
+        },
+        {
+          "sha256": "48f90d8300dd5ef4d1d3cc965158a3379f76fb6c42d7d0232ae26fecb44f7780",
+          "bytes": 9544832
+        },
+        {
+          "sha256": "4a1203316e73cd27dca5ff74c55cf555acba277b7ba6cad79c61feb52b1ba4c0",
+          "bytes": 9649344
+        },
+        {
+          "sha256": "4a5b65f0e490fb4eeb0c9b527faa0ca41f0fb95fe918b200086d25176912d73d",
+          "bytes": 9557120
+        },
+        {
+          "sha256": "4a9aa7b4ff46b5787b293e9abd8d6788dc6cacc5262c557888820a31472f589a",
+          "bytes": 9649280
+        },
+        {
+          "sha256": "4e1db0e1a372e0056ecca07bf5bdd40135824848e2bbd63aa47c789894ec1d6d",
+          "bytes": 9753664
+        },
+        {
+          "sha256": "4edb0a2ffc785cd1e5bf039e97d32803b9601901587582cabbe6da859906cc5e",
+          "bytes": 9544704
+        },
+        {
+          "sha256": "4fd62cb75656faf27ec2e3ad04a50a84bd7b8ae01ba4d309ae6902b9ad79c4eb",
+          "bytes": 402872
+        },
+        {
+          "sha256": "511a7caa67fa59756ae94579331d05a1e22b8d68bde667b120ad8bbc59245567",
+          "bytes": 402872
+        },
+        {
+          "sha256": "51a0b58a53c71310faa293af43571eb631b0e624b4477604e7858b664e9403fb",
+          "bytes": 402872
+        },
+        {
+          "sha256": "52493ce9fbbf0484e3e7e84c2fbbb22dbc6d36616545afa9bc4911104a92ab8e",
+          "bytes": 402872
+        },
+        {
+          "sha256": "53ed80a0b6b341457613b9eb9686f29a7c3daa2bb8293e8c4040cff5ba5d3ee4",
+          "bytes": 9649344
+        },
+        {
+          "sha256": "5633c2807f9af35a15b1a7e92876657cd03b20909fd569ff2be3491a42910b31",
+          "bytes": 402872
+        },
+        {
+          "sha256": "57624cd77efbb135db7ee75640b48a2d23384df067e80e92ef3dde98f3a05eb8",
+          "bytes": 9649152
+        },
+        {
+          "sha256": "5854edbf303fb34ed63294ada5d7f017b864bd5eed9d9dac0dc0562889b81d99",
+          "bytes": 9649280
+        },
+        {
+          "sha256": "58c1988f61ded3e7e5a9b587f9446483a93f00aef8552b33a008a8327ae9a04b",
+          "bytes": 9557056
+        },
+        {
+          "sha256": "58e89b2fdf8603f78ee359abc5b79b5104495f0e3d3a1a45671a5f1db3f8814b",
+          "bytes": 9557120
+        },
+        {
+          "sha256": "59a1f51f45ba54cc24bd5cb837a85d847587bb7b279e5a6b96535eededed2b4a",
+          "bytes": 9544768
+        },
+        {
+          "sha256": "5b9d19ccfec81dbe5335e10728dd07ce542b055da56d0654e874ee60336c890a",
+          "bytes": 402872
+        },
+        {
+          "sha256": "5bfa9ca34fe09e385016a7c6750160a24a85160902ee3925fcc4ed828d022b5a",
+          "bytes": 402872
+        },
+        {
+          "sha256": "5c01ca78a5947005737fddcd7ee9af9119aeab32f65e83c83bd12c3db6326d80",
+          "bytes": 9753600
+        },
+        {
+          "sha256": "5caba7d892dc6df2931debe3887d3c024d78c60a229ea8555851ae55f0f93461",
+          "bytes": 402872
+        },
+        {
+          "sha256": "5e4daf96e7eb0ad427b6e7643d672e17b9a210a48183957d4f308a172fef49b2",
+          "bytes": 9649280
+        },
+        {
+          "sha256": "5fce4a66dee82e67da3e6975f6db5cb185021a46ae671265c8f981c2f269950d",
+          "bytes": 402872
+        },
+        {
+          "sha256": "6069ce9f471170c892c156e1cfca5c83a11f0a7c2786e749f5ff5d99530fd3ed",
+          "bytes": 9753664
+        },
+        {
+          "sha256": "61d3accb88ce9c01f7d84eeddd275453652691e164bf0cddc700bb503883e255",
+          "bytes": 9544896
+        },
+        {
+          "sha256": "622babe647e6febae7e7f5953a3a3db60b714eddff180021b8453627c0dc9a34",
+          "bytes": 402872
+        },
+        {
+          "sha256": "628c384d44d407652e50e2c60be7c55366a05ab5e351d1e1db552541d95cd928",
+          "bytes": 9753664
+        },
+        {
+          "sha256": "62f9ac93f952d28f26d6ec4f4241b3dcdd660f08d930fafcad5d48a52ee4179f",
+          "bytes": 9759872
+        },
+        {
+          "sha256": "66b514417d54efcbc761ca99ffb78893d5c99ab506240f2de12ff94d09fa2e46",
+          "bytes": 402872
+        },
+        {
+          "sha256": "6880aafb49bf7ec4c5bc36e0a538d2728fd63acd6fc73b30c35fae08abdf9c97",
+          "bytes": 402872
+        },
+        {
+          "sha256": "6a6cb8c373b47c357f6ac75985f1160012c5134cd65341dfb53d0229b90e84c9",
+          "bytes": 9753792
+        },
+        {
+          "sha256": "6de2acf61ea2c2716dc659bdc14e30a38d5aadb1a74d417d63ef8d07eb208ce5",
+          "bytes": 9557056
+        },
+        {
+          "sha256": "6edb50b44d4c7fe03842af23d9f38c6308b2a458e73c8923b489af7069d9a0b1",
+          "bytes": 9544768
+        },
+        {
+          "sha256": "6f111565e9628ddffd74a5c2c915c5e3654268fc57e99e27020b7dffd7d1b87a",
+          "bytes": 9753664
+        },
+        {
+          "sha256": "7143a3b3c68688e2eca5dea6585b3741f6529f1b8c6d100a873e0be1cb55cc7b",
+          "bytes": 9557056
+        },
+        {
+          "sha256": "72c106e3d01f14d704d1554560f9901108f3a28deaee64e88781551804facbd1",
+          "bytes": 402872
+        },
+        {
+          "sha256": "762f432e61ba1e65121f5a0c5658ea8b6da301f8c5aecb574d5b21757a3ef1fe",
+          "bytes": 9753664
+        },
+        {
+          "sha256": "76aff8a3186d20dd019e6bb6531f7878af98be9e246977091bc891155e6158cc",
+          "bytes": 9649344
+        },
+        {
+          "sha256": "77a61b6c673f97bf84c3c0680b6149380d4d12234f97274154140470fcdc62ea",
+          "bytes": 9759808
+        },
+        {
+          "sha256": "77b4b2f7af57510a96ca8da8f9c5c393a60b016cf295d2598811cd8364bf0c62",
+          "bytes": 9649280
+        },
+        {
+          "sha256": "785ab4901b8a11f4c0f284eef6a0294fc35911641c2802cc76e13a28f62094c3",
+          "bytes": 9649344
+        },
+        {
+          "sha256": "78aebe743ee712623838a02148084b623effeecb5142201d4a506de091f91e1f",
+          "bytes": 9649152
+        },
+        {
+          "sha256": "790129bf4d913eec21820519840d6b108a34af9244a1dd72d13a8e025ad37b37",
+          "bytes": 402872
+        },
+        {
+          "sha256": "7b4d44bd1f63aed3efea72b4f393399effd677cdf1ae735e2424de1e4548cc17",
+          "bytes": 9759872
+        },
+        {
+          "sha256": "7d38dc6669482e9497794651b4a3a43be69d2bdccccb74e70a9b3a4396bbc496",
+          "bytes": 9759872
+        },
+        {
+          "sha256": "7e365f7b7805d66fd2366b8c8b3a65a7db9f774b00267b554abc2e61eb39fef5",
+          "bytes": 402872
+        },
+        {
+          "sha256": "7e92d4ce9f239b40d70ccacfb83f18771bdec8781d72bfb7467d2b5cd25eeba9",
+          "bytes": 402872
+        },
+        {
+          "sha256": "7ee8e6f8bfa5be8d3e54e3caa5161a20918d781bfbe60dcb4a43b55890d6537f",
+          "bytes": 402872
+        },
+        {
+          "sha256": "7fa3eb66fa161c514d17dd9b72b9fc172121f70898bbb3c15e69bd74911dd67e",
+          "bytes": 9649344
+        },
+        {
+          "sha256": "8063c9de2f5de1981424f04d186d94529ee1cd5bfb7fae2e41ca09911d480b6b",
+          "bytes": 9753728
+        },
+        {
+          "sha256": "8241c335c2f5689895a2f59722068f5690cec453b8ee13e6794b9cf649ead58c",
+          "bytes": 9649216
+        },
+        {
+          "sha256": "8311ba557dab2cdd1108a855b7187bdeaed76b5f5072498cb35ec3adbeef97cf",
+          "bytes": 9753664
+        },
+        {
+          "sha256": "834740132b7c16a0ea7763c8e1265026b2e388c6c9acf5538f97f24cc917e3c8",
+          "bytes": 402872
+        },
+        {
+          "sha256": "8603061d478d0d90ef48014d86d4946ab04a2a279d63d72955a48a5055b374c3",
+          "bytes": 9556992
+        },
+        {
+          "sha256": "870ff04621fef5c8b5f28d65e6a5baff4af8ac8c6c70aadb317627cdb4b8eb00",
+          "bytes": 9759808
+        },
+        {
+          "sha256": "875ecd6b52ffc6ca1d108da3e176231ed9ea5a96205ec8996fdfa9ad2a899f0c",
+          "bytes": 402872
+        },
+        {
+          "sha256": "898b66df88ce3303532e135967580a4c6b086ce014556c002ff900c95457aa1d",
+          "bytes": 9753728
+        },
+        {
+          "sha256": "8e43ff2d6d4d4e05ac0f227d40cee413f2fe23f02764a78012a642c4f731e206",
+          "bytes": 402872
+        },
+        {
+          "sha256": "8ecd1dd2b5cff1ad1e54bf77a0aaf94a3266c82141924d2ee664b3efe6576f55",
+          "bytes": 9759808
+        },
+        {
+          "sha256": "8f207e5f24cfe3fc9041bbdfda26051cbec5a31e965771246ef8cdab2aa195ac",
+          "bytes": 9753664
+        },
+        {
+          "sha256": "8f5bab38d076f9238d3e39da82453cc82053111229147834836baa746f528a93",
+          "bytes": 9759872
+        },
+        {
+          "sha256": "8f7146221c1fdac69017f2aefb20136e65047043ab65a1ee71e497ecd7bf4c7a",
+          "bytes": 9753728
+        },
+        {
+          "sha256": "8fd440ea2a40def813404dc1894472aa5cf8564b993be0ccc9e93e7aaf68d7d7",
+          "bytes": 9753728
+        },
+        {
+          "sha256": "9208482332536fc8c7dbd7afbffe1d5a9650ef5dfdf58451f9749329cdce5130",
+          "bytes": 9759808
+        },
+        {
+          "sha256": "944d7bfd287c671561ff8950490493e988e428b99d8dc26919fbbd69c7666e4c",
+          "bytes": 9753664
+        },
+        {
+          "sha256": "94932b9f13c47e764ee7869e0c980916ecf6c3488f36e1038aeb8fea041c7a44",
+          "bytes": 9544768
+        },
+        {
+          "sha256": "94c2e50a84f36b8fd5ffcd6fb1c9ef1fec27b347ad7d1611fe31694287cd57f0",
+          "bytes": 9759872
+        },
+        {
+          "sha256": "956c1932a89446027bdd6351125776ddf98aef3ac702a2389697839c44cf2255",
+          "bytes": 9759808
+        },
+        {
+          "sha256": "972073c2d40876f49e0153a70fc0893246e7adf8ca38021b115f5507a3148cd1",
+          "bytes": 9544768
+        },
+        {
+          "sha256": "97c1f7c3edcf19b747638f92a1196b43b76e62ab5c37001a598ba91a7a153c03",
+          "bytes": 9544704
+        },
+        {
+          "sha256": "98738f5f3f0453e47ef0b71e9debaf32cbf4d6d807e83a082ac3ae349891616a",
+          "bytes": 402872
+        },
+        {
+          "sha256": "988dfe8914cd47e53c4b099460d9bfac95b30e830c63ad7b604256ce538cbe67",
+          "bytes": 9557120
+        },
+        {
+          "sha256": "99ad2d053b89ce7975356592ffd5188f9c01192a85ced243c6b806d7c4cdc4fd",
+          "bytes": 9759936
+        },
+        {
+          "sha256": "9e0d93c9a6359f92d8d68de9835156448342d4d2f9fc64f238c58f0cb9180d7c",
+          "bytes": 9753600
+        },
+        {
+          "sha256": "a0962747706c08aa2847c0b28436f854173193936426cfd7c43ac98afba2b534",
+          "bytes": 402872
+        },
+        {
+          "sha256": "a0da2a780477dc9b5e0c828a858d0b92439b0863d9da14e8f53a3c35164cefce",
+          "bytes": 402872
+        },
+        {
+          "sha256": "a1faea1d335bab53ca50989af38f24449070e91b637aff04e171355182022431",
+          "bytes": 402872
+        },
+        {
+          "sha256": "a2c20b48c2fafbc8380a4cf128e810cc11ccdaeecbe7611fec946a8ee4759e70",
+          "bytes": 402872
+        },
+        {
+          "sha256": "a42533f6bf01350751c6208a8c02de9ae9ac8cad42381cb1a04e66fa912641b2",
+          "bytes": 402872
+        },
+        {
+          "sha256": "a43c666e33015d6b69a63f3e7927d98b9f6dada3fcabaac2cc334e9804aecf17",
+          "bytes": 9759744
+        },
+        {
+          "sha256": "a664028ea18fb6a0a2325a33ee47a5b7d169c1a08d4c24999f02030aee52fc42",
+          "bytes": 402872
+        },
+        {
+          "sha256": "a9300906a79f8d121a533468290e072bb6237c5a50d7a648b103694bfa56b0c6",
+          "bytes": 9544832
+        },
+        {
+          "sha256": "aa23123cbde70577d72f1ffd93c62c4326beabf4af69e7f77ba71730ffeaf700",
+          "bytes": 402872
+        }
+      ]
+    },
+    {
+      "file": "endpoints.part02.tar",
+      "sha256": "b89b06ee6741e036d586652fa532d2a7d0353539d7443fb4d9225e7c1360c742",
+      "bytes": 578959360,
+      "profiles": [
+        "endpoints"
+      ],
+      "asset_ids": [
+        "tdmpc2.cheetah-run.main-run1.order2.clean",
+        "tdmpc2.cheetah-run.main-run2.order1.clean",
+        "tdmpc2.cheetah-run.main-run2.order3.swaap",
+        "tdmpc2.cheetah-run.main-run3.order1.swaap",
+        "tdmpc2.cheetah-run.main-run3.order2.swaap",
+        "tdmpc2.cheetah-run.main-run3.order3.swaap",
+        "tdmpc2.cheetah-run.sensitivity-run1.order1.permutations",
+        "tdmpc2.cheetah-run.sensitivity-run2.order3.permutations",
+        "tdmpc2.cheetah-run.sensitivity-run3.order2.permutations",
+        "tdmpc2.dog-run.main-run1.order1.clean",
+        "tdmpc2.dog-run.main-run1.order1.swaap",
+        "tdmpc2.dog-run.main-run1.order3.clean",
+        "tdmpc2.dog-run.main-run2.order2.swaap",
+        "tdmpc2.dog-run.main-run2.order3.clean",
+        "tdmpc2.dog-run.sensitivity-run1.order3.permutations",
+        "tdmpc2.dog-run.sensitivity-run2.order2.permutations",
+        "tdmpc2.dog-run.sensitivity-run3.order1.permutations",
+        "tdmpc2.dog-run.sensitivity-run3.order2.permutations",
+        "tdmpc2.dog-run.sensitivity-run3.order3.permutations",
+        "tdmpc2.dog-walk.main-run1.order1.clean",
+        "tdmpc2.dog-walk.main-run1.order2.clean",
+        "tdmpc2.dog-walk.main-run1.order3.swaap",
+        "tdmpc2.dog-walk.main-run2.order1.clean",
+        "tdmpc2.dog-walk.main-run2.order1.swaap",
+        "tdmpc2.dog-walk.main-run2.order3.swaap",
+        "tdmpc2.dog-walk.main-run3.order1.clean",
+        "tdmpc2.dog-walk.main-run3.order2.swaap",
+        "tdmpc2.dog-walk.main-run3.order3.swaap",
+        "tdmpc2.dog-walk.sensitivity-run1.order2.permutations",
+        "tdmpc2.dog-walk.sensitivity-run1.order3.permutations",
+        "tdmpc2.humanoid-run.main-run1.order2.swaap",
+        "tdmpc2.humanoid-run.main-run2.order1.clean",
+        "tdmpc2.humanoid-run.main-run2.order3.clean",
+        "tdmpc2.humanoid-run.main-run3.order1.clean",
+        "tdmpc2.humanoid-run.main-run3.order3.swaap",
+        "tdmpc2.humanoid-run.sensitivity-run1.order1.permutations",
+        "tdmpc2.humanoid-run.sensitivity-run2.order1.permutations",
+        "tdmpc2.humanoid-run.sensitivity-run3.order2.permutations",
+        "tdmpc2.humanoid-walk.main-run1.order3.clean",
+        "tdmpc2.humanoid-walk.main-run1.order3.swaap",
+        "tdmpc2.humanoid-walk.main-run2.order2.clean",
+        "tdmpc2.humanoid-walk.main-run3.order1.swaap",
+        "tdmpc2.humanoid-walk.main-run3.order3.swaap",
+        "tdmpc2.humanoid-walk.sensitivity-run3.order2.permutations",
+        "tdmpc2.mw-push.main-run1.order2.swaap",
+        "tdmpc2.mw-push.main-run1.order3.clean",
+        "tdmpc2.mw-push.main-run1.order3.swaap",
+        "tdmpc2.mw-push.main-run2.order1.clean",
+        "tdmpc2.mw-push.main-run2.order1.swaap",
+        "tdmpc2.mw-push.main-run2.order2.clean",
+        "tdmpc2.mw-push.main-run2.order2.swaap",
+        "tdmpc2.mw-push.main-run2.order3.swaap",
+        "tdmpc2.mw-push.sensitivity-run1.order1.permutations",
+        "tdmpc2.mw-push.sensitivity-run3.order1.permutations",
+        "tdmpc2.mw-soccer.main-run1.order1.clean",
+        "tdmpc2.mw-soccer.main-run1.order3.clean",
+        "tdmpc2.mw-soccer.main-run2.order1.clean",
+        "tdmpc2.mw-soccer.main-run2.order1.swaap",
+        "tdmpc2.mw-soccer.main-run3.order2.swaap",
+        "tdmpc2.mw-soccer.main-run3.order3.swaap",
+        "tdmpc2.mw-soccer.sensitivity-run1.order2.permutations",
+        "tdmpc2.mw-soccer.sensitivity-run2.order2.permutations",
+        "tdmpc2.mw-soccer.sensitivity-run3.order1.permutations",
+        "tdmpc2.mw-soccer.sensitivity-run3.order2.permutations",
+        "tdmpc2.myo-pen-twirl-hard.main-run1.order1.swaap",
+        "tdmpc2.myo-pen-twirl-hard.main-run2.order1.swaap",
+        "tdmpc2.myo-pen-twirl-hard.main-run2.order3.clean",
+        "tdmpc2.myo-pen-twirl-hard.main-run2.order3.swaap",
+        "tdmpc2.myo-pen-twirl-hard.main-run3.order1.clean",
+        "tdmpc2.myo-pen-twirl-hard.main-run3.order2.clean",
+        "tdmpc2.myo-pen-twirl-hard.main-run3.order2.swaap",
+        "tdmpc2.myo-pen-twirl-hard.sensitivity-run1.order2.permutations",
+        "tdmpc2.myo-pen-twirl-hard.sensitivity-run2.order2.permutations",
+        "tdmpc2.myo-pen-twirl-hard.sensitivity-run2.order3.permutations",
+        "tdmpc2.myo-reach-hard.main-run1.order1.swaap",
+        "tdmpc2.myo-reach-hard.main-run1.order2.clean",
+        "tdmpc2.myo-reach-hard.main-run2.order1.swaap",
+        "tdmpc2.myo-reach-hard.main-run2.order2.swaap",
+        "tdmpc2.myo-reach-hard.main-run3.order1.clean",
+        "tdmpc2.myo-reach-hard.main-run3.order1.swaap",
+        "tdmpc2.myo-reach-hard.main-run3.order2.swaap",
+        "tdmpc2.myo-reach-hard.main-run3.order3.clean"
+      ],
+      "objects": [
+        {
+          "sha256": "abdbfa7a6d543211c2fa507c7f3393dced14e82f33e948f654ddefd65803091e",
+          "bytes": 9544768
+        },
+        {
+          "sha256": "ac17b056d32969468b52ac067d2f28d23ebda91c13f05d40eaeaa8488473690c",
+          "bytes": 9557184
+        },
+        {
+          "sha256": "ac762af8cf142587bf15c725fd96a873ca66855a685f3c59b7541a1be22fd3d6",
+          "bytes": 9759936
+        },
+        {
+          "sha256": "acb05d7b0f50b00a80de685b781b8c43dddbaca31afc78ad53c9abc0bfacde99",
+          "bytes": 9544768
+        },
+        {
+          "sha256": "adccdb77a0c57bcd2596bf7d5a95d7055606062c8f6c8acba545fb535e713b13",
+          "bytes": 9753600
+        },
+        {
+          "sha256": "affebe9312466df1bbed9573f8b5568cbecae42dbd3630b80b28189d526789d6",
+          "bytes": 9753664
+        },
+        {
+          "sha256": "b0154f076732f6151d4e12ec89b1ead52a6c64d2075259ff0ccc0b63a15a7727",
+          "bytes": 9753792
+        },
+        {
+          "sha256": "b1e79ac69f5d2411614681f823627e5cf629974884ffa6f4bd6fb156a0daf884",
+          "bytes": 9759808
+        },
+        {
+          "sha256": "b72b9be7e7308d2c251ea85246261044b1e3aaf4faffc5c13eda7ecf3d8c8130",
+          "bytes": 9759872
+        },
+        {
+          "sha256": "b8958f09cb887b048a8603628541e303d4a237b13fac124e792fa1ce9bd3e7e9",
+          "bytes": 9759872
+        },
+        {
+          "sha256": "bb20fabc7e23d323659b0f641168f8e0635138b5fa1b41e31cf0331979273d8c",
+          "bytes": 9753728
+        },
+        {
+          "sha256": "bbe78bb1f069312a630920a7f59d4662405bd9f020f0267c6543e862a297bb13",
+          "bytes": 9544768
+        },
+        {
+          "sha256": "bd8a457d3ec07dc784cf4114a78c0433a2944b46be92fa5733847d3c4b382071",
+          "bytes": 9649344
+        },
+        {
+          "sha256": "bdb24e5fc45dcb11f830103734688ef2591fd6978606b1a51e7724cf8c7aba93",
+          "bytes": 9759808
+        },
+        {
+          "sha256": "bdd902eba846068559e41651bd8bc48445cbaedc133770464efec103f78231cd",
+          "bytes": 9753664
+        },
+        {
+          "sha256": "be6d15f41ff3670556b55779870a0252f1acbecc03c4f38ba8c1c24a03646ebd",
+          "bytes": 9544896
+        },
+        {
+          "sha256": "becc02e8dc635887be444c02c86f667babb8ffa5ac170d3be34d6633c3f16ad0",
+          "bytes": 9557120
+        },
+        {
+          "sha256": "bedac9f2e580bf977b9460d0d4dec4251d47f39b10ceaa90d60f9dbbaf69f3d1",
+          "bytes": 9753728
+        },
+        {
+          "sha256": "c2599153b98235c15e53a89d2083b741bd095db36a07937a0a644955c9ec9b2e",
+          "bytes": 402872
+        },
+        {
+          "sha256": "c296ddac871b3add5625e405b854863e92298bcb9c827eb969c75c9b76c0693a",
+          "bytes": 9649216
+        },
+        {
+          "sha256": "c619dddc693248b62a6fb29c13745ed7be3100484e8404bdeb3902280470a37b",
+          "bytes": 9759808
+        },
+        {
+          "sha256": "c61e0593e2cf8bd1c6d958a34c4e23f3bb688d4eb56ab63275c400c890b72496",
+          "bytes": 9753664
+        },
+        {
+          "sha256": "c6ad4db70702cf7855bb5e66979911330ef528f1d4db4e03349ae392e9a3f83f",
+          "bytes": 9557056
+        },
+        {
+          "sha256": "c9a679e644de9ab7ab16f9592521cb9ebda1f3d62fb9245e3b2a2e371a7e9792",
+          "bytes": 402872
+        },
+        {
+          "sha256": "c9e13d2e9b4822eb9de602e53a1a2cf3227a89a9266b81148ff4a8229681d53e",
+          "bytes": 9649280
+        },
+        {
+          "sha256": "ca2f0e8d41a0cac4b7e3907fcfc55de0c3a3cb611745c5dffca7886d7d6191ae",
+          "bytes": 9544704
+        },
+        {
+          "sha256": "cafc9adfbcb8ccf2f218a97f5e82725a4d0d66678f18270ec9cf9eec2c4c07d7",
+          "bytes": 9759872
+        },
+        {
+          "sha256": "cb3efac28ce9f010c4b3447ea8d36e1c756e9eb10c1a5490d27a3334114b3097",
+          "bytes": 9649216
+        },
+        {
+          "sha256": "cc9f8d2f0977642e67d23277902b78ac29eb890dbd85254a9e26aad245fd7628",
+          "bytes": 9753600
+        },
+        {
+          "sha256": "ccdf974cd3656a840ab9bbda99533fde2a58dd9f80dd4419949d1a02c051f091",
+          "bytes": 9544896
+        },
+        {
+          "sha256": "ce08b9f918030a3d6dbd9cd6cd46665c13d217cf900a7a2e251dffb2a35ce74a",
+          "bytes": 402872
+        },
+        {
+          "sha256": "cf43ad38593af4313cc2b533c4eb58f324e212f6ff82fce156e2b8b546bcbb1f",
+          "bytes": 9544832
+        },
+        {
+          "sha256": "d2afefe4c6847ec45c0e2f6aff5c87cd2c7bfb6feca7f16b3e7bfd5ab6d9809a",
+          "bytes": 402872
+        },
+        {
+          "sha256": "d3d3331de6656170b491d1fa3e392dbac9301a0beacfc7f5c1a5b72fa8ab9441",
+          "bytes": 402872
+        },
+        {
+          "sha256": "d6980592af0d66aaa0136cec558de8726ad1a4a980ae2933acd50bd5b12ac2d1",
+          "bytes": 9544832
+        },
+        {
+          "sha256": "dc0f7aa9852439b582b6463acc4dab27b404463aa2f0a0df7c5c9dfc352425bb",
+          "bytes": 402872
+        },
+        {
+          "sha256": "dcba94ba39467fc9028274a9d7aad8217150f5f5094639c732b49c368b204ad6",
+          "bytes": 402872
+        },
+        {
+          "sha256": "dfec7e0e8cc964a67fff27c9a1f1492a9fb92d482215b085f7d0c1c67eba8c2c",
+          "bytes": 9759808
+        },
+        {
+          "sha256": "e0eb6c07d73a303bcc1d46f04da5c22c6092a3b27adb49e494c555296acd15e2",
+          "bytes": 9544896
+        },
+        {
+          "sha256": "e27f7222c1160796f809f796d94bf54c23c4334cd1949eaf9591f332a519478e",
+          "bytes": 9753664
+        },
+        {
+          "sha256": "e299cf5a45133be03c2f2a166592e2ae3a0b80d2bb9a2afc5fa6953f2a7b4c7e",
+          "bytes": 9759936
+        },
+        {
+          "sha256": "e2c5b8f98e962ebc01361939ddbf3463fe86ac71faf029b27b04db2285731db9",
+          "bytes": 402872
+        },
+        {
+          "sha256": "e30427b72191f153cbd646ea7a37ff581dce4eeeb5f406e5eedf5d887146d064",
+          "bytes": 9753600
+        },
+        {
+          "sha256": "e5dc5ce85587444047125ae946073bb96d89dae314a0f0332a02be0782985f99",
+          "bytes": 9649344
+        },
+        {
+          "sha256": "e6a0fbc6ed55b96b994dd3e6ebe093b9d93f372d8312ea857f4b8a67281a0c3e",
+          "bytes": 9759872
+        },
+        {
+          "sha256": "e6b5625592f05aef4d42491cbfdecb0dcc72b3d40100b9557389404fcad4d78d",
+          "bytes": 402872
+        },
+        {
+          "sha256": "e75017370610ac031663fa1ee7db0e5853cc6e5ce9fbf369fab1cdbe5e29e889",
+          "bytes": 9649216
+        },
+        {
+          "sha256": "e79985332bc6168e69332db939cd0d2ca6e631620f14154fb99e5aced5fc2c20",
+          "bytes": 9557056
+        },
+        {
+          "sha256": "e8d9024ebb355ba87bf43de206c0ba838022da3f2477ea9275358791c85df58b",
+          "bytes": 402872
+        },
+        {
+          "sha256": "e9a1317a732cdd03cd16ebe36e3d7ecfcbe66bbccf8ed5f396bec2618bd43451",
+          "bytes": 9544896
+        },
+        {
+          "sha256": "ea2f43d4b2b5feb2dc0cd8c6a2d4fa043edc2e0a0c7d90e7fcb398a2e0e54046",
+          "bytes": 9759872
+        },
+        {
+          "sha256": "ec121bc8b609a03299fef37f6ca50024c14745acb8ee8d9ea3fcb1d697f1bd24",
+          "bytes": 9759936
+        },
+        {
+          "sha256": "ec433a3fc42b05240953c426d71722e54f9def3b0c0dba5a98c3e6ce48ea6cec",
+          "bytes": 402872
+        },
+        {
+          "sha256": "ec7bf2c7f1443022f5558c9ce58bed447017002e7ab4d0d7827fcbdc274b5fde",
+          "bytes": 9759808
+        },
+        {
+          "sha256": "ec7f07d0cea7678e6fdb1eed90714daf48472f445d0e2cf2a8268510cdad302c",
+          "bytes": 402872
+        },
+        {
+          "sha256": "ed27c3a9cabd150f2f6b4b64b9d9377d79bb451b274af82ed6b31b3c83285cba",
+          "bytes": 9544768
+        },
+        {
+          "sha256": "ed4c04fffc5b0fa4fe7b55d4162327fa76167c61c163aaac2af8e926ae8a61e4",
+          "bytes": 9557120
+        },
+        {
+          "sha256": "ed7dfbd886e428bb98bcb40f591703634edfc67f25a0105974658d49b6c2ae30",
+          "bytes": 9544832
+        },
+        {
+          "sha256": "ede5b41184bb3f48bd458992b950b98d765f8ce410fc45fc120a7d3fe19893e7",
+          "bytes": 402872
+        },
+        {
+          "sha256": "ee519b4c33ae217f6bed49c19fcc10879b9019991cff05ed1b7caf9ee8594617",
+          "bytes": 402872
+        },
+        {
+          "sha256": "f035011609e738830b468782fed593e3547db9e09212e1f30cc9c91466f0997b",
+          "bytes": 402872
+        },
+        {
+          "sha256": "f0d34f95f9a704abab11660b8b098ca0e60a1df9364c6828fa21496ff1649fea",
+          "bytes": 402872
+        },
+        {
+          "sha256": "f239264462b86cefcb7a534d5cf5111714e3dde88bd22eea73e3ccfda1351463",
+          "bytes": 9544704
+        },
+        {
+          "sha256": "f4855f5893b0dfe95d62b8130fb9f62e38fb1b13c8f7feab8f1aa2fbe50e61f5",
+          "bytes": 9753728
+        },
+        {
+          "sha256": "f5534f0a7e82153a5318f178d279977309276c2a06b4be8643e81d13d812fe51",
+          "bytes": 9753600
+        },
+        {
+          "sha256": "f5cb6148987c64f21cf20f2aea6acf749363165ff0e2e8c9e17ac83f6fc925c0",
+          "bytes": 9649344
+        },
+        {
+          "sha256": "f6f78bf456a8b946fa172539b132f997940fc828609b8aa66be9d78fa14a92de",
+          "bytes": 9753728
+        },
+        {
+          "sha256": "f7562319c18b02bb2e9ecae7dfa4645c91901e2f0d22a520b9332ccbfbf91f05",
+          "bytes": 402872
+        },
+        {
+          "sha256": "f84d87f3e424f765cb1058dbce1384e516b8a7df9fce66cf82718c5d005753c3",
+          "bytes": 402872
+        },
+        {
+          "sha256": "f8c09a81f2549b7408012057ab3b2423e5446b1efd7e4313b077b0d62479d7a2",
+          "bytes": 9753664
+        },
+        {
+          "sha256": "f8f5f48a63680d8fa5345306218ad44707659836561b92f7a8f6002ce1f82a5e",
+          "bytes": 402872
+        },
+        {
+          "sha256": "f93d04607913a85edb33baf8ae787cadbf03dbc6a4c3d58866d52aa8392e7a6f",
+          "bytes": 9649280
+        },
+        {
+          "sha256": "fa6138eb162a6d43b4528bc80133f5ee7528188ef2848bfbcb61a4a89616b8a8",
+          "bytes": 9759808
+        },
+        {
+          "sha256": "fad044fd42c6170c961a947926441ded9bc6516e2dd3e00786f37e9fe6eed786",
+          "bytes": 9544832
+        },
+        {
+          "sha256": "fb3da132629591033dc0a187cf5269d92d89246c2aec13ab83057cc6f2270278",
+          "bytes": 9557120
+        },
+        {
+          "sha256": "fb52655598978d0d6e3aa77034543cdca63cf7dd861daea6f7a0efdde3a598bc",
+          "bytes": 402872
+        },
+        {
+          "sha256": "fbd00dda8359ddb4923d3b074d003395a9786f23ce1218c535f9fb733f7bb442",
+          "bytes": 9649280
+        },
+        {
+          "sha256": "fbf99e09c764ba9319c71d6716fb9abc5a460b22fd732d6bed833921aa059d5a",
+          "bytes": 9649216
+        },
+        {
+          "sha256": "fe8ba72913c8aab2efcf7d1c6eefb15b76ad5bbc54ac01a880e77cbc48c22910",
+          "bytes": 9759872
+        },
+        {
+          "sha256": "fee79b71e688f7714ea4a1c413ebae0bf87579b24b7d19102e04f25ac4460cda",
+          "bytes": 402872
+        }
+      ]
+    },
+    {
+      "file": "endpoints__minimal.part01.tar",
+      "sha256": "d803cf2357383bad3aea0a0043484af41cf0858063835c5a37bdbadffdb7ac26",
+      "bytes": 19712000,
+      "profiles": [
+        "endpoints",
+        "minimal"
+      ],
+      "asset_ids": [
+        "tdmpc2.humanoid-walk.main-run1.order1.clean",
+        "tdmpc2.humanoid-walk.main-run1.order1.swaap",
+        "tdmpc2.humanoid-walk.sensitivity-run1.order1.permutations",
+        "tdmpc2.mw-push.sensitivity-run2.order1.permutations"
+      ],
+      "objects": [
+        {
+          "sha256": "3235d073f693090a4253602cad1acfeadfd23bef6e41c93d005f1d45fb9f4628",
+          "bytes": 402872
+        },
+        {
+          "sha256": "584de9bc11cf114bf419e04b0d24bc01aec5c2943a40566c7a4856667781a09b",
+          "bytes": 9649216
+        },
+        {
+          "sha256": "a1ff7dc222d0b0b635ee9aec5138cde732a253ab590850889d131b1aa95c79d2",
+          "bytes": 9649344
+        }
+      ]
+    },
+    {
+      "file": "graybox.part01.tar",
+      "sha256": "19c9c6eb61306d6c481dabaf8a60a98c7ede6c03611a17a72cd0c5696f22311e",
+      "bytes": 57159680,
+      "profiles": [
+        "graybox"
+      ],
+      "asset_ids": [
+        "graybox.mt80.clean-lr25",
+        "graybox.mt80.clean-lr50",
+        "graybox.mt80.detector-clean-test",
+        "graybox.mt80.detector-statistics",
+        "graybox.mt80.detector-threshold",
+        "graybox.mt80.original",
+        "graybox.mt80.swaap-lr25",
+        "graybox.mt80.swaap-lr50",
+        "graybox.soccer.clean-raw",
+        "graybox.soccer.poison",
+        "graybox.soccer.support",
+        "graybox.soccer.target"
+      ],
+      "objects": [
+        {
+          "sha256": "13de7137316bea24f5655c040aa28efe60332732c6c136b28f3c18e140ff8605",
+          "bytes": 34231071
+        },
+        {
+          "sha256": "3652b73aa75829d31a49eacd21c3d7c243fe896bee21150743354fa315fb0e34",
+          "bytes": 3378098
+        },
+        {
+          "sha256": "4eca54784070d59f264ba753fe890add950dd1631b9af81b24a115ac36ad890b",
+          "bytes": 1682376
+        },
+        {
+          "sha256": "56d2d36cb5d3dc5a5083632efc706e783082138b670c9df1cd972b6db63da7ee",
+          "bytes": 6296
+        },
+        {
+          "sha256": "6fcac3acd83cf914b49de922e659144af18f6fb14df921f6aae08e7d35d07237",
+          "bytes": 1683217
+        },
+        {
+          "sha256": "7778482f9f1d0b238051be88933f45edbf0a7664ddb20735108ba2aa08e8b992",
+          "bytes": 5307017
+        },
+        {
+          "sha256": "8237343f9d70bf424ff0b3f71390cae1bb3645853f8f00dfc275aa736790c32c",
+          "bytes": 3378050
+        },
+        {
+          "sha256": "af6f28ca78a323fb5acbb88ce048f28de4107cc40ad73d5be29a2353cac01b99",
+          "bytes": 120128
+        },
+        {
+          "sha256": "b6d116b14933bd0d0e03d28b0bc4250e29a7cbde6ffd96dde6e83ee06643ec4e",
+          "bytes": 400128
+        },
+        {
+          "sha256": "be26810a41529e69b226cd9d9ddf8f3644b4e3650b0e196bad6926ec781d9201",
+          "bytes": 3377234
+        },
+        {
+          "sha256": "c0dd263618485884f1cb72d226275fdc56387ab3ea2ef46117a4a82dc84b68ec",
+          "bytes": 200128
+        },
+        {
+          "sha256": "c6a1e1d992f128afc718b16eee54ef08aae9a6611fbd343a5804dc4c935be5f3",
+          "bytes": 3378098
+        }
+      ]
+    },
+    {
+      "file": "graybox__main.part01.tar",
+      "sha256": "2f9182e53b92a8709832497e05c72d688d25cf53f106a8920968c5f29706baca",
+      "bytes": 237475840,
+      "profiles": [
+        "graybox",
+        "main",
+        "buffer-append"
+      ],
+      "asset_ids": [
+        "graybox.soccer.original",
+        "graybox.soccer.reference-latent",
+        "tdmpc2.mw-soccer.original",
+        "tdmpc2.mw-soccer.reference-bank"
+      ],
+      "objects": [
+        {
+          "sha256": "1c1fd79204e51acaf10956f4783c989eb11808f99e11f40d9e52e5d780642927",
+          "bytes": 206003338
+        },
+        {
+          "sha256": "d2760f976e290dfb642dd606b6f1cdacf8cf95630421a80aab45d580cd9dd04c",
+          "bytes": 31465058
+        }
+      ]
+    },
+    {
+      "file": "main.part01.tar",
+      "sha256": "1c614dccd6f69aa36cd174c224bd856a668b27cf79f98a63a9d418f07520c754",
+      "bytes": 994007040,
+      "profiles": [
+        "main",
+        "buffer-append"
+      ],
+      "asset_ids": [
+        "maniskill.lift-cube.clean-bank",
+        "maniskill.lift-cube.reference-bank",
+        "maniskill.lift-cube.run1.target",
+        "maniskill.lift-cube.run2.target",
+        "maniskill.pick-cube.original",
+        "maniskill.pick-cube.run3.poison",
+        "maniskill.stack-cube.reference-bank",
+        "maniskill.stack-cube.run1.support",
+        "maniskill.stack-cube.run1.target",
+        "maniskill.stack-cube.run2.poison",
+        "maniskill.stack-cube.run2.target",
+        "maniskill.stack-cube.run3.target",
+        "tdmpc2.cheetah-run.clean-bank",
+        "tdmpc2.cheetah-run.main-run2.support",
+        "tdmpc2.dog-run.clean-bank",
+        "tdmpc2.dog-run.main-run1.poison",
+        "tdmpc2.dog-run.main-run1.target",
+        "tdmpc2.dog-run.main-run2.support",
+        "tdmpc2.dog-run.main-run3.target",
+        "tdmpc2.dog-run.reference-bank",
+        "tdmpc2.dog-walk.main-run1.target",
+        "tdmpc2.humanoid-run.main-run1.poison",
+        "tdmpc2.humanoid-run.main-run1.support",
+        "tdmpc2.humanoid-run.main-run2.poison",
+        "tdmpc2.humanoid-run.main-run3.target",
+        "tdmpc2.mw-push.clean-bank",
+        "tdmpc2.mw-push.main-run1.poison",
+        "tdmpc2.mw-push.main-run1.support",
+        "tdmpc2.mw-push.main-run2.poison",
+        "tdmpc2.mw-push.main-run3.poison",
+        "tdmpc2.mw-push.main-run3.target",
+        "tdmpc2.mw-soccer.main-run1.poison",
+        "tdmpc2.mw-soccer.main-run1.support",
+        "tdmpc2.mw-soccer.main-run1.target",
+        "tdmpc2.myo-pen-twirl-hard.main-run3.support",
+        "tdmpc2.myo-reach-hard.original"
+      ],
+      "objects": [
+        {
+          "sha256": "018a393c5ff7b926a2c163763215f99e09a5a5a2370cecb2d5725441046e1c58",
+          "bytes": 5148
+        },
+        {
+          "sha256": "02cb08863cc7bc8532778188033c77f4f33a289267e9922cba997a9740a1c5da",
+          "bytes": 20643001
+        },
+        {
+          "sha256": "0395c67717eff11c85d58ecca9e854db2714cb1ff147587ec38a0b179d44bff6",
+          "bytes": 3176754
+        },
+        {
+          "sha256": "0670164521f4c6be44ddef888ebe907c2aa05c13415ee3a8ac8b942447395e34",
+          "bytes": 3176882
+        },
+        {
+          "sha256": "0d093a505d92e3e374097a60693aee7975db343daa7ac32c3539241314b3e320",
+          "bytes": 212803316
+        },
+        {
+          "sha256": "13eca0ff06950f919a376eff07fc6414cb39695964b5c446ed2ff6d2da65deba",
+          "bytes": 5148
+        },
+        {
+          "sha256": "1461c641c69da28d51bd21d494516d7cc64646e167b5bf05b7dbc40a2e9677f8",
+          "bytes": 20941964
+        },
+        {
+          "sha256": "1682e333065a0c2b9f5f4296c39aeaa10795c666f0f8fa05d0d0af32de27fbbc",
+          "bytes": 206001932
+        },
+        {
+          "sha256": "1781f0fa959ee51fe96450e5bf5bf24f1d87ce515a89730e6b964c560144a258",
+          "bytes": 31477282
+        },
+        {
+          "sha256": "181b47219ae4cafce74cad9ed00de22dafd0d79b5b6f25d64696ce3383083ca6",
+          "bytes": 20601932
+        },
+        {
+          "sha256": "1892ff889ec78feec83be8e6b572e7c972b681b643728e8dc5d9bff5435aa179",
+          "bytes": 3211698
+        },
+        {
+          "sha256": "19f146c092ce0b2b049a32a3dc5164a5f1bd4f29fc80de36c16e56258dd4cea4",
+          "bytes": 5148
+        },
+        {
+          "sha256": "1f9199428926ebcf93145ca1dc8f55e6a2abbf9619836cb7aa12a73792e5adcd",
+          "bytes": 3176882
+        },
+        {
+          "sha256": "213f1c12e8035f94ea21d705f695f9e22108a79810891a128798eeb08c0831da",
+          "bytes": 20601932
+        },
+        {
+          "sha256": "25ae841545ea76b099884e7d4d0263b98e31e112e7a9a1a33b1d28b5be3f8d97",
+          "bytes": 21281932
+        },
+        {
+          "sha256": "2669998516d728058bd666ecfa105b8c8ed0acf25d678f0d2e65ba18e829e96c",
+          "bytes": 3246514
+        },
+        {
+          "sha256": "274439d527815a4055520fb6e1ec7c95b105ecb05ebf31e9c1088db2b4d1e91f",
+          "bytes": 20601932
+        },
+        {
+          "sha256": "29196c680aaf59ab717c44b8fd12feb397261c4ecbfab7f360d3836b6f92ae59",
+          "bytes": 5148
+        },
+        {
+          "sha256": "2e749fda00ff1a63a8f5606a403057102e89254a0995203f9fc504a915cae4f6",
+          "bytes": 3246514
+        },
+        {
+          "sha256": "2ed8c4dbfb0e1068636dd27c86ede8312d9831f2ed67a535f90292e5a23628ac",
+          "bytes": 206001932
+        },
+        {
+          "sha256": "2f071b050d12af75fed5c7fc2504b4fd5a70c6107306235219434767f966c27b",
+          "bytes": 32547298
+        },
+        {
+          "sha256": "319f9c6afb98fb34fd9819466ba8ae77e0c6411da1d6124eca1a27fd8aa02df7",
+          "bytes": 20601932
+        },
+        {
+          "sha256": "349a4d89a6119d3ecd0d23194cdc6a2d2ebaeabb56354d49c7cc52717a425a84",
+          "bytes": 20602893
+        },
+        {
+          "sha256": "35dcd0222e05b03e13adf9f846baf4292f4c4f921348c4571e2009a836e1f87d",
+          "bytes": 5148
+        },
+        {
+          "sha256": "36ddc75daf6e70b6ea7cb47b7d6b6f5afd8582e17f7eb9a7c2f1c2cb8406d04e",
+          "bytes": 3176754
+        },
+        {
+          "sha256": "39e5f6bcaf3faefd639667bda838d74fe9c465eed288f23210d16b5551e62734",
+          "bytes": 20601932
+        },
+        {
+          "sha256": "3a18cc0ffdc2a5765424f6a4c3fad2028ec5bc555de565af27dc86c0c556b33a",
+          "bytes": 3246514
+        },
+        {
+          "sha256": "3dd1922686ac1321b2f3c4ef30e6cc4323f8bd68fe09a780e4b80833476de7cc",
+          "bytes": 20601932
+        },
+        {
+          "sha256": "411baf33b1293b39172379e2382b217f97b91fa78890372e5d7c6060a2ca5482",
+          "bytes": 3176754
+        },
+        {
+          "sha256": "41d4e6050b4d12d053e5cf1f6830124cd15c9051d2b667841ca0908662f4256d",
+          "bytes": 5148
+        },
+        {
+          "sha256": "44bd6b48381cdd047c69fb98c66205d636519e4c82c7ff64f60ae12e09770a6c",
+          "bytes": 3176754
+        },
+        {
+          "sha256": "4915646100414f845e8ee4933cdfbe9e6bf04d3e92c80989c43da2bf6fadb608",
+          "bytes": 5148
+        },
+        {
+          "sha256": "4b4c1bc90614a679104df5cc34dc65436f74a3d449e40c4726b3968b85d4b5a4",
+          "bytes": 3176754
+        },
+        {
+          "sha256": "51412b10043cbf9a4c206dae7a85a1de9bfe6c5cf41b1b18e9a94a024e7a3f2c",
+          "bytes": 21282893
+        },
+        {
+          "sha256": "5564bcb88141eee8b290363b37435713263bb50f1d96120881d3f8ef90862a80",
+          "bytes": 20601932
+        },
+        {
+          "sha256": "5687543956564aa3faec6251da5dee4171839850f5e1cb334a4184264ea0314c",
+          "bytes": 20941964
+        }
+      ]
+    },
+    {
+      "file": "main.part02.tar",
+      "sha256": "1f92b15180314399b6746a0c6b84065c8d8161f12ed260cc857e598504f3f504",
+      "bytes": 992798720,
+      "profiles": [
+        "main",
+        "buffer-append"
+      ],
+      "asset_ids": [
+        "maniskill.lift-cube.run2.poison",
+        "maniskill.pick-cube.run3.support",
+        "maniskill.stack-cube.run1.poison",
+        "tdmpc2.cheetah-run.main-run2.poison",
+        "tdmpc2.cheetah-run.main-run2.target",
+        "tdmpc2.cheetah-run.original",
+        "tdmpc2.dog-walk.main-run1.poison",
+        "tdmpc2.dog-walk.main-run2.target",
+        "tdmpc2.dog-walk.main-run3.support",
+        "tdmpc2.dog-walk.main-run3.target",
+        "tdmpc2.dog-walk.original",
+        "tdmpc2.humanoid-run.main-run2.support",
+        "tdmpc2.humanoid-run.main-run2.target",
+        "tdmpc2.humanoid-run.main-run3.poison",
+        "tdmpc2.humanoid-run.main-run3.support",
+        "tdmpc2.humanoid-run.original",
+        "tdmpc2.humanoid-run.reference-bank",
+        "tdmpc2.mw-push.reference-bank",
+        "tdmpc2.mw-soccer.main-run2.poison",
+        "tdmpc2.mw-soccer.main-run2.support",
+        "tdmpc2.mw-soccer.main-run3.target",
+        "tdmpc2.myo-pen-twirl-hard.main-run1.poison",
+        "tdmpc2.myo-pen-twirl-hard.main-run2.support",
+        "tdmpc2.myo-pen-twirl-hard.main-run2.target",
+        "tdmpc2.myo-pen-twirl-hard.main-run3.poison",
+        "tdmpc2.myo-pen-twirl-hard.main-run3.target",
+        "tdmpc2.myo-pen-twirl-hard.original",
+        "tdmpc2.myo-pen-twirl-hard.reference-bank",
+        "tdmpc2.myo-reach-hard.clean-bank",
+        "tdmpc2.myo-reach-hard.main-run2.target",
+        "tdmpc2.myo-reach-hard.main-run3.poison"
+      ],
+      "objects": [
+        {
+          "sha256": "57f2c7e509d9efb677ae3f150e3e162c8f1a44ce2dfd34b7f4eb04a489e05c20",
+          "bytes": 31981410
+        },
+        {
+          "sha256": "5b18651383670f099d9427960f95212fcb8c5e1f829820089462832f1fcd9d3d",
+          "bytes": 3246514
+        },
+        {
+          "sha256": "5b5b15bf29cdd2dcfdf3bae97b7111f4b0b49a7121332ef7a6a267290bed195b",
+          "bytes": 32514850
+        },
+        {
+          "sha256": "5bc4448089d7503681b3de90d46ee354be209f174ff5bd04b0fa53d830adda83",
+          "bytes": 20601932
+        },
+        {
+          "sha256": "5be08368e55c5baf93eafd51a318609ecda3f52be19c4ffde7fdd44263e0243e",
+          "bytes": 3248562
+        },
+        {
+          "sha256": "5c859df413ab90f62d81a1c69c0bc34c7d5d72579d540ae5c54c1cf7e10fb54c",
+          "bytes": 21301964
+        },
+        {
+          "sha256": "5d1048facd2b42c895e301984bebcdc8cf166c8760c2ce1ad4dce78f0bb970c2",
+          "bytes": 3180978
+        },
+        {
+          "sha256": "5d48e510986a6d4501e7587dcea2f2a2cc711763f45c617d9a2b83b42755d091",
+          "bytes": 209403435
+        },
+        {
+          "sha256": "5e54cae17b91f71f81ff446013aa3000e214ecacdd947fe0443dd95d395ce29a",
+          "bytes": 3248562
+        },
+        {
+          "sha256": "5ea21ea04ee8f379eccccb93613912ff2683cc8e91b8e698cd78a57e0ddeed60",
+          "bytes": 20941964
+        },
+        {
+          "sha256": "63cfac7f25c2eb53f7d77253c2568b3036c3c1bfd80b12399b27c6cc17ba0af4",
+          "bytes": 21281932
+        },
+        {
+          "sha256": "67dae7bab3785e40c7965b1204e6cbba374e27156ff46aaca896a5da25f86d40",
+          "bytes": 32628450
+        },
+        {
+          "sha256": "6939f0a1856f41617afeec79e6097cc6798789e2c5a825ee85f90d3dca0192ae",
+          "bytes": 3176882
+        },
+        {
+          "sha256": "6d87ed1b021a8933c12dbba2c6f09b030701de03eddd6ab60c2e156795edf321",
+          "bytes": 5148
+        },
+        {
+          "sha256": "6f00e0febd7ca104ab551c405853a575064918a93e6d6a769b399d3608719df4",
+          "bytes": 5148
+        },
+        {
+          "sha256": "7008d5f0c4cf437135b2c1e1024eaf301cb93142515c9751412529b0d6d693d2",
+          "bytes": 21301964
+        },
+        {
+          "sha256": "717631af07f1434f63561ed24f6fbb84f815c852c76a278c71cc5c5890b6b9b3",
+          "bytes": 5148
+        },
+        {
+          "sha256": "72ad8cfc2a757d726e8f23bc6257a5a3b775a5d19117a9b0505ef2230bb984ec",
+          "bytes": 5148
+        },
+        {
+          "sha256": "7347bf45a2de1a0cdcf30109a2d4dc571ae779ba3b9acd08357db7f6ef127417",
+          "bytes": 20601932
+        },
+        {
+          "sha256": "7ee2a2cea083d5ef86d5d31f7b5d112e61fe07a2a5a5e425d0dfbcf102eafbdf",
+          "bytes": 5148
+        },
+        {
+          "sha256": "801a1dee1177dbae0ffb0542d1e551aafda75f78cac43257829d996dcaded03d",
+          "bytes": 21303130
+        },
+        {
+          "sha256": "8094eb8e051c5b51480e23cfce2d3772aaa589e37d051f243d5f2b476a6b1cb2",
+          "bytes": 3248562
+        },
+        {
+          "sha256": "87224128a39b9ea8d37ac7436de0507365c4724bfa108d30c3a70961cc846a19",
+          "bytes": 206003316
+        },
+        {
+          "sha256": "89ee653960c0de1a76adbb68a232288fa0096ec278967168587755a95c647185",
+          "bytes": 3246514
+        },
+        {
+          "sha256": "8eccb5ae36b4196ca1d23f1e8155975036e9fa5958de262c12ceff8981122ebf",
+          "bytes": 21301964
+        },
+        {
+          "sha256": "906924fee08bf43743b01f187db5cd9f355d717395c399f754c5ee4e4782b059",
+          "bytes": 31499938
+        },
+        {
+          "sha256": "9086538e879b89fd6828707d5b1759841e346522ef5fbe5ff80061e67096d40f",
+          "bytes": 213003629
+        },
+        {
+          "sha256": "927a94f75baf0a7a154b25e46f9029e1409336a0a5f78c1245e8b13fc9fbedb1",
+          "bytes": 3211698
+        },
+        {
+          "sha256": "92a00191ba63fdade270d406fc814648fab0dbb6a4ffa89a359673471671aa57",
+          "bytes": 20641932
+        },
+        {
+          "sha256": "93bf7e999098a7e9b423d562ec45ec9eb62837db4433681ed19cce3d7f950d6a",
+          "bytes": 5148
+        },
+        {
+          "sha256": "9537fcb85f5f1b1c00359c7c48a5627968646079a0b6a53da7e8e0b31fdc1ce2",
+          "bytes": 20601932
+        }
+      ]
+    },
+    {
+      "file": "main.part03.tar",
+      "sha256": "154d3a7dc6223063bf7401e5ea355412422aca0a72559a274e1989027b058413",
+      "bytes": 986347520,
+      "profiles": [
+        "main",
+        "buffer-append"
+      ],
+      "asset_ids": [
+        "maniskill.lift-cube.run1.poison",
+        "maniskill.lift-cube.run1.support",
+        "maniskill.pick-cube.clean-bank",
+        "maniskill.pick-cube.reference-bank",
+        "maniskill.pick-cube.run1.poison",
+        "maniskill.pick-cube.run1.target",
+        "maniskill.pick-cube.run2.poison",
+        "maniskill.pick-cube.run2.support",
+        "maniskill.pick-cube.run2.target",
+        "maniskill.stack-cube.clean-bank",
+        "maniskill.stack-cube.run2.support",
+        "tdmpc2.cheetah-run.main-run1.support",
+        "tdmpc2.cheetah-run.main-run1.target",
+        "tdmpc2.cheetah-run.main-run3.poison",
+        "tdmpc2.cheetah-run.main-run3.support",
+        "tdmpc2.dog-run.main-run2.poison",
+        "tdmpc2.dog-run.main-run2.target",
+        "tdmpc2.dog-run.main-run3.poison",
+        "tdmpc2.dog-run.main-run3.support",
+        "tdmpc2.dog-run.original",
+        "tdmpc2.dog-walk.clean-bank",
+        "tdmpc2.dog-walk.main-run1.support",
+        "tdmpc2.dog-walk.main-run2.poison",
+        "tdmpc2.dog-walk.main-run2.support",
+        "tdmpc2.dog-walk.main-run3.poison",
+        "tdmpc2.dog-walk.reference-bank",
+        "tdmpc2.humanoid-run.main-run1.target",
+        "tdmpc2.humanoid-walk.main-run2.support",
+        "tdmpc2.humanoid-walk.main-run2.target",
+        "tdmpc2.humanoid-walk.main-run3.poison",
+        "tdmpc2.humanoid-walk.main-run3.support",
+        "tdmpc2.mw-push.main-run1.target",
+        "tdmpc2.mw-push.main-run2.support",
+        "tdmpc2.mw-soccer.main-run3.poison",
+        "tdmpc2.mw-soccer.main-run3.support",
+        "tdmpc2.myo-pen-twirl-hard.main-run1.support",
+        "tdmpc2.myo-reach-hard.main-run1.support",
+        "tdmpc2.myo-reach-hard.main-run1.target",
+        "tdmpc2.myo-reach-hard.main-run2.poison",
+        "tdmpc2.myo-reach-hard.main-run3.target",
+        "tdmpc2.myo-reach-hard.reference-bank"
+      ],
+      "objects": [
+        {
+          "sha256": "99d862d757d1182839610d7be5e2a86240cf120a4e258fc4902593f9e4a7e75c",
+          "bytes": 20601932
+        },
+        {
+          "sha256": "99e35b4fc078b766c0d055d773d48ec1b36c5bde2c336f0ef04bc17f70799fdf",
+          "bytes": 5148
+        },
+        {
+          "sha256": "9c23c963a07eec2b28aae5cfe7a3b339383a93911bf4fd37a247199af3597d94",
+          "bytes": 213003457
+        },
+        {
+          "sha256": "9c240da159c9b7831d6f2ea608525db671984a9f5f64f50cdc42a6d4bb2defd2",
+          "bytes": 3211698
+        },
+        {
+          "sha256": "9e324bf4488d3dae1dc21707e55979729c97985338bc970c68ffabde8ec9b8eb",
+          "bytes": 5148
+        },
+        {
+          "sha256": "9f004c652b995cf0fce3d6df38d2f5583fb616b4a93a7e8ce213ccd839fbe665",
+          "bytes": 21281932
+        },
+        {
+          "sha256": "a03c22c859ce7e9eec349759c0eb715caa49b984b6595041b53222f447f1182b",
+          "bytes": 3176754
+        },
+        {
+          "sha256": "a1b14bfb2fedb74fc9c667db4b5ef5671369a46a6410d47e4985df668b60a6c0",
+          "bytes": 5148
+        },
+        {
+          "sha256": "a2922018b18d9d17ecd3291ed881e3b85e42fae1d9bc738631a7f50f0ae82a43",
+          "bytes": 3246514
+        },
+        {
+          "sha256": "a5632df52d67d67b00473c9d58a79d40d1fd5c052ecd11a583c264617230225c",
+          "bytes": 20601932
+        },
+        {
+          "sha256": "aa820c2b6a84a0668a9dcd6b2935ea05a06cbb68629ac8688bcd4c2e0836e7ab",
+          "bytes": 5148
+        },
+        {
+          "sha256": "ae204f46b64e279ce3446a1fed1d6f11c2dcc8ed554b7c43298d0b813bec8649",
+          "bytes": 3211698
+        },
+        {
+          "sha256": "ae51827ca7b95db8ad1bfd739a2a21fe80f7c5671c0b955e50211c3652ec8afa",
+          "bytes": 21281932
+        },
+        {
+          "sha256": "b0099b95037a8aedaa0f43a71d79378cdb27c13d9a4981c15d9fd37bac9042f5",
+          "bytes": 5148
+        },
+        {
+          "sha256": "b3a44a267028ce1b7eb1e6dd2109c7e094171ed14ca27eef84bde54aefd7e66b",
+          "bytes": 21282904
+        },
+        {
+          "sha256": "b439e3a275033c66b0eb6cf2ddf4bb1dd50beefdfbbbc8a022628c434f1cf9c2",
+          "bytes": 5148
+        },
+        {
+          "sha256": "b56c31ce67c21c72691ddd596547d74a0dde8e16c8b334866fbfeccdcf287418",
+          "bytes": 20601932
+        },
+        {
+          "sha256": "b5d9f2974d2c52dd987f764f7aef96570f29d83ff5625c578a4db4eb60218b7f",
+          "bytes": 20941964
+        },
+        {
+          "sha256": "b7b05e6eeae9d56c89f256c3b2d692d0474fb14c4fd4ce079a961f8695ac69c0",
+          "bytes": 5148
+        },
+        {
+          "sha256": "b8aaf477f0d0dfec666787870b89e6b386c6d092740494153c042dc96bdc37ca",
+          "bytes": 20601932
+        },
+        {
+          "sha256": "b9dbe27282796395db8aa8d8a55c202af9ee209d3dd0302987437bb20a7481f8",
+          "bytes": 20601932
+        },
+        {
+          "sha256": "bb1aee3f7b51ac1ef84f5e04a01065374d4d4203fd3d07476221ddef1394e12f",
+          "bytes": 5148
+        },
+        {
+          "sha256": "bb4fe6905f574b573878e54371208e977cb53ce72ed9871ef6ad98a8283a14b5",
+          "bytes": 212803327
+        },
+        {
+          "sha256": "bbb29b91f7d77638ef0a85de367a39d47f9f15da84751730484f48c8a0823931",
+          "bytes": 5148
+        },
+        {
+          "sha256": "bce764a74fff17faafb4d483a86d0bc1762e2f8803f99b2a451149d294ba4486",
+          "bytes": 5148
+        },
+        {
+          "sha256": "beab919296243df99568708d9ee87de25287b1bd17930f651eca2fb513c54043",
+          "bytes": 5148
+        },
+        {
+          "sha256": "bf360a977eecdd1a583f4c9d77b3e678ddf21fdbcdbf15459f08c46408fa2713",
+          "bytes": 5148
+        },
+        {
+          "sha256": "c01302930aafb13da5641a91e42c494a07bd6f98a56a2432ccb4a179f27215b2",
+          "bytes": 5148
+        },
+        {
+          "sha256": "c11223b4374d9ab9c139a23770e78cd0d5810b66aef782c253008013b979dcde",
+          "bytes": 3248562
+        },
+        {
+          "sha256": "c39db7a383b782b99cfa61bbeabf535218b534aed289991cc0ee5e4f62bc17bf",
+          "bytes": 5148
+        },
+        {
+          "sha256": "c5bc235f6aa605a0f4de99ae39848d9619b7a846527bd97152a5c3a39b249940",
+          "bytes": 32628386
+        },
+        {
+          "sha256": "c5bdd6288f3c1dee4f88afb27bd800883c24cd7924b0a59f301c2aadb5fa3c76",
+          "bytes": 21301964
+        },
+        {
+          "sha256": "c88893c8f3f19c6ff80820991c453d58ccc5643abfa13f604019c535d515ad11",
+          "bytes": 20601932
+        },
+        {
+          "sha256": "c8ad68dfbfad77bcd0cbe54d4c1b155ace8375a1e48df364f9608129ba4f8294",
+          "bytes": 3176882
+        },
+        {
+          "sha256": "c9b8cfcfba4a6fabc39f4a74fd811d96a8f1400ed0447c4fc1d27ffc84c41f28",
+          "bytes": 3248562
+        },
+        {
+          "sha256": "c9f6a7a915222ab7a18b333253e5d41f5404157959d29ee78b2b99832c603c98",
+          "bytes": 20641932
+        },
+        {
+          "sha256": "ca89b3ce0ee7bd3f35a3020badca57972e137f3b4a043be5463a997da61829db",
+          "bytes": 21281932
+        },
+        {
+          "sha256": "cc90ddbdf809ddfd14392ec4f4c967f3d87ccd4422167d106cc715f522c38dd8",
+          "bytes": 206001932
+        },
+        {
+          "sha256": "cd840913a32c7d978e0a10cfa3ba2353845cfc24e148927866c5674181596747",
+          "bytes": 3180978
+        },
+        {
+          "sha256": "cdd0fc6b476663f27d332343f01fa2b3a288cf46aa949b46a7f5bccd0010d368",
+          "bytes": 21281932
+        },
+        {
+          "sha256": "ce0eb68efbcbf413c37f510458e6918ab0ad83afb10efff14aa3734f7ba2cd16",
+          "bytes": 3176754
+        }
+      ]
+    },
+    {
+      "file": "main.part04.tar",
+      "sha256": "6a924a726cdf7c180c8356fe3e7a02db699ab7e2a15147b39499a501c190a151",
+      "bytes": 487700480,
+      "profiles": [
+        "main",
+        "buffer-append"
+      ],
+      "asset_ids": [
+        "maniskill.lift-cube.original",
+        "maniskill.lift-cube.run2.support",
+        "maniskill.pick-cube.run1.support",
+        "maniskill.pick-cube.run3.target",
+        "maniskill.stack-cube.original",
+        "maniskill.stack-cube.run3.poison",
+        "maniskill.stack-cube.run3.support",
+        "tdmpc2.cheetah-run.main-run1.poison",
+        "tdmpc2.cheetah-run.main-run3.target",
+        "tdmpc2.cheetah-run.reference-bank",
+        "tdmpc2.dog-run.main-run1.support",
+        "tdmpc2.humanoid-run.clean-bank",
+        "tdmpc2.humanoid-walk.main-run2.poison",
+        "tdmpc2.humanoid-walk.main-run3.target",
+        "tdmpc2.mw-push.main-run2.target",
+        "tdmpc2.mw-push.main-run3.support",
+        "tdmpc2.mw-push.original",
+        "tdmpc2.mw-soccer.clean-bank",
+        "tdmpc2.mw-soccer.main-run2.target",
+        "tdmpc2.myo-pen-twirl-hard.clean-bank",
+        "tdmpc2.myo-pen-twirl-hard.main-run1.target",
+        "tdmpc2.myo-pen-twirl-hard.main-run2.poison",
+        "tdmpc2.myo-reach-hard.main-run1.poison",
+        "tdmpc2.myo-reach-hard.main-run2.support",
+        "tdmpc2.myo-reach-hard.main-run3.support"
+      ],
+      "objects": [
+        {
+          "sha256": "cee3bfaf6b1e1a7e505b414ef0b0a619f4825d7ff64bdbb84271c8ae2f3f6e66",
+          "bytes": 31481442
+        },
+        {
+          "sha256": "d289578a3f5d491547191fdcb4edda2fd3041196131da84d3193d4c0697f7feb",
+          "bytes": 21301964
+        },
+        {
+          "sha256": "d3ca03f312fd96614af5bb00d21cbcdfe560e4952650a65b27ebbe99ab74ce18",
+          "bytes": 3180978
+        },
+        {
+          "sha256": "d3e3019c197a641e9e30778c16e0744066d7aa7961fc69be0cf2aad8214a30ad",
+          "bytes": 31464930
+        },
+        {
+          "sha256": "d3e32be8948c81b1034a7664d9fe6117828e053e076957b2f60069dcd7746b19",
+          "bytes": 20602915
+        },
+        {
+          "sha256": "d924db888b168e325e1f62d828fef130d56e32906064f9684fe636578229d2b8",
+          "bytes": 5148
+        },
+        {
+          "sha256": "da231968f24a40dd12cbb9415cd2c2ca41c1f7ff964d09b521a14c8866ea2d6a",
+          "bytes": 31468066
+        },
+        {
+          "sha256": "db234893456d2f59a77f6635460f9e457d5b226f849ed72610de5639b923e085",
+          "bytes": 3211698
+        },
+        {
+          "sha256": "dc324845832d9bef48eb7bb756d9a539d9aa910393674ee73d31f38d9db50e1d",
+          "bytes": 5148
+        },
+        {
+          "sha256": "dc54dd05ed4d013328798ee8b7293addb0726d31204e3d1bba8f67dd87562c37",
+          "bytes": 5148
+        },
+        {
+          "sha256": "dce0f8a645ac51f7e130e5c3c1d06ac04aaacdbff42fda79b0918b3407eeb999",
+          "bytes": 5148
+        },
+        {
+          "sha256": "decca2a308cd1078721f42dcdcc2aae9148c81ed7f0fd6ba69c4288dd9b2e6cb",
+          "bytes": 206403424
+        },
+        {
+          "sha256": "ded0ed89afed09d4f194bf74b4d1ba6bd055420a8910564a929df2d57ee9f6c9",
+          "bytes": 5148
+        },
+        {
+          "sha256": "e726ea8e984a7cd04c36a6b0098482ddafe801266e4427fbb4cdd336c836a087",
+          "bytes": 3248562
+        },
+        {
+          "sha256": "ebff825731bfed0c572837ac8e21f60b67e5f22f614c4246f240868a3fabd388",
+          "bytes": 3176882
+        },
+        {
+          "sha256": "ed2e76bbb4811665405ec52612e6d6a5c7fd042125c666d3deeede0bb13c1771",
+          "bytes": 20641932
+        },
+        {
+          "sha256": "ed56024e0d18da6a869460de02d3046ae5af32ae0cb5768fdaf0775e7d8e81f8",
+          "bytes": 5148
+        },
+        {
+          "sha256": "eee8d4df4172143d3fc1685cb42201fee22f5ca5cc07192e477bc1af7d678f37",
+          "bytes": 3176882
+        },
+        {
+          "sha256": "ef56b5a3fc4a1f24356fcefd36cb5e94c3f0cc94c1084e554bf1fc486b83bf7c",
+          "bytes": 5148
+        },
+        {
+          "sha256": "f620905a6630250e906fafd794b2ebe19944c15397eea7d856f48d8436a9f905",
+          "bytes": 20941964
+        },
+        {
+          "sha256": "f639199c562343bd94bc250adcfe74c9b8b02e090d12b0bbad562720235b632b",
+          "bytes": 21301964
+        },
+        {
+          "sha256": "f8e822fb14b2ab7b42bc85b8ce53be3fb29303532ce87a54103880547310cc9d",
+          "bytes": 21303174
+        },
+        {
+          "sha256": "f9cc02a316bc420cce278c207cb9b83e727c3db829c5d4ef00b17984407c5c76",
+          "bytes": 3176754
+        },
+        {
+          "sha256": "f9cd9f46711409bc18a1cb357449cb5ac3116ba3ce4d371c7d8dcc2f844de0b7",
+          "bytes": 20943108
+        },
+        {
+          "sha256": "f9e0c2231c3169e64f33d5944967b4b8c6bafe8a18febfa7ef9b7f674f4520d3",
+          "bytes": 20601932
+        }
+      ]
+    },
+    {
+      "file": "main__minimal.part01.tar",
+      "sha256": "2acf0f7e1029d1f149444d0ebe2bf6a96efcbdd9154227da5dd1cb5c021d4d0b",
+      "bytes": 286494720,
+      "profiles": [
+        "main",
+        "minimal",
+        "buffer-append"
+      ],
+      "asset_ids": [
+        "tdmpc2.humanoid-walk.clean-bank",
+        "tdmpc2.humanoid-walk.main-run1.poison",
+        "tdmpc2.humanoid-walk.main-run1.support",
+        "tdmpc2.humanoid-walk.main-run1.target",
+        "tdmpc2.humanoid-walk.original",
+        "tdmpc2.humanoid-walk.reference-bank"
+      ],
+      "objects": [
+        {
+          "sha256": "227a500d922522c305706b67eeaf5e1a6f28d56c78f4230b5c9a975601c7f0f2",
+          "bytes": 20943119
+        },
+        {
+          "sha256": "459b855d1b830fb22f1876f7244ccb9dd963df9d687db2b18fabadce8ff7a69f",
+          "bytes": 209403446
+        },
+        {
+          "sha256": "580ef75835079156351251da7abe891583061fe1666a0913c3502180af43aa93",
+          "bytes": 31981474
+        },
+        {
+          "sha256": "78c3db6859df63b9366b5171dec28c74354f039c418e132f907fc3889aa5a983",
+          "bytes": 20941964
+        },
+        {
+          "sha256": "a1f17b1ab7434688fa8071aefa965e1628a66927f0bf61663ba970538022acef",
+          "bytes": 3211698
+        },
+        {
+          "sha256": "d64496262589626ce331854670767023094417244c34a247e0a7823b86e09556",
+          "bytes": 5148
+        }
+      ]
+    },
+    {
+      "file": "saved-results.part01.tar",
+      "sha256": "8c7d96ddad87f59a656fb232458566e6fed958baa01f50adf31f8bad7c415c04",
+      "bytes": 33095680,
+      "profiles": [
+        "saved-results"
+      ],
+      "asset_ids": [
+        "results.ablations-csv",
+        "results.alpha-cusum-pool-csv",
+        "results.alpha-cusum-task-csv",
+        "results.alpha-rp-grid-csv",
+        "results.buffer-fixed-ratio-summary-csv",
+        "results.buffer-size-csv",
+        "results.buffer25k-cusum-pool-csv",
+        "results.candidate-primary-alpha09-csv",
+        "results.core-ablations-csv",
+        "results.core-buffer-fixed500-table11-metrics-csv",
+        "results.core-buffer25k-csv",
+        "results.core-hwa02-stage-timing-csv",
+        "results.core-j-task-mean-sd-csv",
+        "results.core-j2b-per-pool-csv",
+        "results.core-j2b-task-mean-sd-csv",
+        "results.core-main-results-csv",
+        "results.core-weakened-point-results-csv",
+        "results.dino-detector-csv",
+        "results.dino-deviation-csv",
+        "results.dino-inputs-json",
+        "results.dino-results-csv",
+        "results.dino-setup-csv",
+        "results.dmp-matched-comparison-csv",
+        "results.dmp-matched-fit-inputs-csv",
+        "results.dmp-matched-original-results-csv",
+        "results.figure-delta-d-clean-poison-alpha-csv",
+        "results.figure-grid-bar-values-csv",
+        "results.figure-grid-pool-values-csv",
+        "results.figure-grid-reference-proof-csv",
+        "results.figure-scatter-display-baselines-csv",
+        "results.figure-scatter-selected-points-csv",
+        "results.figure-scatter-target-selection-csv",
+        "results.figure-target-series-points-csv",
+        "results.figure-trim-four-category-metrics-csv",
+        "results.figure-trim-return-order-proofs-csv",
+        "results.graybox-breadth-summary-csv",
+        "results.graybox-breadth160-csv",
+        "results.graybox-breadth80-csv",
+        "results.graybox-detector-inputs-json",
+        "results.graybox-efficacy-csv",
+        "results.graybox-episodes-csv",
+        "results.graybox-incoming-csv",
+        "results.h-retained-per-order-csv",
+        "results.j-task-mean-sd-csv",
+        "results.j1-online-pgd-per-order-csv",
+        "results.main-af-return-vectors-json",
+        "results.main-alpha09-episodes-csv",
+        "results.main-metrics-cheetah-run-csv",
+        "results.main-metrics-dog-run-csv",
+        "results.main-metrics-dog-walk-csv",
+        "results.main-metrics-humanoid-run-csv",
+        "results.main-metrics-humanoid-walk-csv",
+        "results.main-metrics-mw-push-csv",
+        "results.main-metrics-mw-soccer-csv",
+        "results.main-metrics-myo-pen-twirl-hard-csv",
+        "results.main-metrics-myo-reach-hard-csv",
+        "results.main-results-csv",
+        "results.manifest-json",
+        "results.maniskill-clean-reference-episodes-csv",
+        "results.maniskill-clean-reference-fits-csv",
+        "results.maniskill-clean-reference-norms-npz",
+        "results.maniskill-detectors-csv",
+        "results.maniskill-dmp-compact-norms-npz",
+        "results.maniskill-dmp-per-run-csv",
+        "results.maniskill-dmp-support-indices-csv",
+        "results.maniskill-episodes-csv",
+        "results.maniskill-full-precision-completed-csv",
+        "results.maniskill-full-precision-csv",
+        "results.maniskill-hierarchy-fits-csv",
+        "results.maniskill-metric-completion-summary-csv",
+        "results.maniskill-stage1-runs-csv",
+        "results.maniskill-table1-csv",
+        "results.table1-added-dmp-data-csv",
+        "results.trajectory-run-means-csv",
+        "results.trim-csv",
+        "results.trim-current-per-order-csv"
+      ],
+      "objects": [
+        {
+          "sha256": "070c58edd9104f0d5e7db5f5ddf97f83b606a53fcac0dda10478d95a2b53713a",
+          "bytes": 102495
+        },
+        {
+          "sha256": "0db1fdbb8c87459c6f8b69281dadf1eeeba30c04e3d77c4770ce60bf9fc27d08",
+          "bytes": 7591
+        },
+        {
+          "sha256": "107fe4d0d1028a4a55bd122dcee83b163369d98de335c703f8f769896be98e36",
+          "bytes": 69504
+        },
+        {
+          "sha256": "132735ba546fa604e742d73ce2bece83cb6322659bc0499af5ff41f05b8ab68b",
+          "bytes": 37802
+        },
+        {
+          "sha256": "13e1df9ee8cf5014a7dfb79221b012b943aa2548d3902e3866156041004415cc",
+          "bytes": 7151
+        },
+        {
+          "sha256": "1497193bc9e506989dcc43baffb90cde61fbe84f9df475b4e7c604e4b98e10f6",
+          "bytes": 13197
+        },
+        {
+          "sha256": "1667cab3b212e42d6da85a99b0e5b951e2306a8dacb409f6d695c9a509b432d0",
+          "bytes": 851
+        },
+        {
+          "sha256": "1bef74c161543ef4d3db2435d42615b5a12083c9dba53e90405b76bc65de420b",
+          "bytes": 1265
+        },
+        {
+          "sha256": "1dfd889bd2f09f6ca5aedc82e6232a3b3aad13e3d66342e44219d28cf18bb9fb",
+          "bytes": 4648231
+        },
+        {
+          "sha256": "221bc22b2eb717d26a1bc9dbb53d9f11954d9452d2ec94aa529e3e54d8aaaebf",
+          "bytes": 2707
+        },
+        {
+          "sha256": "244dbbbb568a5097a8c8b7eeb41e24a3e86135a22d780db1b42bc5d3075b45df",
+          "bytes": 78050
+        },
+        {
+          "sha256": "263641c7157ae20633c0e795ab0be47102060312c8dfa6ce42a837d3860d7ffd",
+          "bytes": 5481
+        },
+        {
+          "sha256": "28f3fbca7e102c0baa8a1614df40eaafde7aefee0179a5276f6c4f11577c84c4",
+          "bytes": 1946
+        },
+        {
+          "sha256": "2c2bb75e3c3690ee5bb4ac40f8a5b060d70a9687768f876305212588d4c8450e",
+          "bytes": 11999
+        },
+        {
+          "sha256": "34197d5d035da567665b90d3f24355e90b5e84668bce9b678860ffa2524bb69b",
+          "bytes": 3301
+        },
+        {
+          "sha256": "39afc435a3f35ca19bf99f6aeaf2e808e714f760b232ceefd5413fb3b10d5cd3",
+          "bytes": 5554727
+        },
+        {
+          "sha256": "3a66f5c498aa4a416d74d6aa08ede184406267946616895c5f723d4e5dfcaaef",
+          "bytes": 38124
+        },
+        {
+          "sha256": "3df7aa40f83eb350af1f4906da946267855d13960b9ae67e2f99da6f66a44061",
+          "bytes": 97099
+        },
+        {
+          "sha256": "3dff060c6fbed03c9a5d2e7ff311814757e4e3f2e109e2ed8b8788cbf89a5d9c",
+          "bytes": 3864888
+        },
+        {
+          "sha256": "3e2c3da976c6835e327c0726304b0f41c36bbd09c36b93be4f8d748bd237428f",
+          "bytes": 95353
+        },
+        {
+          "sha256": "3f128ff177ad74c3a0ec9f1c301d9448ac6250660319b761750d3af17401cffc",
+          "bytes": 392680
+        },
+        {
+          "sha256": "3fd8e1232084dfcc3f74684968786190c88f9324729fec6af7e83024ce31410a",
+          "bytes": 17967
+        },
+        {
+          "sha256": "49d2a7b05e3cabdf8791e3d238a8a676c1c64c0e556ed0fff5f5a97d5a8c04fe",
+          "bytes": 48824
+        },
+        {
+          "sha256": "4c04c898a45ca1e05b1c804ceb70003c236ccd8f7bec23a9a4ca3a041e27b225",
+          "bytes": 5348
+        },
+        {
+          "sha256": "4d1300005ec74cea0875ca18f4f6d2416c3a0f0cdc235482aa1b2267b58b3fac",
+          "bytes": 36766
+        },
+        {
+          "sha256": "4de23921636bfd56a2914cd30a2b06b42af7a990d20104eb22c580aea1befd2e",
+          "bytes": 19465
+        },
+        {
+          "sha256": "4e8ad318033e77da906520e097162a52461cafd2fa1b2eb6790b52515ce7b798",
+          "bytes": 26322
+        },
+        {
+          "sha256": "5a8f5cce9bdde0888bb5f6514ec58ed4afaa53c9d2a4095e4177976601166394",
+          "bytes": 39376
+        },
+        {
+          "sha256": "5b1a02fc08fcdc6520bc77e6f44033073c5168ee8f86c98a0e4772b53bc39a15",
+          "bytes": 660
+        },
+        {
+          "sha256": "5c2e63fb7a472425507ff77e4077794252b0c7d99334e06aa5ae1f0180b552e5",
+          "bytes": 5696903
+        },
+        {
+          "sha256": "600e1a5aa09e21a95f4c0335e032d607bc161c06288552bdf0e05ef51de10886",
+          "bytes": 161020
+        },
+        {
+          "sha256": "6c5616c33bedaf26d3d5b84cdf5614dbf775ec9f6cba755d465f696a046759d6",
+          "bytes": 1312
+        },
+        {
+          "sha256": "70e8a62b7485c783c05403fadea8484c0e6d8497ac3a2d882e7824fd85a9935e",
+          "bytes": 37162
+        },
+        {
+          "sha256": "70ef02cb9e5a30616a308a41a4b5ef7096526cdc17e57dc89f1a9ca1fca4e3ef",
+          "bytes": 642
+        },
+        {
+          "sha256": "792926e99c28ac261cc614079234c355fe31850dc0087253688699217a19cb7d",
+          "bytes": 72324
+        },
+        {
+          "sha256": "7a3466fde228102d47011747113072db927a7dfd1bae079a7a1df7aa318c24bd",
+          "bytes": 14579
+        },
+        {
+          "sha256": "7c2737698b36355dffc861d720803e5d9a5e2414e556965e11690225a0228fa2",
+          "bytes": 5840
+        },
+        {
+          "sha256": "7e4db31792214d31c80d6624508e991418e9f62e410778f40cac55c71ebaae80",
+          "bytes": 39088
+        },
+        {
+          "sha256": "81b0c77a8ab7f6cdabbee552031b4a48e21d9fa13c738a7d01bd17e86a04eb40",
+          "bytes": 4469
+        },
+        {
+          "sha256": "82f6744736c0226e6170ec97fb3cc34ac222e626392e381909d2a9ea7227d39e",
+          "bytes": 2852
+        },
+        {
+          "sha256": "8a0980db3fb2d301cedaf44188b4bef32657cb818c01e84cb357a8abfece0482",
+          "bytes": 72271
+        },
+        {
+          "sha256": "93939743a11ef84cdddf64a19e28e9be2d95b1b985d4bb891627cdfdb390f4d8",
+          "bytes": 5133
+        },
+        {
+          "sha256": "94b7ff9389e7d226391402d8c7b5adfb07dafe8740a994c6afdd32d4b58f386c",
+          "bytes": 4474
+        },
+        {
+          "sha256": "969fbf4181ad7f02bdc2a5fab311a5f782a1191ba0ea6cf3a839ff9b424a1f47",
+          "bytes": 3123150
+        },
+        {
+          "sha256": "97b00799b3e7e30f97a55c2e1b6a4398b5e1e31505e2ad7981a4263741ff8653",
+          "bytes": 2046697
+        },
+        {
+          "sha256": "9e42bbf107d9bf2186008bc63ac9c0c569a31b14c95e8d11fc316822a859ec8c",
+          "bytes": 1094
+        },
+        {
+          "sha256": "9fc4de49592ed228726ca7bac7da6ae68d804aba032c677ed4ce0b9dd2bf5179",
+          "bytes": 5585
+        },
+        {
+          "sha256": "a5dc10cc6f27e2af1e191794410eabe2c30b6dcd1e3c123dcc9397efb6bdc383",
+          "bytes": 2627
+        },
+        {
+          "sha256": "a789412fb30899c4493a37e718c8bc04ac6b2c70a39583fe9daf67fab15dba72",
+          "bytes": 144378
+        },
+        {
+          "sha256": "ab20c34a3356d4edd2c4a771bdf8ba66a3797ef1f8c00de17bd3019da8e5e04b",
+          "bytes": 13777
+        },
+        {
+          "sha256": "ad8494552e635c22c6392f3b294217a3ff22b89c4e6930eb25b7f63e2c496753",
+          "bytes": 37817
+        },
+        {
+          "sha256": "b0ec7a2a9f51785305c040e747d3a9917f5778d49e9de33a5409f9b3dfbe98dd",
+          "bytes": 583
+        },
+        {
+          "sha256": "b15b888138675c96c24435f36a67fcfa00cb2ed4f8b8020b74821f58c14bba60",
+          "bytes": 3526374
+        },
+        {
+          "sha256": "b2ca0e4adec25f92d0f44c001448c264fc068fc9feeef451d886b25e0769533c",
+          "bytes": 876
+        },
+        {
+          "sha256": "bb61f3c8b34d96ce36bdf6107c09b130f089e4a57159d0be9555bef9eb0866ff",
+          "bytes": 36877
+        },
+        {
+          "sha256": "bbe9b30662e54b3edb8ba077bdfe48c0046ea3c54aa7454d04e7456b91714efa",
+          "bytes": 3287
+        },
+        {
+          "sha256": "bf5fbcabe20348ac68cfd3443a7bef61d252702ded0c67ceab6faff9dbb31d7f",
+          "bytes": 45514
+        },
+        {
+          "sha256": "c59ce119045b309056b7e833e5f11ffb8f60562c66b29acec28d0d0d725761e4",
+          "bytes": 8673
+        },
+        {
+          "sha256": "c66cb1332d502bba1df37f8902f95f59960c38e8b37e326ad9e8342c3df9b10e",
+          "bytes": 306203
+        },
+        {
+          "sha256": "d04f69d26d44f31dc90f72c545378fe45a3b915a6fc23ad331f59e33c906338b",
+          "bytes": 38514
+        },
+        {
+          "sha256": "d3ae03fb48803c70fede0fa5294bead42c3ccda2e5a803f14eace6f674407f4c",
+          "bytes": 367373
+        },
+        {
+          "sha256": "d57c8c8e429ffeee7c75289a8ae1085adffb3211fd6fbc096d3a059a0dd39f98",
+          "bytes": 33046
+        },
+        {
+          "sha256": "da2731aa471d3b791f22894c20e1ae869a544d428cf415ffd8df260132603599",
+          "bytes": 7169
+        },
+        {
+          "sha256": "dd841f4c3297fc2a976f343375686e92e272898d2df2c3fbbe515159947139fb",
+          "bytes": 1803
+        },
+        {
+          "sha256": "dd9260056c169ccaed1b8c4ced981437437ef1d9a2f9a2d55a160f0416763adb",
+          "bytes": 613988
+        },
+        {
+          "sha256": "df8a788e15c87049e2574314dfd173fd9b4033c96597127ab7c70b53bbfe41ff",
+          "bytes": 3375
+        },
+        {
+          "sha256": "e1c6bbd572428e8979badfbdc98702db061898dfd481109482dcdd66f3d45e71",
+          "bytes": 10300
+        },
+        {
+          "sha256": "e260655b788a4086f68ccb2835ce6d71ed60c2cfd632d8fee48a0781151afa70",
+          "bytes": 1506
+        },
+        {
+          "sha256": "e344a088c158c8d8e03a1efbb1f170f09c83dc54b2cc706138f9e57f8c80aff6",
+          "bytes": 1235657
+        },
+        {
+          "sha256": "f577e28aa0658c7fe1bc9ad0827e206216e1c02a5c8589dc8f302db3128d5b69",
+          "bytes": 37342
+        },
+        {
+          "sha256": "f94e446c255849d025378b986f9e3c7ef7ffa6128e98b2c349b54832187cb969",
+          "bytes": 2850
+        },
+        {
+          "sha256": "fbacac66575e2616272c405d3463c0c96c077f8d8050a349c38072525dca55a2",
+          "bytes": 6652
+        },
+        {
+          "sha256": "fde6912a885bd4fb0ab0da81dc7b90311bcd69f4441083cee50863ec49424506",
+          "bytes": 521
+        }
+      ]
+    },
+    {
+      "file": "dino__dino-endpoints.part01.tar",
+      "sha256": "43c73dc299d31128fdc0ec0fab7824ba8f193ed8f6a3e91681238da2628d5618",
+      "bytes": 974346240,
+      "profiles": [
+        "dino",
+        "dino-endpoints"
+      ],
+      "asset_ids": [
+        "dino.dinov2-vits14",
+        "dino.pusht.detector-clean-test",
+        "dino.pusht.detector-statistics",
+        "dino.pusht.detector-threshold",
+        "dino.pusht.final-goals",
+        "dino.pusht.hiql",
+        "dino.pusht.planning-config",
+        "dino.pusht.poison-alpha0",
+        "dino.pusht.poison-alpha09",
+        "dino.pusht.reference-predictions",
+        "dino.pusht.sampler-records",
+        "dino.pusht.support"
+      ],
+      "objects": [
+        {
+          "sha256": "346fe7426edacf0795703a84d00f6ce71f750225c7f5fdf49302f45994f96005",
+          "bytes": 6282
+        },
+        {
+          "sha256": "46e9cd26105ef26d075ae1e17280f6e5448f8caf3d030d8017d26d3f4c51268d",
+          "bytes": 506780749
+        },
+        {
+          "sha256": "47bfde1928b08df4f075a48daab0e89a6eba71b91dcf19443ca4ad920cabb936",
+          "bytes": 12035629
+        },
+        {
+          "sha256": "7f7a4be8eb09a984e4213d16bbeb086057c545055e21cade5f4eb1520cf62932",
+          "bytes": 6270
+        },
+        {
+          "sha256": "88cfed0543a2f932f82a371224ffa1c97e458f9529cca67cc8df1e7d3850c514",
+          "bytes": 101358181
+        },
+        {
+          "sha256": "8c4541bcafeda31619f06024596276425b8398eb6b0713ac7314a3143de02032",
+          "bytes": 101358181
+        },
+        {
+          "sha256": "8c7f95669ed9376d1fd908e460fa43d1a2f0af324bbc49e128e8a5613e210038",
+          "bytes": 11995
+        },
+        {
+          "sha256": "a6efa191b9acbb41d94bdcc3633421101e4c6ac981f78b6f20c37d3384f39ae3",
+          "bytes": 704
+        },
+        {
+          "sha256": "ac1de859a3dd5a40ab2652f23ea97309f9a970845f20c8cd739ef720a45455b8",
+          "bytes": 2789
+        },
+        {
+          "sha256": "b3fc0047254ab828c71662cfd1a7e5faf617963e8b13317225e18bc591565c0b",
+          "bytes": 152449339
+        },
+        {
+          "sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+          "bytes": 88283115
+        },
+        {
+          "sha256": "c4b4245ad655be1b462397269414e2de9bd3f8d851cdbcec873c938da113b7d2",
+          "bytes": 12033565
+        }
+      ]
+    },
+    {
+      "file": "dino__dino-endpoints.part02.tar",
+      "sha256": "837f0cb4f59a66677906c3aed1187417795270543f76c1b69b19ab9168896a32",
+      "bytes": 535562240,
+      "profiles": [
+        "dino",
+        "dino-endpoints"
+      ],
+      "asset_ids": [
+        "dino.pusht.detector-cohorts",
+        "dino.pusht.records"
+      ],
+      "objects": [
+        {
+          "sha256": "d610ce30b41b1054f5863d1f763159ac1a88024a00d1aded4a782486c63e2308",
+          "bytes": 481396909
+        },
+        {
+          "sha256": "d83b5374cd2d301553505d6203f6a2e16ec88d6094ad999f3aaf6af9c087c1eb",
+          "bytes": 54157741
+        }
+      ]
+    },
+    {
+      "file": "dino__dino-endpoints.part03.tar",
+      "sha256": "41d5b44c2a705c10917c20c60eced9b2c7404f4da0ef6ca181279e66a24a39ec",
+      "bytes": 950609920,
+      "profiles": [
+        "dino",
+        "dino-endpoints"
+      ],
+      "asset_ids": [
+        "dino.pusht.clean-bank",
+        "dino.pusht.model-config",
+        "dino.pusht.stage1-target"
+      ],
+      "objects": [
+        {
+          "sha256": "d98c1bc88293d20ec5a5d6d225439fbb051c7a553866a5a295abc3ba8f52d383",
+          "bytes": 506833477
+        },
+        {
+          "sha256": "dcd43e328e11e6039ef9e6e5a825570c6e73dfe79cde61d39ae713ed042f42ca",
+          "bytes": 443760095
+        },
+        {
+          "sha256": "e4d7f21b85c778ab8b83c0bb83bc7625fdfb193a6a0619fef25f4a2afd7f8049",
+          "bytes": 2021
+        }
+      ]
+    },
+    {
+      "file": "dino__dino-endpoints.part04.tar",
+      "sha256": "3483aebc43bfe10bb9545246c0df5e02af982a1bb93065f792abec6793167e7b",
+      "bytes": 377937920,
+      "profiles": [
+        "dino",
+        "dino-endpoints"
+      ],
+      "asset_ids": [
+        "dino.pusht.original"
+      ],
+      "objects": [
+        {
+          "sha256": "e909f0cec958fc0b49a79f2e85730ae6b5f83dee61a224705f91883eb3bb74c5",
+          "bytes": 377929744
+        }
+      ]
+    },
+    {
+      "file": "dino-endpoints.part01.tar",
+      "sha256": "d4ef072ddd82dc7c1ca7ef33fa7153c06ec5eac9cbf93b3be86b93b15f3ab0ea",
+      "bytes": 942469120,
+      "profiles": [
+        "dino-endpoints"
+      ],
+      "asset_ids": [
+        "dino.pusht.clean-seed100",
+        "dino.pusht.clean-seed99",
+        "dino.pusht.swaap-alpha0-seed101",
+        "dino.pusht.swaap-alpha0-seed99",
+        "dino.pusht.swaap-alpha09-seed101"
+      ],
+      "objects": [
+        {
+          "sha256": "0856968eec489120fda0340d9e332b92c3c4940e4509b9e2d9a91f9104792cfb",
+          "bytes": 188492367
+        },
+        {
+          "sha256": "26f10810c7f5caad8611f205c0b7939901668cccddb437674f11370f8196f1f5",
+          "bytes": 188492367
+        },
+        {
+          "sha256": "2e16e93fe42c5010dd2287683f38a2715d11df7e35f91b70c66ad0133abeec18",
+          "bytes": 188492367
+        },
+        {
+          "sha256": "494e87813a75ac371b3e6d01ab316b759f312d240c2d6b94527bd01775a41918",
+          "bytes": 188492239
+        },
+        {
+          "sha256": "6c601b1be600ac2b26357b6fd73925c088bbf2c1a19c12f266cf88d565c855ad",
+          "bytes": 188492303
+        }
+      ]
+    },
+    {
+      "file": "dino-endpoints.part02.tar",
+      "sha256": "1569336d5784e59dbea0f3fae2dd100c852eec6832a01eb61d5101e91dc14ae6",
+      "bytes": 753981440,
+      "profiles": [
+        "dino-endpoints"
+      ],
+      "asset_ids": [
+        "dino.pusht.clean-seed101",
+        "dino.pusht.swaap-alpha0-seed100",
+        "dino.pusht.swaap-alpha09-seed100",
+        "dino.pusht.swaap-alpha09-seed99"
+      ],
+      "objects": [
+        {
+          "sha256": "8375af8b73585f85c305bda923d626672e6be4ec5689f5cd0169efd147e7d154",
+          "bytes": 188492367
+        },
+        {
+          "sha256": "8ff190f092cfe1b98f3d70d861e3a0e4baebb52548ecbc5c8b4d213dbbdf2f1c",
+          "bytes": 188492303
+        },
+        {
+          "sha256": "b4a7cf3ae04e08da080d7fb61f49ebffbc04686b657521982352be20930f6bd8",
+          "bytes": 188492367
+        },
+        {
+          "sha256": "ff486cf98c7d904312d2228442ddd6284de7640ecfcf4c708ee976ba2116d025",
+          "bytes": 188492367
+        }
+      ]
+    },
+    {
+      "file": "historical-figures.part01.tar",
+      "sha256": "7676107ec4adee8c9c25d5c2cb5fde0916fa14547d91873ef336edd8478dbad6",
+      "bytes": 1679360,
+      "profiles": [
+        "historical-figures"
+      ],
+      "asset_ids": [
+        "historical-figures.model-poisoning-plot",
+        "historical-figures.pca-next-latent",
+        "historical-figures.pca-next-latent-clean"
+      ],
+      "objects": [
+        {
+          "sha256": "4cc283bc72c719f5c03b9f96a37464a367102dbdd4952fb3eefdccf503059e62",
+          "bytes": 456586
+        },
+        {
+          "sha256": "986f1ec7259a525f840c3b189830ab692cd8be0ab8e9b727eb1c97efe4a050c3",
+          "bytes": 746887
+        },
+        {
+          "sha256": "a09fa2e6eb636d4a43acee7ac6717de17f3f8324015319675f43598a90d3a01e",
+          "bytes": 462697
+        }
+      ]
+    },
+    {
+      "file": "buffer-append.part01.tar",
+      "sha256": "76e337d1135b49435e8fad1db0ab06ea3099ce015cb28833791a2c2945c838e2",
+      "bytes": 83814400,
+      "profiles": [
+        "buffer-append"
+      ],
+      "asset_ids": [
+        "tdmpc2.humanoid-walk.certified-append",
+        "tdmpc2.humanoid-walk.certified-append-manifest"
+      ],
+      "objects": [
+        {
+          "sha256": "8f73705fbf81dde67060eb46e63aa0bdaa60da1166bd2ca49136dafb29f7855f",
+          "bytes": 47281
+        },
+        {
+          "sha256": "9761e9f236c1853eb61d570808e8b145b04ddaa1523499e2f1a34a89dce3d34b",
+          "bytes": 83761932
+        }
+      ]
+    }
+  ],
+  "profiles": {
+    "dino": {
+      "description": "Faithful DINO-WM construction/fitting/evaluation inputs: Original, fixed target, history bank/reference, HIQL, sampler/goals, frozen alpha0/alpha.9 labels and detector cohorts. No fitted endpoints are required.",
+      "asset_ids": [
+        "dino.dinov2-vits14",
+        "dino.pusht.clean-bank",
+        "dino.pusht.detector-clean-test",
+        "dino.pusht.detector-cohorts",
+        "dino.pusht.detector-statistics",
+        "dino.pusht.detector-threshold",
+        "dino.pusht.final-goals",
+        "dino.pusht.hiql",
+        "dino.pusht.model-config",
+        "dino.pusht.original",
+        "dino.pusht.planning-config",
+        "dino.pusht.poison-alpha0",
+        "dino.pusht.poison-alpha09",
+        "dino.pusht.records",
+        "dino.pusht.reference-predictions",
+        "dino.pusht.sampler-records",
+        "dino.pusht.stage1-target",
+        "dino.pusht.support"
+      ],
+      "archives": [
+        "dino__dino-endpoints.part01.tar",
+        "dino__dino-endpoints.part02.tar",
+        "dino__dino-endpoints.part03.tar",
+        "dino__dino-endpoints.part04.tar"
+      ]
+    },
+    "endpoints": {
+      "description": "Optional nine-task full matched Clean/SWAAP fitted endpoints and exact saved permutations; unnecessary for the minimal example.",
+      "asset_ids": [
+        "tdmpc2.cheetah-run.main-run1.order1.clean",
+        "tdmpc2.cheetah-run.main-run1.order1.swaap",
+        "tdmpc2.cheetah-run.main-run1.order2.clean",
+        "tdmpc2.cheetah-run.main-run1.order2.swaap",
+        "tdmpc2.cheetah-run.main-run1.order3.clean",
+        "tdmpc2.cheetah-run.main-run1.order3.swaap",
+        "tdmpc2.cheetah-run.main-run2.order1.clean",
+        "tdmpc2.cheetah-run.main-run2.order1.swaap",
+        "tdmpc2.cheetah-run.main-run2.order2.clean",
+        "tdmpc2.cheetah-run.main-run2.order2.swaap",
+        "tdmpc2.cheetah-run.main-run2.order3.clean",
+        "tdmpc2.cheetah-run.main-run2.order3.swaap",
+        "tdmpc2.cheetah-run.main-run3.order1.clean",
+        "tdmpc2.cheetah-run.main-run3.order1.swaap",
+        "tdmpc2.cheetah-run.main-run3.order2.clean",
+        "tdmpc2.cheetah-run.main-run3.order2.swaap",
+        "tdmpc2.cheetah-run.main-run3.order3.clean",
+        "tdmpc2.cheetah-run.main-run3.order3.swaap",
+        "tdmpc2.cheetah-run.sensitivity-run1.order1.permutations",
+        "tdmpc2.cheetah-run.sensitivity-run1.order2.permutations",
+        "tdmpc2.cheetah-run.sensitivity-run1.order3.permutations",
+        "tdmpc2.cheetah-run.sensitivity-run2.order1.permutations",
+        "tdmpc2.cheetah-run.sensitivity-run2.order2.permutations",
+        "tdmpc2.cheetah-run.sensitivity-run2.order3.permutations",
+        "tdmpc2.cheetah-run.sensitivity-run3.order1.permutations",
+        "tdmpc2.cheetah-run.sensitivity-run3.order2.permutations",
+        "tdmpc2.cheetah-run.sensitivity-run3.order3.permutations",
+        "tdmpc2.dog-run.main-run1.order1.clean",
+        "tdmpc2.dog-run.main-run1.order1.swaap",
+        "tdmpc2.dog-run.main-run1.order2.clean",
+        "tdmpc2.dog-run.main-run1.order2.swaap",
+        "tdmpc2.dog-run.main-run1.order3.clean",
+        "tdmpc2.dog-run.main-run1.order3.swaap",
+        "tdmpc2.dog-run.main-run2.order1.clean",
+        "tdmpc2.dog-run.main-run2.order1.swaap",
+        "tdmpc2.dog-run.main-run2.order2.clean",
+        "tdmpc2.dog-run.main-run2.order2.swaap",
+        "tdmpc2.dog-run.main-run2.order3.clean",
+        "tdmpc2.dog-run.main-run2.order3.swaap",
+        "tdmpc2.dog-run.main-run3.order1.clean",
+        "tdmpc2.dog-run.main-run3.order1.swaap",
+        "tdmpc2.dog-run.main-run3.order2.clean",
+        "tdmpc2.dog-run.main-run3.order2.swaap",
+        "tdmpc2.dog-run.main-run3.order3.clean",
+        "tdmpc2.dog-run.main-run3.order3.swaap",
+        "tdmpc2.dog-run.sensitivity-run1.order1.permutations",
+        "tdmpc2.dog-run.sensitivity-run1.order2.permutations",
+        "tdmpc2.dog-run.sensitivity-run1.order3.permutations",
+        "tdmpc2.dog-run.sensitivity-run2.order1.permutations",
+        "tdmpc2.dog-run.sensitivity-run2.order2.permutations",
+        "tdmpc2.dog-run.sensitivity-run2.order3.permutations",
+        "tdmpc2.dog-run.sensitivity-run3.order1.permutations",
+        "tdmpc2.dog-run.sensitivity-run3.order2.permutations",
+        "tdmpc2.dog-run.sensitivity-run3.order3.permutations",
+        "tdmpc2.dog-walk.main-run1.order1.clean",
+        "tdmpc2.dog-walk.main-run1.order1.swaap",
+        "tdmpc2.dog-walk.main-run1.order2.clean",
+        "tdmpc2.dog-walk.main-run1.order2.swaap",
+        "tdmpc2.dog-walk.main-run1.order3.clean",
+        "tdmpc2.dog-walk.main-run1.order3.swaap",
+        "tdmpc2.dog-walk.main-run2.order1.clean",
+        "tdmpc2.dog-walk.main-run2.order1.swaap",
+        "tdmpc2.dog-walk.main-run2.order2.clean",
+        "tdmpc2.dog-walk.main-run2.order2.swaap",
+        "tdmpc2.dog-walk.main-run2.order3.clean",
+        "tdmpc2.dog-walk.main-run2.order3.swaap",
+        "tdmpc2.dog-walk.main-run3.order1.clean",
+        "tdmpc2.dog-walk.main-run3.order1.swaap",
+        "tdmpc2.dog-walk.main-run3.order2.clean",
+        "tdmpc2.dog-walk.main-run3.order2.swaap",
+        "tdmpc2.dog-walk.main-run3.order3.clean",
+        "tdmpc2.dog-walk.main-run3.order3.swaap",
+        "tdmpc2.dog-walk.sensitivity-run1.order1.permutations",
+        "tdmpc2.dog-walk.sensitivity-run1.order2.permutations",
+        "tdmpc2.dog-walk.sensitivity-run1.order3.permutations",
+        "tdmpc2.dog-walk.sensitivity-run2.order1.permutations",
+        "tdmpc2.dog-walk.sensitivity-run2.order2.permutations",
+        "tdmpc2.dog-walk.sensitivity-run2.order3.permutations",
+        "tdmpc2.dog-walk.sensitivity-run3.order1.permutations",
+        "tdmpc2.dog-walk.sensitivity-run3.order2.permutations",
+        "tdmpc2.dog-walk.sensitivity-run3.order3.permutations",
+        "tdmpc2.humanoid-run.main-run1.order1.clean",
+        "tdmpc2.humanoid-run.main-run1.order1.swaap",
+        "tdmpc2.humanoid-run.main-run1.order2.clean",
+        "tdmpc2.humanoid-run.main-run1.order2.swaap",
+        "tdmpc2.humanoid-run.main-run1.order3.clean",
+        "tdmpc2.humanoid-run.main-run1.order3.swaap",
+        "tdmpc2.humanoid-run.main-run2.order1.clean",
+        "tdmpc2.humanoid-run.main-run2.order1.swaap",
+        "tdmpc2.humanoid-run.main-run2.order2.clean",
+        "tdmpc2.humanoid-run.main-run2.order2.swaap",
+        "tdmpc2.humanoid-run.main-run2.order3.clean",
+        "tdmpc2.humanoid-run.main-run2.order3.swaap",
+        "tdmpc2.humanoid-run.main-run3.order1.clean",
+        "tdmpc2.humanoid-run.main-run3.order1.swaap",
+        "tdmpc2.humanoid-run.main-run3.order2.clean",
+        "tdmpc2.humanoid-run.main-run3.order2.swaap",
+        "tdmpc2.humanoid-run.main-run3.order3.clean",
+        "tdmpc2.humanoid-run.main-run3.order3.swaap",
+        "tdmpc2.humanoid-run.sensitivity-run1.order1.permutations",
+        "tdmpc2.humanoid-run.sensitivity-run1.order2.permutations",
+        "tdmpc2.humanoid-run.sensitivity-run1.order3.permutations",
+        "tdmpc2.humanoid-run.sensitivity-run2.order1.permutations",
+        "tdmpc2.humanoid-run.sensitivity-run2.order2.permutations",
+        "tdmpc2.humanoid-run.sensitivity-run2.order3.permutations",
+        "tdmpc2.humanoid-run.sensitivity-run3.order1.permutations",
+        "tdmpc2.humanoid-run.sensitivity-run3.order2.permutations",
+        "tdmpc2.humanoid-run.sensitivity-run3.order3.permutations",
+        "tdmpc2.humanoid-walk.main-run1.order1.clean",
+        "tdmpc2.humanoid-walk.main-run1.order1.swaap",
+        "tdmpc2.humanoid-walk.main-run1.order2.clean",
+        "tdmpc2.humanoid-walk.main-run1.order2.swaap",
+        "tdmpc2.humanoid-walk.main-run1.order3.clean",
+        "tdmpc2.humanoid-walk.main-run1.order3.swaap",
+        "tdmpc2.humanoid-walk.main-run2.order1.clean",
+        "tdmpc2.humanoid-walk.main-run2.order1.swaap",
+        "tdmpc2.humanoid-walk.main-run2.order2.clean",
+        "tdmpc2.humanoid-walk.main-run2.order2.swaap",
+        "tdmpc2.humanoid-walk.main-run2.order3.clean",
+        "tdmpc2.humanoid-walk.main-run2.order3.swaap",
+        "tdmpc2.humanoid-walk.main-run3.order1.clean",
+        "tdmpc2.humanoid-walk.main-run3.order1.swaap",
+        "tdmpc2.humanoid-walk.main-run3.order2.clean",
+        "tdmpc2.humanoid-walk.main-run3.order2.swaap",
+        "tdmpc2.humanoid-walk.main-run3.order3.clean",
+        "tdmpc2.humanoid-walk.main-run3.order3.swaap",
+        "tdmpc2.humanoid-walk.sensitivity-run1.order1.permutations",
+        "tdmpc2.humanoid-walk.sensitivity-run1.order2.permutations",
+        "tdmpc2.humanoid-walk.sensitivity-run1.order3.permutations",
+        "tdmpc2.humanoid-walk.sensitivity-run2.order1.permutations",
+        "tdmpc2.humanoid-walk.sensitivity-run2.order2.permutations",
+        "tdmpc2.humanoid-walk.sensitivity-run2.order3.permutations",
+        "tdmpc2.humanoid-walk.sensitivity-run3.order1.permutations",
+        "tdmpc2.humanoid-walk.sensitivity-run3.order2.permutations",
+        "tdmpc2.humanoid-walk.sensitivity-run3.order3.permutations",
+        "tdmpc2.mw-push.main-run1.order1.clean",
+        "tdmpc2.mw-push.main-run1.order1.swaap",
+        "tdmpc2.mw-push.main-run1.order2.clean",
+        "tdmpc2.mw-push.main-run1.order2.swaap",
+        "tdmpc2.mw-push.main-run1.order3.clean",
+        "tdmpc2.mw-push.main-run1.order3.swaap",
+        "tdmpc2.mw-push.main-run2.order1.clean",
+        "tdmpc2.mw-push.main-run2.order1.swaap",
+        "tdmpc2.mw-push.main-run2.order2.clean",
+        "tdmpc2.mw-push.main-run2.order2.swaap",
+        "tdmpc2.mw-push.main-run2.order3.clean",
+        "tdmpc2.mw-push.main-run2.order3.swaap",
+        "tdmpc2.mw-push.main-run3.order1.clean",
+        "tdmpc2.mw-push.main-run3.order1.swaap",
+        "tdmpc2.mw-push.main-run3.order2.clean",
+        "tdmpc2.mw-push.main-run3.order2.swaap",
+        "tdmpc2.mw-push.main-run3.order3.clean",
+        "tdmpc2.mw-push.main-run3.order3.swaap",
+        "tdmpc2.mw-push.sensitivity-run1.order1.permutations",
+        "tdmpc2.mw-push.sensitivity-run1.order2.permutations",
+        "tdmpc2.mw-push.sensitivity-run1.order3.permutations",
+        "tdmpc2.mw-push.sensitivity-run2.order1.permutations",
+        "tdmpc2.mw-push.sensitivity-run2.order2.permutations",
+        "tdmpc2.mw-push.sensitivity-run2.order3.permutations",
+        "tdmpc2.mw-push.sensitivity-run3.order1.permutations",
+        "tdmpc2.mw-push.sensitivity-run3.order2.permutations",
+        "tdmpc2.mw-push.sensitivity-run3.order3.permutations",
+        "tdmpc2.mw-soccer.main-run1.order1.clean",
+        "tdmpc2.mw-soccer.main-run1.order1.swaap",
+        "tdmpc2.mw-soccer.main-run1.order2.clean",
+        "tdmpc2.mw-soccer.main-run1.order2.swaap",
+        "tdmpc2.mw-soccer.main-run1.order3.clean",
+        "tdmpc2.mw-soccer.main-run1.order3.swaap",
+        "tdmpc2.mw-soccer.main-run2.order1.clean",
+        "tdmpc2.mw-soccer.main-run2.order1.swaap",
+        "tdmpc2.mw-soccer.main-run2.order2.clean",
+        "tdmpc2.mw-soccer.main-run2.order2.swaap",
+        "tdmpc2.mw-soccer.main-run2.order3.clean",
+        "tdmpc2.mw-soccer.main-run2.order3.swaap",
+        "tdmpc2.mw-soccer.main-run3.order1.clean",
+        "tdmpc2.mw-soccer.main-run3.order1.swaap",
+        "tdmpc2.mw-soccer.main-run3.order2.clean",
+        "tdmpc2.mw-soccer.main-run3.order2.swaap",
+        "tdmpc2.mw-soccer.main-run3.order3.clean",
+        "tdmpc2.mw-soccer.main-run3.order3.swaap",
+        "tdmpc2.mw-soccer.sensitivity-run1.order1.permutations",
+        "tdmpc2.mw-soccer.sensitivity-run1.order2.permutations",
+        "tdmpc2.mw-soccer.sensitivity-run1.order3.permutations",
+        "tdmpc2.mw-soccer.sensitivity-run2.order1.permutations",
+        "tdmpc2.mw-soccer.sensitivity-run2.order2.permutations",
+        "tdmpc2.mw-soccer.sensitivity-run2.order3.permutations",
+        "tdmpc2.mw-soccer.sensitivity-run3.order1.permutations",
+        "tdmpc2.mw-soccer.sensitivity-run3.order2.permutations",
+        "tdmpc2.mw-soccer.sensitivity-run3.order3.permutations",
+        "tdmpc2.myo-pen-twirl-hard.main-run1.order1.clean",
+        "tdmpc2.myo-pen-twirl-hard.main-run1.order1.swaap",
+        "tdmpc2.myo-pen-twirl-hard.main-run1.order2.clean",
+        "tdmpc2.myo-pen-twirl-hard.main-run1.order2.swaap",
+        "tdmpc2.myo-pen-twirl-hard.main-run1.order3.clean",
+        "tdmpc2.myo-pen-twirl-hard.main-run1.order3.swaap",
+        "tdmpc2.myo-pen-twirl-hard.main-run2.order1.clean",
+        "tdmpc2.myo-pen-twirl-hard.main-run2.order1.swaap",
+        "tdmpc2.myo-pen-twirl-hard.main-run2.order2.clean",
+        "tdmpc2.myo-pen-twirl-hard.main-run2.order2.swaap",
+        "tdmpc2.myo-pen-twirl-hard.main-run2.order3.clean",
+        "tdmpc2.myo-pen-twirl-hard.main-run2.order3.swaap",
+        "tdmpc2.myo-pen-twirl-hard.main-run3.order1.clean",
+        "tdmpc2.myo-pen-twirl-hard.main-run3.order1.swaap",
+        "tdmpc2.myo-pen-twirl-hard.main-run3.order2.clean",
+        "tdmpc2.myo-pen-twirl-hard.main-run3.order2.swaap",
+        "tdmpc2.myo-pen-twirl-hard.main-run3.order3.clean",
+        "tdmpc2.myo-pen-twirl-hard.main-run3.order3.swaap",
+        "tdmpc2.myo-pen-twirl-hard.sensitivity-run1.order1.permutations",
+        "tdmpc2.myo-pen-twirl-hard.sensitivity-run1.order2.permutations",
+        "tdmpc2.myo-pen-twirl-hard.sensitivity-run1.order3.permutations",
+        "tdmpc2.myo-pen-twirl-hard.sensitivity-run2.order1.permutations",
+        "tdmpc2.myo-pen-twirl-hard.sensitivity-run2.order2.permutations",
+        "tdmpc2.myo-pen-twirl-hard.sensitivity-run2.order3.permutations",
+        "tdmpc2.myo-pen-twirl-hard.sensitivity-run3.order1.permutations",
+        "tdmpc2.myo-pen-twirl-hard.sensitivity-run3.order2.permutations",
+        "tdmpc2.myo-pen-twirl-hard.sensitivity-run3.order3.permutations",
+        "tdmpc2.myo-reach-hard.main-run1.order1.clean",
+        "tdmpc2.myo-reach-hard.main-run1.order1.swaap",
+        "tdmpc2.myo-reach-hard.main-run1.order2.clean",
+        "tdmpc2.myo-reach-hard.main-run1.order2.swaap",
+        "tdmpc2.myo-reach-hard.main-run1.order3.clean",
+        "tdmpc2.myo-reach-hard.main-run1.order3.swaap",
+        "tdmpc2.myo-reach-hard.main-run2.order1.clean",
+        "tdmpc2.myo-reach-hard.main-run2.order1.swaap",
+        "tdmpc2.myo-reach-hard.main-run2.order2.clean",
+        "tdmpc2.myo-reach-hard.main-run2.order2.swaap",
+        "tdmpc2.myo-reach-hard.main-run2.order3.clean",
+        "tdmpc2.myo-reach-hard.main-run2.order3.swaap",
+        "tdmpc2.myo-reach-hard.main-run3.order1.clean",
+        "tdmpc2.myo-reach-hard.main-run3.order1.swaap",
+        "tdmpc2.myo-reach-hard.main-run3.order2.clean",
+        "tdmpc2.myo-reach-hard.main-run3.order2.swaap",
+        "tdmpc2.myo-reach-hard.main-run3.order3.clean",
+        "tdmpc2.myo-reach-hard.main-run3.order3.swaap",
+        "tdmpc2.myo-reach-hard.sensitivity-run1.order1.permutations",
+        "tdmpc2.myo-reach-hard.sensitivity-run1.order2.permutations",
+        "tdmpc2.myo-reach-hard.sensitivity-run1.order3.permutations",
+        "tdmpc2.myo-reach-hard.sensitivity-run2.order1.permutations",
+        "tdmpc2.myo-reach-hard.sensitivity-run2.order2.permutations",
+        "tdmpc2.myo-reach-hard.sensitivity-run2.order3.permutations",
+        "tdmpc2.myo-reach-hard.sensitivity-run3.order1.permutations",
+        "tdmpc2.myo-reach-hard.sensitivity-run3.order2.permutations",
+        "tdmpc2.myo-reach-hard.sensitivity-run3.order3.permutations"
+      ],
+      "archives": [
+        "endpoints.part01.tar",
+        "endpoints.part02.tar",
+        "endpoints__minimal.part01.tar"
+      ]
+    },
+    "graybox": {
+      "description": "Frozen Soccer surrogate, raw bank/reference/support/poison, all five MT80 evaluation endpoints and released incoming-detector cohorts.",
+      "asset_ids": [
+        "graybox.mt80.clean-lr25",
+        "graybox.mt80.clean-lr50",
+        "graybox.mt80.detector-clean-test",
+        "graybox.mt80.detector-statistics",
+        "graybox.mt80.detector-threshold",
+        "graybox.mt80.original",
+        "graybox.mt80.swaap-lr25",
+        "graybox.mt80.swaap-lr50",
+        "graybox.soccer.clean-raw",
+        "graybox.soccer.original",
+        "graybox.soccer.poison",
+        "graybox.soccer.reference-latent",
+        "graybox.soccer.support",
+        "graybox.soccer.target"
+      ],
+      "archives": [
+        "graybox.part01.tar",
+        "graybox__main.part01.tar"
+      ]
+    },
+    "main": {
+      "description": "Nine-task and final ManiSkill published Original/bank/reference, selected target, support and poison inputs; fit endpoints from these inputs or obtain the separate endpoint profile.",
+      "asset_ids": [
+        "maniskill.lift-cube.clean-bank",
+        "maniskill.lift-cube.original",
+        "maniskill.lift-cube.reference-bank",
+        "maniskill.lift-cube.run1.poison",
+        "maniskill.lift-cube.run1.support",
+        "maniskill.lift-cube.run1.target",
+        "maniskill.lift-cube.run2.poison",
+        "maniskill.lift-cube.run2.support",
+        "maniskill.lift-cube.run2.target",
+        "maniskill.pick-cube.clean-bank",
+        "maniskill.pick-cube.original",
+        "maniskill.pick-cube.reference-bank",
+        "maniskill.pick-cube.run1.poison",
+        "maniskill.pick-cube.run1.support",
+        "maniskill.pick-cube.run1.target",
+        "maniskill.pick-cube.run2.poison",
+        "maniskill.pick-cube.run2.support",
+        "maniskill.pick-cube.run2.target",
+        "maniskill.pick-cube.run3.poison",
+        "maniskill.pick-cube.run3.support",
+        "maniskill.pick-cube.run3.target",
+        "maniskill.stack-cube.clean-bank",
+        "maniskill.stack-cube.original",
+        "maniskill.stack-cube.reference-bank",
+        "maniskill.stack-cube.run1.poison",
+        "maniskill.stack-cube.run1.support",
+        "maniskill.stack-cube.run1.target",
+        "maniskill.stack-cube.run2.poison",
+        "maniskill.stack-cube.run2.support",
+        "maniskill.stack-cube.run2.target",
+        "maniskill.stack-cube.run3.poison",
+        "maniskill.stack-cube.run3.support",
+        "maniskill.stack-cube.run3.target",
+        "tdmpc2.cheetah-run.clean-bank",
+        "tdmpc2.cheetah-run.main-run1.poison",
+        "tdmpc2.cheetah-run.main-run1.support",
+        "tdmpc2.cheetah-run.main-run1.target",
+        "tdmpc2.cheetah-run.main-run2.poison",
+        "tdmpc2.cheetah-run.main-run2.support",
+        "tdmpc2.cheetah-run.main-run2.target",
+        "tdmpc2.cheetah-run.main-run3.poison",
+        "tdmpc2.cheetah-run.main-run3.support",
+        "tdmpc2.cheetah-run.main-run3.target",
+        "tdmpc2.cheetah-run.original",
+        "tdmpc2.cheetah-run.reference-bank",
+        "tdmpc2.dog-run.clean-bank",
+        "tdmpc2.dog-run.main-run1.poison",
+        "tdmpc2.dog-run.main-run1.support",
+        "tdmpc2.dog-run.main-run1.target",
+        "tdmpc2.dog-run.main-run2.poison",
+        "tdmpc2.dog-run.main-run2.support",
+        "tdmpc2.dog-run.main-run2.target",
+        "tdmpc2.dog-run.main-run3.poison",
+        "tdmpc2.dog-run.main-run3.support",
+        "tdmpc2.dog-run.main-run3.target",
+        "tdmpc2.dog-run.original",
+        "tdmpc2.dog-run.reference-bank",
+        "tdmpc2.dog-walk.clean-bank",
+        "tdmpc2.dog-walk.main-run1.poison",
+        "tdmpc2.dog-walk.main-run1.support",
+        "tdmpc2.dog-walk.main-run1.target",
+        "tdmpc2.dog-walk.main-run2.poison",
+        "tdmpc2.dog-walk.main-run2.support",
+        "tdmpc2.dog-walk.main-run2.target",
+        "tdmpc2.dog-walk.main-run3.poison",
+        "tdmpc2.dog-walk.main-run3.support",
+        "tdmpc2.dog-walk.main-run3.target",
+        "tdmpc2.dog-walk.original",
+        "tdmpc2.dog-walk.reference-bank",
+        "tdmpc2.humanoid-run.clean-bank",
+        "tdmpc2.humanoid-run.main-run1.poison",
+        "tdmpc2.humanoid-run.main-run1.support",
+        "tdmpc2.humanoid-run.main-run1.target",
+        "tdmpc2.humanoid-run.main-run2.poison",
+        "tdmpc2.humanoid-run.main-run2.support",
+        "tdmpc2.humanoid-run.main-run2.target",
+        "tdmpc2.humanoid-run.main-run3.poison",
+        "tdmpc2.humanoid-run.main-run3.support",
+        "tdmpc2.humanoid-run.main-run3.target",
+        "tdmpc2.humanoid-run.original",
+        "tdmpc2.humanoid-run.reference-bank",
+        "tdmpc2.humanoid-walk.clean-bank",
+        "tdmpc2.humanoid-walk.main-run1.poison",
+        "tdmpc2.humanoid-walk.main-run1.support",
+        "tdmpc2.humanoid-walk.main-run1.target",
+        "tdmpc2.humanoid-walk.main-run2.poison",
+        "tdmpc2.humanoid-walk.main-run2.support",
+        "tdmpc2.humanoid-walk.main-run2.target",
+        "tdmpc2.humanoid-walk.main-run3.poison",
+        "tdmpc2.humanoid-walk.main-run3.support",
+        "tdmpc2.humanoid-walk.main-run3.target",
+        "tdmpc2.humanoid-walk.original",
+        "tdmpc2.humanoid-walk.reference-bank",
+        "tdmpc2.mw-push.clean-bank",
+        "tdmpc2.mw-push.main-run1.poison",
+        "tdmpc2.mw-push.main-run1.support",
+        "tdmpc2.mw-push.main-run1.target",
+        "tdmpc2.mw-push.main-run2.poison",
+        "tdmpc2.mw-push.main-run2.support",
+        "tdmpc2.mw-push.main-run2.target",
+        "tdmpc2.mw-push.main-run3.poison",
+        "tdmpc2.mw-push.main-run3.support",
+        "tdmpc2.mw-push.main-run3.target",
+        "tdmpc2.mw-push.original",
+        "tdmpc2.mw-push.reference-bank",
+        "tdmpc2.mw-soccer.clean-bank",
+        "tdmpc2.mw-soccer.main-run1.poison",
+        "tdmpc2.mw-soccer.main-run1.support",
+        "tdmpc2.mw-soccer.main-run1.target",
+        "tdmpc2.mw-soccer.main-run2.poison",
+        "tdmpc2.mw-soccer.main-run2.support",
+        "tdmpc2.mw-soccer.main-run2.target",
+        "tdmpc2.mw-soccer.main-run3.poison",
+        "tdmpc2.mw-soccer.main-run3.support",
+        "tdmpc2.mw-soccer.main-run3.target",
+        "tdmpc2.mw-soccer.original",
+        "tdmpc2.mw-soccer.reference-bank",
+        "tdmpc2.myo-pen-twirl-hard.clean-bank",
+        "tdmpc2.myo-pen-twirl-hard.main-run1.poison",
+        "tdmpc2.myo-pen-twirl-hard.main-run1.support",
+        "tdmpc2.myo-pen-twirl-hard.main-run1.target",
+        "tdmpc2.myo-pen-twirl-hard.main-run2.poison",
+        "tdmpc2.myo-pen-twirl-hard.main-run2.support",
+        "tdmpc2.myo-pen-twirl-hard.main-run2.target",
+        "tdmpc2.myo-pen-twirl-hard.main-run3.poison",
+        "tdmpc2.myo-pen-twirl-hard.main-run3.support",
+        "tdmpc2.myo-pen-twirl-hard.main-run3.target",
+        "tdmpc2.myo-pen-twirl-hard.original",
+        "tdmpc2.myo-pen-twirl-hard.reference-bank",
+        "tdmpc2.myo-reach-hard.clean-bank",
+        "tdmpc2.myo-reach-hard.main-run1.poison",
+        "tdmpc2.myo-reach-hard.main-run1.support",
+        "tdmpc2.myo-reach-hard.main-run1.target",
+        "tdmpc2.myo-reach-hard.main-run2.poison",
+        "tdmpc2.myo-reach-hard.main-run2.support",
+        "tdmpc2.myo-reach-hard.main-run2.target",
+        "tdmpc2.myo-reach-hard.main-run3.poison",
+        "tdmpc2.myo-reach-hard.main-run3.support",
+        "tdmpc2.myo-reach-hard.main-run3.target",
+        "tdmpc2.myo-reach-hard.original",
+        "tdmpc2.myo-reach-hard.reference-bank"
+      ],
+      "archives": [
+        "graybox__main.part01.tar",
+        "main.part01.tar",
+        "main.part02.tar",
+        "main.part03.tar",
+        "main.part04.tar",
+        "main__minimal.part01.tar"
+      ]
+    },
+    "minimal": {
+      "description": "One fixed-target Humanoid-Walk SWAAP construction, matched fitting and endpoint evaluation; one exact order, without unrelated fitted models.",
+      "asset_ids": [
+        "tdmpc2.humanoid-walk.original",
+        "tdmpc2.humanoid-walk.clean-bank",
+        "tdmpc2.humanoid-walk.reference-bank",
+        "tdmpc2.humanoid-walk.main-run1.target",
+        "tdmpc2.humanoid-walk.main-run1.support",
+        "tdmpc2.humanoid-walk.main-run1.poison",
+        "tdmpc2.humanoid-walk.main-run1.order1.clean",
+        "tdmpc2.humanoid-walk.main-run1.order1.swaap",
+        "tdmpc2.humanoid-walk.sensitivity-run1.order1.permutations"
+      ],
+      "archives": [
+        "endpoints__minimal.part01.tar",
+        "main__minimal.part01.tar"
+      ]
+    },
+    "saved-results": {
+      "description": "Complete portable CPU reproduction inputs: genuine retained numerical arrays/tables plus their own checksum manifest; no pretrained weights or raw states.",
+      "asset_ids": [
+        "results.buffer-fixed-ratio-summary-csv",
+        "results.core-buffer-fixed500-table11-metrics-csv",
+        "results.core-hwa02-stage-timing-csv",
+        "results.core-j2b-per-pool-csv",
+        "results.core-j2b-task-mean-sd-csv",
+        "results.core-j-task-mean-sd-csv",
+        "results.core-weakened-point-results-csv",
+        "results.core-ablations-csv",
+        "results.core-buffer25k-csv",
+        "results.core-main-results-csv",
+        "results.dino-detector-csv",
+        "results.dino-deviation-csv",
+        "results.dino-results-csv",
+        "results.dino-setup-csv",
+        "results.dmp-matched-comparison-csv",
+        "results.dmp-matched-fit-inputs-csv",
+        "results.dmp-matched-original-results-csv",
+        "results.figure-grid-bar-values-csv",
+        "results.figure-grid-pool-values-csv",
+        "results.figure-grid-reference-proof-csv",
+        "results.figure-scatter-display-baselines-csv",
+        "results.figure-scatter-selected-points-csv",
+        "results.figure-scatter-target-selection-csv",
+        "results.figure-target-series-points-csv",
+        "results.figure-trim-four-category-metrics-csv",
+        "results.figure-trim-return-order-proofs-csv",
+        "results.figure-delta-d-clean-poison-alpha-csv",
+        "results.graybox-breadth160-csv",
+        "results.graybox-breadth80-csv",
+        "results.graybox-breadth-summary-csv",
+        "results.graybox-efficacy-csv",
+        "results.graybox-episodes-csv",
+        "results.graybox-incoming-csv",
+        "results.j-task-mean-sd-csv",
+        "results.main-alpha09-episodes-csv",
+        "results.main-metrics-cheetah-run-csv",
+        "results.main-metrics-dog-run-csv",
+        "results.main-metrics-dog-walk-csv",
+        "results.main-metrics-humanoid-run-csv",
+        "results.main-metrics-humanoid-walk-csv",
+        "results.main-metrics-mw-push-csv",
+        "results.main-metrics-mw-soccer-csv",
+        "results.main-metrics-myo-pen-twirl-hard-csv",
+        "results.main-metrics-myo-reach-hard-csv",
+        "results.maniskill-clean-reference-episodes-csv",
+        "results.maniskill-clean-reference-fits-csv",
+        "results.maniskill-dmp-per-run-csv",
+        "results.maniskill-dmp-support-indices-csv",
+        "results.maniskill-episodes-csv",
+        "results.maniskill-hierarchy-fits-csv",
+        "results.maniskill-stage1-runs-csv",
+        "results.maniskill-table1-csv",
+        "results.maniskill-detectors-csv",
+        "results.maniskill-full-precision-csv",
+        "results.maniskill-full-precision-completed-csv",
+        "results.maniskill-metric-completion-summary-csv",
+        "results.table1-added-dmp-data-csv",
+        "results.trajectory-run-means-csv",
+        "results.ablations-csv",
+        "results.alpha-cusum-task-csv",
+        "results.alpha-rp-grid-csv",
+        "results.buffer25k-cusum-pool-csv",
+        "results.buffer-size-csv",
+        "results.candidate-primary-alpha09-csv",
+        "results.main-results-csv",
+        "results.trim-csv",
+        "results.main-af-return-vectors-json",
+        "results.dino-inputs-json",
+        "results.graybox-detector-inputs-json",
+        "results.maniskill-clean-reference-norms-npz",
+        "results.maniskill-dmp-compact-norms-npz",
+        "results.alpha-cusum-pool-csv",
+        "results.j1-online-pgd-per-order-csv",
+        "results.h-retained-per-order-csv",
+        "results.trim-current-per-order-csv",
+        "results.manifest-json"
+      ],
+      "archives": [
+        "saved-results.part01.tar"
+      ]
+    },
+    "dino-endpoints": {
+      "description": "Optional nine faithful DINO-WM fitted endpoints together with their complete input/deployment dependencies; fit them yourself instead of downloading this profile.",
+      "asset_ids": [
+        "dino.dinov2-vits14",
+        "dino.pusht.clean-bank",
+        "dino.pusht.clean-seed100",
+        "dino.pusht.clean-seed101",
+        "dino.pusht.clean-seed99",
+        "dino.pusht.detector-clean-test",
+        "dino.pusht.detector-cohorts",
+        "dino.pusht.detector-statistics",
+        "dino.pusht.detector-threshold",
+        "dino.pusht.final-goals",
+        "dino.pusht.hiql",
+        "dino.pusht.model-config",
+        "dino.pusht.original",
+        "dino.pusht.planning-config",
+        "dino.pusht.poison-alpha0",
+        "dino.pusht.poison-alpha09",
+        "dino.pusht.records",
+        "dino.pusht.reference-predictions",
+        "dino.pusht.sampler-records",
+        "dino.pusht.stage1-target",
+        "dino.pusht.support",
+        "dino.pusht.swaap-alpha0-seed100",
+        "dino.pusht.swaap-alpha0-seed101",
+        "dino.pusht.swaap-alpha0-seed99",
+        "dino.pusht.swaap-alpha09-seed100",
+        "dino.pusht.swaap-alpha09-seed101",
+        "dino.pusht.swaap-alpha09-seed99"
+      ],
+      "archives": [
+        "dino__dino-endpoints.part01.tar",
+        "dino__dino-endpoints.part02.tar",
+        "dino__dino-endpoints.part03.tar",
+        "dino__dino-endpoints.part04.tar",
+        "dino-endpoints.part01.tar",
+        "dino-endpoints.part02.tar"
+      ]
+    },
+    "historical-figures": {
+      "description": "Exact included historical Stage-1/PCA PNG files for reference only. Their source numerical arrays are unavailable; this is not a figure-regeneration recipe.",
+      "asset_ids": [
+        "historical-figures.model-poisoning-plot",
+        "historical-figures.pca-next-latent",
+        "historical-figures.pca-next-latent-clean"
+      ],
+      "archives": [
+        "historical-figures.part01.tar"
+      ]
+    },
+    "buffer-append": {
+      "description": "Exact certified 20,000-row Original-policy append and unchanged collection manifest only. Install minimal separately for one Humanoid-Walk example, or main for all three published runs.",
+      "asset_ids": [
+        "tdmpc2.humanoid-walk.certified-append",
+        "tdmpc2.humanoid-walk.certified-append-manifest"
+      ],
+      "archives": [
+        "buffer-append.part01.tar"
+      ]
+    }
+  },
+  "deduplication": "Identical SHA-256 contents appear once across these archive components; a profile requires every archive in its list.",
+  "source_paths_included": false,
+  "license_notices": {
+    "schema_version": 1,
+    "scope": "Identified upstream notices accompany the software and asset distribution. These do not establish a grant for custom checkpoints or collected datasets.",
+    "notices": [
+      {
+        "file": "TD-MPC2-MIT.txt",
+        "source_url": "https://github.com/nicklashansen/tdmpc2/blob/main/LICENSE",
+        "scope": "TD-MPC2 adapted code and upstream pretrained weights under their explicit MIT model-card terms",
+        "sha256": "440d4088a83d19c522dff58918bd92ccb9701c278a35295b92db2456373c4759",
+        "text": "MIT License\n\nCopyright (c) Nicklas Hansen (2023).\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+      },
+      {
+        "file": "DINO-WM-MIT.txt",
+        "source_url": "https://github.com/gaoyuezhou/dino_wm/blob/main/LICENSE",
+        "scope": "DINO-WM first-party code; adapted portions retain their own notices",
+        "sha256": "31ee2e6efe0d638e9685d06f6267ae69c9456bbaf1fea7b3c716dee6b79c7ab5",
+        "text": "MIT License\n\nCopyright (c) 2025 gaoyuezhou\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+      },
+      {
+        "file": "I-JEPA-CC-BY-NC-4.0.txt",
+        "source_url": "https://github.com/facebookresearch/ijepa/blob/main/LICENSE",
+        "scope": "I-JEPA-adapted positional-embedding helpers in models/proprio.py; this is not an automatic license assignment to all model weights or data",
+        "sha256": "336255dc30193e8e15d689d9481bb05673d89055718f3a96923a7ffb99adbbaf",
+        "text": "Attribution-NonCommercial 4.0 International\n\n=======================================================================\n\nCreative Commons Corporation (\"Creative Commons\") is not a law firm and\ndoes not provide legal services or legal advice. Distribution of\nCreative Commons public licenses does not create a lawyer-client or\nother relationship. Creative Commons makes its licenses and related\ninformation available on an \"as-is\" basis. Creative Commons gives no\nwarranties regarding its licenses, any material licensed under their\nterms and conditions, or any related information. Creative Commons\ndisclaims all liability for damages resulting from their use to the\nfullest extent possible.\n\nUsing Creative Commons Public Licenses\n\nCreative Commons public licenses provide a standard set of terms and\nconditions that creators and other rights holders may use to share\noriginal works of authorship and other material subject to copyright\nand certain other rights specified in the public license below. The\nfollowing considerations are for informational purposes only, are not\nexhaustive, and do not form part of our licenses.\n\n     Considerations for licensors: Our public licenses are\n     intended for use by those authorized to give the public\n     permission to use material in ways otherwise restricted by\n     copyright and certain other rights. Our licenses are\n     irrevocable. Licensors should read and understand the terms\n     and conditions of the license they choose before applying it.\n     Licensors should also secure all rights necessary before\n     applying our licenses so that the public can reuse the\n     material as expected. Licensors should clearly mark any\n     material not subject to the license. This includes other CC-\n     licensed material, or material used under an exception or\n     limitation to copyright. More considerations for licensors:\n\twiki.creativecommons.org/Considerations_for_licensors\n\n     Considerations for the public: By using one of our public\n     licenses, a licensor grants the public permission to use the\n     licensed material under specified terms and conditions. If\n     the licensor's permission is not necessary for any reason--for\n     example, because of any applicable exception or limitation to\n     copyright--then that use is not regulated by the license. Our\n     licenses grant only permissions under copyright and certain\n     other rights that a licensor has authority to grant. Use of\n     the licensed material may still be restricted for other\n     reasons, including because others have copyright or other\n     rights in the material. A licensor may make special requests,\n     such as asking that all changes be marked or described.\n     Although not required by our licenses, you are encouraged to\n     respect those requests where reasonable. More_considerations\n     for the public: \n\twiki.creativecommons.org/Considerations_for_licensees\n\n=======================================================================\n\nCreative Commons Attribution-NonCommercial 4.0 International Public\nLicense\n\nBy exercising the Licensed Rights (defined below), You accept and agree\nto be bound by the terms and conditions of this Creative Commons\nAttribution-NonCommercial 4.0 International Public License (\"Public\nLicense\"). To the extent this Public License may be interpreted as a\ncontract, You are granted the Licensed Rights in consideration of Your\nacceptance of these terms and conditions, and the Licensor grants You\nsuch rights in consideration of benefits the Licensor receives from\nmaking the Licensed Material available under these terms and\nconditions.\n\nSection 1 -- Definitions.\n\n  a. Adapted Material means material subject to Copyright and Similar\n     Rights that is derived from or based upon the Licensed Material\n     and in which the Licensed Material is translated, altered,\n     arranged, transformed, or otherwise modified in a manner requiring\n     permission under the Copyright and Similar Rights held by the\n     Licensor. For purposes of this Public License, where the Licensed\n     Material is a musical work, performance, or sound recording,\n     Adapted Material is always produced where the Licensed Material is\n     synched in timed relation with a moving image.\n\n  b. Adapter's License means the license You apply to Your Copyright\n     and Similar Rights in Your contributions to Adapted Material in\n     accordance with the terms and conditions of this Public License.\n\n  c. Copyright and Similar Rights means copyright and/or similar rights\n     closely related to copyright including, without limitation,\n     performance, broadcast, sound recording, and Sui Generis Database\n     Rights, without regard to how the rights are labeled or\n     categorized. For purposes of this Public License, the rights\n     specified in Section 2(b)(1)-(2) are not Copyright and Similar\n     Rights.\n  d. Effective Technological Measures means those measures that, in the\n     absence of proper authority, may not be circumvented under laws\n     fulfilling obligations under Article 11 of the WIPO Copyright\n     Treaty adopted on December 20, 1996, and/or similar international\n     agreements.\n\n  e. Exceptions and Limitations means fair use, fair dealing, and/or\n     any other exception or limitation to Copyright and Similar Rights\n     that applies to Your use of the Licensed Material.\n\n  f. Licensed Material means the artistic or literary work, database,\n     or other material to which the Licensor applied this Public\n     License.\n\n  g. Licensed Rights means the rights granted to You subject to the\n     terms and conditions of this Public License, which are limited to\n     all Copyright and Similar Rights that apply to Your use of the\n     Licensed Material and that the Licensor has authority to license.\n\n  h. Licensor means the individual(s) or entity(ies) granting rights\n     under this Public License.\n\n  i. NonCommercial means not primarily intended for or directed towards\n     commercial advantage or monetary compensation. For purposes of\n     this Public License, the exchange of the Licensed Material for\n     other material subject to Copyright and Similar Rights by digital\n     file-sharing or similar means is NonCommercial provided there is\n     no payment of monetary compensation in connection with the\n     exchange.\n\n  j. Share means to provide material to the public by any means or\n     process that requires permission under the Licensed Rights, such\n     as reproduction, public display, public performance, distribution,\n     dissemination, communication, or importation, and to make material\n     available to the public including in ways that members of the\n     public may access the material from a place and at a time\n     individually chosen by them.\n\n  k. Sui Generis Database Rights means rights other than copyright\n     resulting from Directive 96/9/EC of the European Parliament and of\n     the Council of 11 March 1996 on the legal protection of databases,\n     as amended and/or succeeded, as well as other essentially\n     equivalent rights anywhere in the world.\n\n  l. You means the individual or entity exercising the Licensed Rights\n     under this Public License. Your has a corresponding meaning.\n\nSection 2 -- Scope.\n\n  a. License grant.\n\n       1. Subject to the terms and conditions of this Public License,\n          the Licensor hereby grants You a worldwide, royalty-free,\n          non-sublicensable, non-exclusive, irrevocable license to\n          exercise the Licensed Rights in the Licensed Material to:\n\n            a. reproduce and Share the Licensed Material, in whole or\n               in part, for NonCommercial purposes only; and\n\n            b. produce, reproduce, and Share Adapted Material for\n               NonCommercial purposes only.\n\n       2. Exceptions and Limitations. For the avoidance of doubt, where\n          Exceptions and Limitations apply to Your use, this Public\n          License does not apply, and You do not need to comply with\n          its terms and conditions.\n\n       3. Term. The term of this Public License is specified in Section\n          6(a).\n\n       4. Media and formats; technical modifications allowed. The\n          Licensor authorizes You to exercise the Licensed Rights in\n          all media and formats whether now known or hereafter created,\n          and to make technical modifications necessary to do so. The\n          Licensor waives and/or agrees not to assert any right or\n          authority to forbid You from making technical modifications\n          necessary to exercise the Licensed Rights, including\n          technical modifications necessary to circumvent Effective\n          Technological Measures. For purposes of this Public License,\n          simply making modifications authorized by this Section 2(a)\n          (4) never produces Adapted Material.\n\n       5. Downstream recipients.\n\n            a. Offer from the Licensor -- Licensed Material. Every\n               recipient of the Licensed Material automatically\n               receives an offer from the Licensor to exercise the\n               Licensed Rights under the terms and conditions of this\n               Public License.\n\n            b. No downstream restrictions. You may not offer or impose\n               any additional or different terms or conditions on, or\n               apply any Effective Technological Measures to, the\n               Licensed Material if doing so restricts exercise of the\n               Licensed Rights by any recipient of the Licensed\n               Material.\n\n       6. No endorsement. Nothing in this Public License constitutes or\n          may be construed as permission to assert or imply that You\n          are, or that Your use of the Licensed Material is, connected\n          with, or sponsored, endorsed, or granted official status by,\n          the Licensor or others designated to receive attribution as\n          provided in Section 3(a)(1)(A)(i).\n\n  b. Other rights.\n\n       1. Moral rights, such as the right of integrity, are not\n          licensed under this Public License, nor are publicity,\n          privacy, and/or other similar personality rights; however, to\n          the extent possible, the Licensor waives and/or agrees not to\n          assert any such rights held by the Licensor to the limited\n          extent necessary to allow You to exercise the Licensed\n          Rights, but not otherwise.\n\n       2. Patent and trademark rights are not licensed under this\n          Public License.\n\n       3. To the extent possible, the Licensor waives any right to\n          collect royalties from You for the exercise of the Licensed\n          Rights, whether directly or through a collecting society\n          under any voluntary or waivable statutory or compulsory\n          licensing scheme. In all other cases the Licensor expressly\n          reserves any right to collect such royalties, including when\n          the Licensed Material is used other than for NonCommercial\n          purposes.\n\nSection 3 -- License Conditions.\n\nYour exercise of the Licensed Rights is expressly made subject to the\nfollowing conditions.\n\n  a. Attribution.\n\n       1. If You Share the Licensed Material (including in modified\n          form), You must:\n\n            a. retain the following if it is supplied by the Licensor\n               with the Licensed Material:\n\n                 i. identification of the creator(s) of the Licensed\n                    Material and any others designated to receive\n                    attribution, in any reasonable manner requested by\n                    the Licensor (including by pseudonym if\n                    designated);\n\n                ii. a copyright notice;\n\n               iii. a notice that refers to this Public License;\n\n                iv. a notice that refers to the disclaimer of\n                    warranties;\n\n                 v. a URI or hyperlink to the Licensed Material to the\n                    extent reasonably practicable;\n\n            b. indicate if You modified the Licensed Material and\n               retain an indication of any previous modifications; and\n\n            c. indicate the Licensed Material is licensed under this\n               Public License, and include the text of, or the URI or\n               hyperlink to, this Public License.\n\n       2. You may satisfy the conditions in Section 3(a)(1) in any\n          reasonable manner based on the medium, means, and context in\n          which You Share the Licensed Material. For example, it may be\n          reasonable to satisfy the conditions by providing a URI or\n          hyperlink to a resource that includes the required\n          information.\n\n       3. If requested by the Licensor, You must remove any of the\n          information required by Section 3(a)(1)(A) to the extent\n          reasonably practicable.\n\n       4. If You Share Adapted Material You produce, the Adapter's\n          License You apply must not prevent recipients of the Adapted\n          Material from complying with this Public License.\n\nSection 4 -- Sui Generis Database Rights.\n\nWhere the Licensed Rights include Sui Generis Database Rights that\napply to Your use of the Licensed Material:\n\n  a. for the avoidance of doubt, Section 2(a)(1) grants You the right\n     to extract, reuse, reproduce, and Share all or a substantial\n     portion of the contents of the database for NonCommercial purposes\n     only;\n\n  b. if You include all or a substantial portion of the database\n     contents in a database in which You have Sui Generis Database\n     Rights, then the database in which You have Sui Generis Database\n     Rights (but not its individual contents) is Adapted Material; and\n\n  c. You must comply with the conditions in Section 3(a) if You Share\n     all or a substantial portion of the contents of the database.\n\nFor the avoidance of doubt, this Section 4 supplements and does not\nreplace Your obligations under this Public License where the Licensed\nRights include other Copyright and Similar Rights.\n\nSection 5 -- Disclaimer of Warranties and Limitation of Liability.\n\n  a. UNLESS OTHERWISE SEPARATELY UNDERTAKEN BY THE LICENSOR, TO THE\n     EXTENT POSSIBLE, THE LICENSOR OFFERS THE LICENSED MATERIAL AS-IS\n     AND AS-AVAILABLE, AND MAKES NO REPRESENTATIONS OR WARRANTIES OF\n     ANY KIND CONCERNING THE LICENSED MATERIAL, WHETHER EXPRESS,\n     IMPLIED, STATUTORY, OR OTHER. THIS INCLUDES, WITHOUT LIMITATION,\n     WARRANTIES OF TITLE, MERCHANTABILITY, FITNESS FOR A PARTICULAR\n     PURPOSE, NON-INFRINGEMENT, ABSENCE OF LATENT OR OTHER DEFECTS,\n     ACCURACY, OR THE PRESENCE OR ABSENCE OF ERRORS, WHETHER OR NOT\n     KNOWN OR DISCOVERABLE. WHERE DISCLAIMERS OF WARRANTIES ARE NOT\n     ALLOWED IN FULL OR IN PART, THIS DISCLAIMER MAY NOT APPLY TO YOU.\n\n  b. TO THE EXTENT POSSIBLE, IN NO EVENT WILL THE LICENSOR BE LIABLE\n     TO YOU ON ANY LEGAL THEORY (INCLUDING, WITHOUT LIMITATION,\n     NEGLIGENCE) OR OTHERWISE FOR ANY DIRECT, SPECIAL, INDIRECT,\n     INCIDENTAL, CONSEQUENTIAL, PUNITIVE, EXEMPLARY, OR OTHER LOSSES,\n     COSTS, EXPENSES, OR DAMAGES ARISING OUT OF THIS PUBLIC LICENSE OR\n     USE OF THE LICENSED MATERIAL, EVEN IF THE LICENSOR HAS BEEN\n     ADVISED OF THE POSSIBILITY OF SUCH LOSSES, COSTS, EXPENSES, OR\n     DAMAGES. WHERE A LIMITATION OF LIABILITY IS NOT ALLOWED IN FULL OR\n     IN PART, THIS LIMITATION MAY NOT APPLY TO YOU.\n\n  c. The disclaimer of warranties and limitation of liability provided\n     above shall be interpreted in a manner that, to the extent\n     possible, most closely approximates an absolute disclaimer and\n     waiver of all liability.\n\nSection 6 -- Term and Termination.\n\n  a. This Public License applies for the term of the Copyright and\n     Similar Rights licensed here. However, if You fail to comply with\n     this Public License, then Your rights under this Public License\n     terminate automatically.\n\n  b. Where Your right to use the Licensed Material has terminated under\n     Section 6(a), it reinstates:\n\n       1. automatically as of the date the violation is cured, provided\n          it is cured within 30 days of Your discovery of the\n          violation; or\n\n       2. upon express reinstatement by the Licensor.\n\n     For the avoidance of doubt, this Section 6(b) does not affect any\n     right the Licensor may have to seek remedies for Your violations\n     of this Public License.\n\n  c. For the avoidance of doubt, the Licensor may also offer the\n     Licensed Material under separate terms or conditions or stop\n     distributing the Licensed Material at any time; however, doing so\n     will not terminate this Public License.\n\n  d. Sections 1, 5, 6, 7, and 8 survive termination of this Public\n     License.\n\nSection 7 -- Other Terms and Conditions.\n\n  a. The Licensor shall not be bound by any additional or different\n     terms or conditions communicated by You unless expressly agreed.\n\n  b. Any arrangements, understandings, or agreements regarding the\n     Licensed Material not stated herein are separate from and\n     independent of the terms and conditions of this Public License.\n\nSection 8 -- Interpretation.\n\n  a. For the avoidance of doubt, this Public License does not, and\n     shall not be interpreted to, reduce, limit, restrict, or impose\n     conditions on any use of the Licensed Material that could lawfully\n     be made without permission under this Public License.\n\n  b. To the extent possible, if any provision of this Public License is\n     deemed unenforceable, it shall be automatically reformed to the\n     minimum extent necessary to make it enforceable. If the provision\n     cannot be reformed, it shall be severed from this Public License\n     without affecting the enforceability of the remaining terms and\n     conditions.\n\n  c. No term or condition of this Public License will be waived and no\n     failure to comply consented to unless expressly agreed to by the\n     Licensor.\n\n  d. Nothing in this Public License constitutes or may be interpreted\n     as a limitation upon, or waiver of, any privileges and immunities\n     that apply to the Licensor or You, including from the legal\n     processes of any jurisdiction or authority.\n\n=======================================================================\n\nCreative Commons is not a party to its public\nlicenses. Notwithstanding, Creative Commons may elect to apply one of\nits public licenses to material it publishes and in those instances\nwill be considered the “Licensor.” The text of the Creative Commons\npublic licenses is dedicated to the public domain under the CC0 Public\nDomain Dedication. Except for the limited purpose of indicating that\nmaterial is shared under a Creative Commons public license or as\notherwise permitted by the Creative Commons policies published at\ncreativecommons.org/policies, Creative Commons does not authorize the\nuse of the trademark \"Creative Commons\" or any other trademark or logo\nof Creative Commons without its prior written consent including,\nwithout limitation, in connection with any unauthorized modifications\nto any of its public licenses or any other arrangements,\nunderstandings, or agreements concerning use of licensed material. For\nthe avoidance of doubt, this paragraph does not form part of the\npublic licenses.\n\nCreative Commons may be contacted at creativecommons.org.\n"
+      },
+      {
+        "file": "DrQv2-MIT.txt",
+        "source_url": "https://github.com/facebookresearch/drqv2/blob/main/LICENSE",
+        "scope": "DrQ-v2 adaptations and retained R3M MIT portions with matching copyright text",
+        "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85",
+        "text": "MIT License\n\nCopyright (c) Facebook, Inc. and its affiliates.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+      },
+      {
+        "file": "DreamerV3-MIT.txt",
+        "source_url": "https://github.com/danijar/dreamerv3/blob/main/LICENSE",
+        "scope": "DreamerV3-adapted TD-MPC2 math helpers",
+        "sha256": "9a0db563b71a42110ce6e52c066ec957ca908dd2fbff91e85df09d81a43076d2",
+        "text": "Copyright (c) 2024 Danijar Hafner\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+      },
+      {
+        "file": "ViT-PyTorch-MIT.txt",
+        "source_url": "https://github.com/lucidrains/vit-pytorch/blob/main/LICENSE",
+        "scope": "Vision-transformer adapted source",
+        "sha256": "02cf6ed7df17f94fafa61e67a089ee51faac006db35ffa173c70e6763c253cf6",
+        "text": "MIT License\n\nCopyright (c) 2020 Phil Wang\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+      },
+      {
+        "file": "Sonnet-Apache-2.0.txt",
+        "source_url": "https://github.com/google-deepmind/sonnet/blob/v2/LICENSE",
+        "scope": "Sonnet vector-quantizer code and DINOv2 Apache-2.0 material; original copyright notices remain applicable",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "text": "\n                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common\n      control with that entity. For the purposes of this definition,\n      \"control\" means (i) the power, direct or indirect, to cause the\n      direction or management of such entity, whether by contract or\n      otherwise, or (ii) ownership of fifty percent (50%) or more of the\n      outstanding shares, or (iii) beneficial ownership of such entity.\n\n      \"You\" (or \"Your\") shall mean an individual or Legal Entity\n      exercising permissions granted by this License.\n\n      \"Source\" form shall mean the preferred form for making modifications,\n      including but not limited to software source code, documentation\n      source, and configuration files.\n\n      \"Object\" form shall mean any form resulting from mechanical\n      transformation or translation of a Source form, including but\n      not limited to compiled object code, generated documentation,\n      and conversions to other media types.\n\n      \"Work\" shall mean the work of authorship, whether in Source or\n      Object form, made available under the License, as indicated by a\n      copyright notice that is included in or attached to the work\n      (an example is provided in the Appendix below).\n\n      \"Derivative Works\" shall mean any work, whether in Source or Object\n      form, that is based on (or derived from) the Work and for which the\n      editorial revisions, annotations, elaborations, or other modifications\n      represent, as a whole, an original work of authorship. For the purposes\n      of this License, Derivative Works shall not include works that remain\n      separable from, or merely link (or bind by name) to the interfaces of,\n      the Work and Derivative Works thereof.\n\n      \"Contribution\" shall mean any work of authorship, including\n      the original version of the Work and any modifications or additions\n      to that Work or Derivative Works thereof, that is intentionally\n      submitted to Licensor for inclusion in the Work by the copyright owner\n      or by an individual or Legal Entity authorized to submit on behalf of\n      the copyright owner. For the purposes of this definition, \"submitted\"\n      means any form of electronic, verbal, or written communication sent\n      to the Licensor or its representatives, including but not limited to\n      communication on electronic mailing lists, source code control systems,\n      and issue tracking systems that are managed by, or on behalf of, the\n      Licensor for the purpose of discussing and improving the Work, but\n      excluding communication that is conspicuously marked or otherwise\n      designated in writing by the copyright owner as \"Not a Contribution.\"\n\n      \"Contributor\" shall mean Licensor and any individual or Legal Entity\n      on behalf of whom a Contribution has been received by Licensor and\n      subsequently incorporated within the Work.\n\n   2. Grant of Copyright License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      copyright license to reproduce, prepare Derivative Works of,\n      publicly display, publicly perform, sublicense, and distribute the\n      Work and such Derivative Works in Source or Object form.\n\n   3. Grant of Patent License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      (except as stated in this section) patent license to make, have made,\n      use, offer to sell, sell, import, and otherwise transfer the Work,\n      where such license applies only to those patent claims licensable\n      by such Contributor that are necessarily infringed by their\n      Contribution(s) alone or by combination of their Contribution(s)\n      with the Work to which such Contribution(s) was submitted. If You\n      institute patent litigation against any entity (including a\n      cross-claim or counterclaim in a lawsuit) alleging that the Work\n      or a Contribution incorporated within the Work constitutes direct\n      or contributory patent infringement, then any patent licenses\n      granted to You under this License for that Work shall terminate\n      as of the date such litigation is filed.\n\n   4. Redistribution. You may reproduce and distribute copies of the\n      Work or Derivative Works thereof in any medium, with or without\n      modifications, and in Source or Object form, provided that You\n      meet the following conditions:\n\n      (a) You must give any other recipients of the Work or\n          Derivative Works a copy of this License; and\n\n      (b) You must cause any modified files to carry prominent notices\n          stating that You changed the files; and\n\n      (c) You must retain, in the Source form of any Derivative Works\n          that You distribute, all copyright, patent, trademark, and\n          attribution notices from the Source form of the Work,\n          excluding those notices that do not pertain to any part of\n          the Derivative Works; and\n\n      (d) If the Work includes a \"NOTICE\" text file as part of its\n          distribution, then any Derivative Works that You distribute must\n          include a readable copy of the attribution notices contained\n          within such NOTICE file, excluding those notices that do not\n          pertain to any part of the Derivative Works, in at least one\n          of the following places: within a NOTICE text file distributed\n          as part of the Derivative Works; within the Source form or\n          documentation, if provided along with the Derivative Works; or,\n          within a display generated by the Derivative Works, if and\n          wherever such third-party notices normally appear. The contents\n          of the NOTICE file are for informational purposes only and\n          do not modify the License. You may add Your own attribution\n          notices within Derivative Works that You distribute, alongside\n          or as an addendum to the NOTICE text from the Work, provided\n          that such additional attribution notices cannot be construed\n          as modifying the License.\n\n      You may add Your own copyright statement to Your modifications and\n      may provide additional or different license terms and conditions\n      for use, reproduction, or distribution of Your modifications, or\n      for any such Derivative Works as a whole, provided Your use,\n      reproduction, and distribution of the Work otherwise complies with\n      the conditions stated in this License.\n\n   5. Submission of Contributions. Unless You explicitly state otherwise,\n      any Contribution intentionally submitted for inclusion in the Work\n      by You to the Licensor shall be under the terms and conditions of\n      this License, without any additional terms or conditions.\n      Notwithstanding the above, nothing herein shall supersede or modify\n      the terms of any separate license agreement you may have executed\n      with Licensor regarding such Contributions.\n\n   6. Trademarks. This License does not grant permission to use the trade\n      names, trademarks, service marks, or product names of the Licensor,\n      except as required for reasonable and customary use in describing the\n      origin of the Work and reproducing the content of the NOTICE file.\n\n   7. Disclaimer of Warranty. Unless required by applicable law or\n      agreed to in writing, Licensor provides the Work (and each\n      Contributor provides its Contributions) on an \"AS IS\" BASIS,\n      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n      implied, including, without limitation, any warranties or conditions\n      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n      PARTICULAR PURPOSE. You are solely responsible for determining the\n      appropriateness of using or redistributing the Work and assume any\n      risks associated with Your exercise of permissions under this License.\n\n   8. Limitation of Liability. In no event and under no legal theory,\n      whether in tort (including negligence), contract, or otherwise,\n      unless required by applicable law (such as deliberate and grossly\n      negligent acts) or agreed to in writing, shall any Contributor be\n      liable to You for damages, including any direct, indirect, special,\n      incidental, or consequential damages of any character arising as a\n      result of this License or out of the use or inability to use the\n      Work (including but not limited to damages for loss of goodwill,\n      work stoppage, computer failure or malfunction, or any and all\n      other commercial damages or losses), even if such Contributor\n      has been advised of the possibility of such damages.\n\n   9. Accepting Warranty or Additional Liability. While redistributing\n      the Work or Derivative Works thereof, You may choose to offer,\n      and charge a fee for, acceptance of support, warranty, indemnity,\n      or other liability obligations and/or rights consistent with this\n      License. However, in accepting such obligations, You may act only\n      on Your own behalf and on Your sole responsibility, not on behalf\n      of any other Contributor, and only if You agree to indemnify,\n      defend, and hold each Contributor harmless for any liability\n      incurred by, or claims asserted against, such Contributor by reason\n      of your accepting any such warranty or additional liability.\n\n   END OF TERMS AND CONDITIONS\n\n   APPENDIX: How to apply the Apache License to your work.\n\n      To apply the Apache License to your work, attach the following\n      boilerplate notice, with the fields enclosed by brackets \"[]\"\n      replaced with your own identifying information. (Don't include\n      the brackets!)  The text should be enclosed in the appropriate\n      comment syntax for the file format. We also recommend that a\n      file or class name and description of purpose be included on the\n      same \"printed page\" as the copyright notice for easier\n      identification within third-party archives.\n\n   Copyright [yyyy] [name of copyright owner]\n\n   Licensed under the Apache License, Version 2.0 (the \"License\");\n   you may not use this file except in compliance with the License.\n   You may obtain a copy of the License at\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n   Unless required by applicable law or agreed to in writing, software\n   distributed under the License is distributed on an \"AS IS\" BASIS,\n   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n   See the License for the specific language governing permissions and\n   limitations under the License.\n"
+      },
+      {
+        "file": "OGBench-MIT.txt",
+        "source_url": "https://github.com/seohongpark/ogbench/blob/master/LICENSE",
+        "scope": "OGBench-derived framework portions of the custom HIQL implementation; checkpoint license is separate",
+        "sha256": "715578d1f9e969ec0e99b730b443a4a3b7d07dbc0da462e47b50c36782b1812b",
+        "text": "The MIT License (MIT)\n\nCopyright (c) 2024 OGBench Authors\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n"
+      },
+      {
+        "file": "ManiSkill2-0.5.3-Apache-2.0.txt",
+        "source_url": "https://raw.githubusercontent.com/mani-skill/ManiSkill/v0.5.3/LICENSE",
+        "scope": "Version-qualified ManiSkill2 0.5.3 adapted environment code; SAPIEN2.2.2 runtime is acquired separately; simulator mesh terms are separate.",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "text": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n\n      \"Licensor\" shall mean the copyright owner or entity authorized by\n      the copyright owner that is granting the License.\n\n      \"Legal Entity\" shall mean the union of the acting entity and all\n      other entities that control, are controlled by, or are under common\n      control with that entity. For the purposes of this definition,\n      \"control\" means (i) the power, direct or indirect, to cause the\n      direction or management of such entity, whether by contract or\n      otherwise, or (ii) ownership of fifty percent (50%) or more of the\n      outstanding shares, or (iii) beneficial ownership of such entity.\n\n      \"You\" (or \"Your\") shall mean an individual or Legal Entity\n      exercising permissions granted by this License.\n\n      \"Source\" form shall mean the preferred form for making modifications,\n      including but not limited to software source code, documentation\n      source, and configuration files.\n\n      \"Object\" form shall mean any form resulting from mechanical\n      transformation or translation of a Source form, including but\n      not limited to compiled object code, generated documentation,\n      and conversions to other media types.\n\n      \"Work\" shall mean the work of authorship, whether in Source or\n      Object form, made available under the License, as indicated by a\n      copyright notice that is included in or attached to the work\n      (an example is provided in the Appendix below).\n\n      \"Derivative Works\" shall mean any work, whether in Source or Object\n      form, that is based on (or derived from) the Work and for which the\n      editorial revisions, annotations, elaborations, or other modifications\n      represent, as a whole, an original work of authorship. For the purposes\n      of this License, Derivative Works shall not include works that remain\n      separable from, or merely link (or bind by name) to the interfaces of,\n      the Work and Derivative Works thereof.\n\n      \"Contribution\" shall mean any work of authorship, including\n      the original version of the Work and any modifications or additions\n      to that Work or Derivative Works thereof, that is intentionally\n      submitted to Licensor for inclusion in the Work by the copyright owner\n      or by an individual or Legal Entity authorized to submit on behalf of\n      the copyright owner. For the purposes of this definition, \"submitted\"\n      means any form of electronic, verbal, or written communication sent\n      to the Licensor or its representatives, including but not limited to\n      communication on electronic mailing lists, source code control systems,\n      and issue tracking systems that are managed by, or on behalf of, the\n      Licensor for the purpose of discussing and improving the Work, but\n      excluding communication that is conspicuously marked or otherwise\n      designated in writing by the copyright owner as \"Not a Contribution.\"\n\n      \"Contributor\" shall mean Licensor and any individual or Legal Entity\n      on behalf of whom a Contribution has been received by Licensor and\n      subsequently incorporated within the Work.\n\n   2. Grant of Copyright License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      copyright license to reproduce, prepare Derivative Works of,\n      publicly display, publicly perform, sublicense, and distribute the\n      Work and such Derivative Works in Source or Object form.\n\n   3. Grant of Patent License. Subject to the terms and conditions of\n      this License, each Contributor hereby grants to You a perpetual,\n      worldwide, non-exclusive, no-charge, royalty-free, irrevocable\n      (except as stated in this section) patent license to make, have made,\n      use, offer to sell, sell, import, and otherwise transfer the Work,\n      where such license applies only to those patent claims licensable\n      by such Contributor that are necessarily infringed by their\n      Contribution(s) alone or by combination of their Contribution(s)\n      with the Work to which such Contribution(s) was submitted. If You\n      institute patent litigation against any entity (including a\n      cross-claim or counterclaim in a lawsuit) alleging that the Work\n      or a Contribution incorporated within the Work constitutes direct\n      or contributory patent infringement, then any patent licenses\n      granted to You under this License for that Work shall terminate\n      as of the date such litigation is filed.\n\n   4. Redistribution. You may reproduce and distribute copies of the\n      Work or Derivative Works thereof in any medium, with or without\n      modifications, and in Source or Object form, provided that You\n      meet the following conditions:\n\n      (a) You must give any other recipients of the Work or\n          Derivative Works a copy of this License; and\n\n      (b) You must cause any modified files to carry prominent notices\n          stating that You changed the files; and\n\n      (c) You must retain, in the Source form of any Derivative Works\n          that You distribute, all copyright, patent, trademark, and\n          attribution notices from the Source form of the Work,\n          excluding those notices that do not pertain to any part of\n          the Derivative Works; and\n\n      (d) If the Work includes a \"NOTICE\" text file as part of its\n          distribution, then any Derivative Works that You distribute must\n          include a readable copy of the attribution notices contained\n          within such NOTICE file, excluding those notices that do not\n          pertain to any part of the Derivative Works, in at least one\n          of the following places: within a NOTICE text file distributed\n          as part of the Derivative Works; within the Source form or\n          documentation, if provided along with the Derivative Works; or,\n          within a display generated by the Derivative Works, if and\n          wherever such third-party notices normally appear. The contents\n          of the NOTICE file are for informational purposes only and\n          do not modify the License. You may add Your own attribution\n          notices within Derivative Works that You distribute, alongside\n          or as an addendum to the NOTICE text from the Work, provided\n          that such additional attribution notices cannot be construed\n          as modifying the License.\n\n      You may add Your own copyright statement to Your modifications and\n      may provide additional or different license terms and conditions\n      for use, reproduction, or distribution of Your modifications, or\n      for any such Derivative Works as a whole, provided Your use,\n      reproduction, and distribution of the Work otherwise complies with\n      the conditions stated in this License.\n\n   5. Submission of Contributions. Unless You explicitly state otherwise,\n      any Contribution intentionally submitted for inclusion in the Work\n      by You to the Licensor shall be under the terms and conditions of\n      this License, without any additional terms or conditions.\n      Notwithstanding the above, nothing herein shall supersede or modify\n      the terms of any separate license agreement you may have executed\n      with Licensor regarding such Contributions.\n\n   6. Trademarks. This License does not grant permission to use the trade\n      names, trademarks, service marks, or product names of the Licensor,\n      except as required for reasonable and customary use in describing the\n      origin of the Work and reproducing the content of the NOTICE file.\n\n   7. Disclaimer of Warranty. Unless required by applicable law or\n      agreed to in writing, Licensor provides the Work (and each\n      Contributor provides its Contributions) on an \"AS IS\" BASIS,\n      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n      implied, including, without limitation, any warranties or conditions\n      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A\n      PARTICULAR PURPOSE. You are solely responsible for determining the\n      appropriateness of using or redistributing the Work and assume any\n      risks associated with Your exercise of permissions under this License.\n\n   8. Limitation of Liability. In no event and under no legal theory,\n      whether in tort (including negligence), contract, or otherwise,\n      unless required by applicable law (such as deliberate and grossly\n      negligent acts) or agreed to in writing, shall any Contributor be\n      liable to You for damages, including any direct, indirect, special,\n      incidental, or consequential damages of any character arising as a\n      result of this License or out of the use or inability to use the\n      Work (including but not limited to damages for loss of goodwill,\n      work stoppage, computer failure or malfunction, or any and all\n      other commercial damages or losses), even if such Contributor\n      has been advised of the possibility of such damages.\n\n   9. Accepting Warranty or Additional Liability. While redistributing\n      the Work or Derivative Works thereof, You may choose to offer,\n      and charge a fee for, acceptance of support, warranty, indemnity,\n      or other liability obligations and/or rights consistent with this\n      License. However, in accepting such obligations, You may act only\n      on Your own behalf and on Your sole responsibility, not on behalf\n      of any other Contributor, and only if You agree to indemnify,\n      defend, and hold each Contributor harmless for any liability\n      incurred by, or claims asserted against, such Contributor by reason\n      of your accepting any such warranty or additional liability.\n\n   END OF TERMS AND CONDITIONS\n\n   APPENDIX: How to apply the Apache License to your work.\n\n      To apply the Apache License to your work, attach the following\n      boilerplate notice, with the fields enclosed by brackets \"[]\"\n      replaced with your own identifying information. (Don't include\n      the brackets!)  The text should be enclosed in the appropriate\n      comment syntax for the file format. We also recommend that a\n      file or class name and description of purpose be included on the\n      same \"printed page\" as the copyright notice for easier\n      identification within third-party archives.\n\n   Copyright [yyyy] [name of copyright owner]\n\n   Licensed under the Apache License, Version 2.0 (the \"License\");\n   you may not use this file except in compliance with the License.\n   You may obtain a copy of the License at\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n   Unless required by applicable law or agreed to in writing, software\n   distributed under the License is distributed on an \"AS IS\" BASIS,\n   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n   See the License for the specific language governing permissions and\n   limitations under the License.\n"
+      }
+    ]
+  },
+  "verification": {
+    "archive_sha256_and_bytes": "PASS",
+    "every_object_sha256_and_bytes": "PASS",
+    "unique_content_objects": 489,
+    "basis": "Original17checked; splitDINO6checkedwithother11unchanged; historical3objectsandcertifiedappendpaircheckedseparately. Canonicalsourcebytesunchanged."
+  }
+}

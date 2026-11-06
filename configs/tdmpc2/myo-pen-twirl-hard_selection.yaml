@@ -1,0 +1,67 @@
+family: tdmpc2
+task: myo-pen-twirl-hard
+checkpoint_number: 1
+method: swaap
+seed: 27
+assets:
+  original: asset:tdmpc2.myo-pen-twirl-hard.original
+  clean: asset:tdmpc2.myo-pen-twirl-hard.clean-bank
+  reference: asset:tdmpc2.myo-pen-twirl-hard.reference-bank
+  roots: config:myo-pen-twirl-hard_dev1_roots.json
+model:
+  model_size: 5
+runtime:
+  compile: true
+  mujoco_gl: egl
+data:
+  rows: 5000
+  reference_rows: 50000
+  clean_random_action_chance: 0.03
+  reference_random_action_chance: 0.03
+  reference_use_environment: false
+stage1:
+  iterations: 400
+  lambda: 1
+  collect_trajectories: 5
+  checkpoint_stride: 10
+  evaluation_seeds:
+  - 703270000
+  - 703270001
+  - 703270002
+  - 703270003
+  - 703270004
+  - 703270005
+  - 703270006
+  - 703270007
+  - 703270008
+  - 703270009
+selection:
+  phase: targets
+  construction_alpha: 0.5
+  candidate_limit: 20
+  development_orders: 3
+  final_orders: 3
+stage2:
+  alpha: 0.5
+  rp: 0.1
+  epsilon: 1.0
+  step_size: 10.0
+  steps: 5000
+fit:
+  epochs: 10
+  batch_size: 256
+  learning_rate: 0.0008
+fit_seed: 33601
+evaluation:
+  episodes: 100
+  save_trajectories: true
+aggregation:
+  fit_orders: 3
+recipe_provenance:
+  stage1: frozen fresh recipe; new generation seed is user-configurable
+  target_selection_alpha: 0.5
+  adopted_primary_alpha: 0.9
+  final_root_panel: first published contributing Stage-1 run; all runs in published_orders.json
+  purpose: common development order1 for target screening; disjoint from every final
+    panel
+construction_seed: 0

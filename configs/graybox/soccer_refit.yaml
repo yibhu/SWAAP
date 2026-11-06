@@ -1,0 +1,43 @@
+family: graybox
+task: mw-soccer
+seed: 370105
+method: swaap
+alpha: 0.0
+poison_fraction: 0.1
+assets:
+  original: asset:graybox.soccer.original
+  victim: asset:graybox.mt80.original
+  target: asset:graybox.soccer.target
+  clean: asset:graybox.soccer.clean-raw
+  reference: asset:graybox.soccer.reference-latent
+  support: asset:graybox.soccer.support
+  roots: config:mw-soccer_roots100.json
+  task_map: config:mt80_task_map.json
+  poison: asset:graybox.soccer.poison
+model:
+  model_size: 5
+  obs_shape:
+    state:
+    - 39
+  action_dim: 4
+runtime:
+  compile: true
+construction:
+  steps: 5000
+  step_size: 1.0
+  epsilon: 0.0045
+  projection: coordinate_relative_linf_without_floor
+  alpha: 0.0
+fitting:
+  learning_rate: 2.5e-05
+  epochs: 10
+  batch_size: 256
+  updates: 200
+  source_task_index: 68
+  order: sequential
+evaluation:
+  multitask: true
+  task: mw-soccer
+  episodes: 100
+  eval_mode: false
+reproduction_path: released_poison_new_matched_fine_tuning

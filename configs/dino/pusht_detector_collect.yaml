@@ -1,0 +1,61 @@
+family: dino
+task: pusht
+seed: 99
+method: swaap
+alpha: 0.9
+poison_fraction: 0.1
+assets:
+  original: asset:dino.pusht.original
+  target: asset:dino.pusht.stage1-target
+  clean: asset:dino.pusht.clean-bank
+  hiql: asset:dino.pusht.hiql
+  model_config: asset:dino.pusht.model-config
+  planning_config: asset:dino.pusht.planning-config
+  records: asset:dino.pusht.detector-cohorts
+  goals: asset:dino.pusht.final-goals
+  poison: asset:dino.pusht.poison-alpha09
+  backbone: asset:dino.dinov2-vits14
+  reference_predictions: asset:dino.pusht.reference-predictions
+  detector_records: asset:dino.pusht.detector-cohorts
+runtime:
+  source: bundled_exact_runtime
+  precision: full_model_BF16_construction_and_fitting_FP32_deployment
+  cache_dir: artifacts/cache/torch
+data:
+  mode: detector_collect
+stage1:
+  iterations: 50
+  retained_target_update: 25
+  lambda: 1000
+  seed: 99
+construction:
+  steps: 5000
+  step_size: 10
+  epsilon: 1
+  chunk_size: 4
+  editable_rows: 32
+  eligible_rows: 80
+  fitting_rows: 320
+  reference_rows: 80
+  editable_features: 394
+  fixed_action_features: 10
+  regularizer: RMS_dimension_normalized
+fitting:
+  learning_rate: 2.0e-05
+  epochs: 10
+  batch_size: 16
+  updates: 200
+  seeds:
+  - 99
+  - 100
+  - 101
+  optimizer: AdamW
+  weight_decay: 0.01
+evaluation:
+  goal_pairs: 20
+  fixed_goals: true
+statistical_unit: one retained target/bank/poison; three nested fit seeds, not three
+  independent attacks
+reproduction_path: published_poison_then_new_matched_fit
+collection:
+  maximum_trajectories: 0

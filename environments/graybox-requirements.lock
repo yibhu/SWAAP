@@ -1,0 +1,11 @@
+# Legacy MetaWorld layer on the separately installed TD-MPC2 CUDA12.4 base.
+# Scientific simulator/source identities are also fixed in install-graybox.sh.
+mujoco-py==2.1.2.14
+Cython==0.29.37
+gym==0.23.1
+cffi==1.17.1
+fasteners==0.20
+glfw==2.9.0
+imageio==2.37.0
+scipy==1.13.1
+patchelf==0.17.2.4

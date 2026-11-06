@@ -1,0 +1,88 @@
+[
+  {
+    "public_file": "src/swaap/evaluation/cusum.py",
+    "source_file": "DINO_reproduce.py",
+    "source_sha256": "ff2ae449bb3f916f1a60d90f368b08eb5e25f9f1dbe513cc05cf32d95e13b89d",
+    "transformation": "Static extraction of named pure functions; no runtime source rewriting",
+    "symbols": [
+      "robust_stats",
+      "cusum_score",
+      "binary_auc",
+      "percentile_interval",
+      "wilson_interval",
+      "split_conformal_threshold",
+      "standardized_partial_auc",
+      "_finite_vector",
+      "decode_threshold",
+      "_ranking_points",
+      "evaluate_score_samples"
+    ]
+  },
+  {
+    "public_file": "src/swaap/reproduce/dino.py",
+    "source_file": "DINO_reproduce.py",
+    "source_sha256": "ff2ae449bb3f916f1a60d90f368b08eb5e25f9f1dbe513cc05cf32d95e13b89d",
+    "transformation": "Static extraction of named pure functions; no runtime source rewriting",
+    "symbols": [
+      "read_table",
+      "ms",
+      "group",
+      "near",
+      "write_csv",
+      "efficacy",
+      "deviations",
+      "detector"
+    ]
+  },
+  {
+    "public_file": "src/swaap/reproduce/graybox.py",
+    "source_file": "GRAYBOX_reproduce.py",
+    "source_sha256": "27c1605781f9f9cc5c6f6fdafeecb905d7ca7bca980a3d6025ef90327bf53e2a",
+    "transformation": "All top-level executable statements statically nested under main(argv); argparse receives argv; arithmetic unchanged"
+  },
+  {
+    "public_file": "src/swaap/plotting/grid.py",
+    "source_file": "plot_dp_appendix_full_results.py",
+    "source_sha256": "1dcdbf5ac395ea2a54807ae2f1b607965be99f9f858cc3bf4095d50c73ef208a",
+    "transformation": "Static main(argv) wrapping and package-relative import only; plot arithmetic/style preserved; author-adopted main18/PDF16 legend now says Clean delta_m (fitted Clean own-rollout error), with all plotted data and style unchanged; one-ULP canvas adjustment prevents a platform float truncation from dropping the intended7149th PNG row"
+  },
+  {
+    "public_file": "src/swaap/plotting/main.py",
+    "source_file": "FIGURE_plot_main.py",
+    "source_sha256": "2eb82d22855ab4b83d1894cf6aa21d27d5712fadadbf039c22b595e99b686692",
+    "transformation": "Static main(argv) wrapping and package-relative import only; plot arithmetic/style preserved"
+  },
+  {
+    "public_file": "src/swaap/plotting/scatter.py",
+    "source_file": "FIGURE_plot_scatter.py",
+    "source_sha256": "1055f29441af891a1ef6aa667cd4beaea0860eb0875a28f512e945a43fd50f38",
+    "transformation": "Static main(argv) wrapping and package-relative import only; plot arithmetic/style preserved"
+  },
+  {
+    "public_file": "src/swaap/plotting/trim.py",
+    "source_file": "FIGURE_plot_trim.py",
+    "source_sha256": "a671b5769852af0552e911f66eedda0e34d18f18d7637d947e1ee807a902f8f3",
+    "transformation": "Static main(argv) wrapping and package-relative import only; plot arithmetic/style preserved"
+  },
+  {
+    "public_file": "src/swaap/plotting/delta_d.py",
+    "source_file": "FIGURE_plot_delta_d.py",
+    "source_sha256": "084bc3832b6c28abde94f224a71b9fe42a8308ec025323d407fca29620eaf4a5",
+    "transformation": "Static main(argv) wrapping and package-relative import only; plot arithmetic/style preserved"
+  },
+  {
+    "public_file": "src/swaap/reproduce/saved.py",
+    "source_file": "MANISKILL_merge_additional_metrics.py",
+    "source_sha256": "4771eeb3cc947de9de77c552202c86a954f9091291c7fd0f20ae447307964f3d",
+    "transformation": "Exact retained norm arithmetic, support SHA, norm-row joins and Stage1/fit hierarchy; no model/inference or manuscript merger is executed."
+  },
+  {
+    "public_file": "src/swaap/evaluation/detector.py",
+    "source_file": "residual_cusum_protocol_v4.py",
+    "source_sha256": "d5aafccd2e0a824590b1fd0d680577c692b417d581f42d8b403f56615fcbe1c3",
+    "symbols": [
+      "scores_from_residuals"
+    ],
+    "transformation": "Preserve canonical dtype boundary: robust median/MAD on stored residual dtype; convert scoring traces to float64 before residual-minus-center recurrence. No model/residual measurements changed."
+  }
+]

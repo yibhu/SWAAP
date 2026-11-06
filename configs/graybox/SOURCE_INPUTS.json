@@ -1,0 +1,7 @@
+{
+  "task_map_source_contract_sha256": "ac74c0edf173d46d62b2a4a730a6d2e94a8b8955ef7efd6c37d92269a30c02cc",
+  "roots100_source_contract_sha256": "4c75004844fe67cb2bbea24545a2e4b6cb83faf24dae33a86de87cb2422516e0",
+  "source_seed": 370105,
+  "breadth_episode_count": 50,
+  "detailed_episode_count": 100
+}

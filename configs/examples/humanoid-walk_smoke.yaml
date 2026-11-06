@@ -1,0 +1,66 @@
+aggregation:
+  fit_orders: 3
+assets:
+  clean: asset:tdmpc2.humanoid-walk.clean-bank
+  original: asset:tdmpc2.humanoid-walk.original
+  reference: asset:tdmpc2.humanoid-walk.reference-bank
+  roots: config:humanoid-walk_smoke_roots.json
+  target: asset:tdmpc2.humanoid-walk.main-run1.target
+checkpoint_number: 2
+data:
+  clean_random_action_chance: 0.03
+  reference_random_action_chance: 0.03
+  reference_rows: 50000
+  reference_use_environment: false
+  rows: 5000
+evaluation:
+  episodes: 1
+  save_trajectories: true
+family: tdmpc2
+fit:
+  batch_size: 256
+  epochs: 10
+  learning_rate: 0.0001
+fit_seed: 42801
+method: swaap
+model:
+  model_size: 5
+recipe_provenance:
+  adopted_primary_alpha: 0.9
+  final_root_panel: first published contributing Stage-1 run; all runs in published_orders.json
+  stage1: frozen fresh recipe; new generation seed is user-configurable
+  target_selection_alpha: 0.9
+runtime:
+  compile: true
+  mujoco_gl: egl
+seed: 0
+selection:
+  candidate_limit: 20
+  construction_alpha: 0.9
+  development_orders: 3
+  final_orders: 3
+  phase: targets
+stage1:
+  checkpoint_stride: 10
+  collect_trajectories: 1
+  evaluation_seeds:
+  - 100000
+  - 100001
+  - 100002
+  - 100003
+  - 100004
+  - 100005
+  - 100006
+  - 100007
+  - 100008
+  - 100009
+  iterations: 400
+  lambda: 1
+stage2:
+  alpha: 0.9
+  epsilon: 1.0
+  rp: 0.1
+  step_size: 10.0
+  steps: 2
+task: humanoid-walk
+purpose: engineering_smoke; not paper efficacy

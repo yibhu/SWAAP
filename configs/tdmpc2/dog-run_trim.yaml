@@ -1,0 +1,67 @@
+family: tdmpc2
+task: dog-run
+checkpoint_number: 1
+method: swaap
+seed: 0
+assets:
+  original: asset:tdmpc2.dog-run.original
+  clean: asset:tdmpc2.dog-run.clean-bank
+  reference: asset:tdmpc2.dog-run.reference-bank
+  roots: config:dog-run_roots.json
+model:
+  model_size: 5
+runtime:
+  compile: true
+  mujoco_gl: egl
+data:
+  rows: 5000
+  reference_rows: 50000
+  clean_random_action_chance: 0.03
+  reference_random_action_chance: 0.03
+  reference_use_environment: false
+stage1:
+  iterations: 400
+  lambda: 1
+  collect_trajectories: 1
+  checkpoint_stride: 10
+  evaluation_seeds:
+  - 100000
+  - 100001
+  - 100002
+  - 100003
+  - 100004
+  - 100005
+  - 100006
+  - 100007
+  - 100008
+  - 100009
+selection:
+  phase: targets
+  construction_alpha: 0.9
+  candidate_limit: 20
+  development_orders: 3
+  final_orders: 3
+stage2:
+  alpha: 0.9
+  rp: 0.1
+  epsilon: 1.0
+  step_size: 10.0
+  steps: 5000
+fit:
+  epochs: 10
+  batch_size: 256
+  learning_rate: 0.0001
+  defense: trim
+fit_seed: 53301
+evaluation:
+  episodes: 100
+  save_trajectories: true
+aggregation:
+  fit_orders: 3
+recipe_provenance:
+  stage1: frozen fresh recipe; new generation seed is user-configurable
+  target_selection_alpha: 0.9
+  adopted_primary_alpha: 0.9
+  final_root_panel: first published contributing Stage-1 run; all runs in published_orders.json
+  purpose: Corrected TRIM applied separately to matched Clean, SWAAP and rawDMP; beta.2
+    E10

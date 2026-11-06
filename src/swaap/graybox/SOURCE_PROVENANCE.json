@@ -1,0 +1,63 @@
+[
+  {
+    "source_file": "raw_observation_swaap.py",
+    "source_sha256": "3b1a8a47d42249324797c2a242033a9cabdc6bd9bf04681a264764d65799c10e",
+    "definition": "RawObservationSWAAP",
+    "definition_sha256": "f84094a52ced8cc2ba24d07d71eab6d88d212d3689e556adce0b651ef602049a",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "raw_observation_swaap_cached.py",
+    "source_sha256": "db70dba8833fa57b410e805a9b73bec1d2115c382dbcba66aacf8f383e5ccdee",
+    "definition": "CachedReferenceRawSWAAP",
+    "definition_sha256": "c9e174895a7fb0f5598e0e89045ad105d227c84a210d2fe5ee6c4d9cdaeec95e",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "graybox_source_frontier.py",
+    "source_sha256": "5b1e886bf07e1ced44b80d3b905805fd9defb1f3805c092e4ed4d2c0306a2007",
+    "definition": "GridRelativeSWAAP",
+    "definition_sha256": "e46d580ad740ad708ff0d7e2c672cfa9f102764ff78880fac2083785518b977d",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "graybox_epsilon_refinement.py",
+    "source_sha256": "92a83ace66cb3a309ec6b3282b0e39d4a181bb003ac5c6e26093eed0f3acbd3c",
+    "definition": "RefinementSWAAP",
+    "definition_sha256": "2dabcb5bf399c61fdb2c4b66c3eb622f0a970742b340501a3a699fa6119a9ebf",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "raw_observation_swaap_cached.py",
+    "source_sha256": "db70dba8833fa57b410e805a9b73bec1d2115c382dbcba66aacf8f383e5ccdee",
+    "definition": "CachedReferenceRawSWAAP",
+    "definition_sha256": "c9e174895a7fb0f5598e0e89045ad105d227c84a210d2fe5ee6c4d9cdaeec95e",
+    "transformation": "import namespace changes only unless separately noted"
+  },
+  {
+    "source_file": "tdmpc2.py",
+    "source_sha256": "c0a455f4bd9f096c316220fdf1a9f0543357953625a3b55863512c5f008351d0",
+    "definition": "TDMPC2",
+    "transformation": "Import namespaces only; original raw WorldModel and MPC planner preserved"
+  },
+  {
+    "source_file": "graybox_mt80_breadth.py",
+    "source_sha256": "64b0d5627869e850d7a08aec3dd1f44f6b3e84908cbfe766e35b62bdd5589113",
+    "definition": "PaddedTaskModel/NativeTaskAgent",
+    "transformation": "Same right-zero observation/action padding, action slicing, exact saved80-task map; ordinary pipeline files replace controller"
+  },
+  {
+    "source_file": "graybox_target_frontier.py",
+    "source_sha256": "e2d674653b0b3a90a1969d01b62df8dddd71631313a59585eb1865551286338e",
+    "definition": "target_model",
+    "definition_sha256": "788e456bc02437747e72e696152dc6eb4d9ba86997238b008d9b44f71f3a7998",
+    "transformation": "Explicit handling of final psi_k_theta_k target; historical encoder provenance limit retained. Strict dynamics load unchanged."
+  },
+  {
+    "source_file": "graybox_pilot.py",
+    "source_sha256": "b7341f7355bb3dcf3884c6fbbacf56bbbc5b7a188a186e1ebafbef6c46a8460c",
+    "definition": "TaskModel",
+    "definition_sha256": "0eeb2bf2f3895ddc1f2fdcbe4525fa9afbf39219c220f410a2ddf8a48c080947",
+    "transformation": "Explicit task68/reference binding, flat latent/action unsqueeze and output squeeze, right action padding; same executed operations."
+  }
+]

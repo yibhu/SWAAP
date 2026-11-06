@@ -1,0 +1,504 @@
+{
+  "roots": [
+    {
+      "environment_seed": 820826154,
+      "episode_index": 0,
+      "planner_seed": 3005345795
+    },
+    {
+      "environment_seed": 623925932,
+      "episode_index": 1,
+      "planner_seed": 2789438321
+    },
+    {
+      "environment_seed": 2274334397,
+      "episode_index": 2,
+      "planner_seed": 3589623726
+    },
+    {
+      "environment_seed": 1263313428,
+      "episode_index": 3,
+      "planner_seed": 3665296536
+    },
+    {
+      "environment_seed": 2959081529,
+      "episode_index": 4,
+      "planner_seed": 1550821961
+    },
+    {
+      "environment_seed": 3845402809,
+      "episode_index": 5,
+      "planner_seed": 1330749710
+    },
+    {
+      "environment_seed": 1388841716,
+      "episode_index": 6,
+      "planner_seed": 4156394810
+    },
+    {
+      "environment_seed": 2132535017,
+      "episode_index": 7,
+      "planner_seed": 571862331
+    },
+    {
+      "environment_seed": 2378590653,
+      "episode_index": 8,
+      "planner_seed": 253395703
+    },
+    {
+      "environment_seed": 20377507,
+      "episode_index": 9,
+      "planner_seed": 500375646
+    },
+    {
+      "environment_seed": 2537843816,
+      "episode_index": 10,
+      "planner_seed": 4183281470
+    },
+    {
+      "environment_seed": 4020008750,
+      "episode_index": 11,
+      "planner_seed": 2810336882
+    },
+    {
+      "environment_seed": 3232132412,
+      "episode_index": 12,
+      "planner_seed": 4075403973
+    },
+    {
+      "environment_seed": 4227019544,
+      "episode_index": 13,
+      "planner_seed": 1281633220
+    },
+    {
+      "environment_seed": 2540749099,
+      "episode_index": 14,
+      "planner_seed": 1990456132
+    },
+    {
+      "environment_seed": 698891723,
+      "episode_index": 15,
+      "planner_seed": 2778540578
+    },
+    {
+      "environment_seed": 1421891477,
+      "episode_index": 16,
+      "planner_seed": 2056374736
+    },
+    {
+      "environment_seed": 3484644299,
+      "episode_index": 17,
+      "planner_seed": 4034385584
+    },
+    {
+      "environment_seed": 892891638,
+      "episode_index": 18,
+      "planner_seed": 246604291
+    },
+    {
+      "environment_seed": 521192785,
+      "episode_index": 19,
+      "planner_seed": 2234976186
+    },
+    {
+      "environment_seed": 1663813317,
+      "episode_index": 20,
+      "planner_seed": 2665670460
+    },
+    {
+      "environment_seed": 2053834728,
+      "episode_index": 21,
+      "planner_seed": 2474065756
+    },
+    {
+      "environment_seed": 103758362,
+      "episode_index": 22,
+      "planner_seed": 4139501649
+    },
+    {
+      "environment_seed": 1237528738,
+      "episode_index": 23,
+      "planner_seed": 3100863311
+    },
+    {
+      "environment_seed": 856480123,
+      "episode_index": 24,
+      "planner_seed": 3860575293
+    },
+    {
+      "environment_seed": 1981296877,
+      "episode_index": 25,
+      "planner_seed": 761687594
+    },
+    {
+      "environment_seed": 830987183,
+      "episode_index": 26,
+      "planner_seed": 1322671373
+    },
+    {
+      "environment_seed": 2589929079,
+      "episode_index": 27,
+      "planner_seed": 3106216130
+    },
+    {
+      "environment_seed": 256255871,
+      "episode_index": 28,
+      "planner_seed": 1219105204
+    },
+    {
+      "environment_seed": 2674198857,
+      "episode_index": 29,
+      "planner_seed": 409003178
+    },
+    {
+      "environment_seed": 1454316156,
+      "episode_index": 30,
+      "planner_seed": 455040046
+    },
+    {
+      "environment_seed": 3437690667,
+      "episode_index": 31,
+      "planner_seed": 1797027667
+    },
+    {
+      "environment_seed": 71970151,
+      "episode_index": 32,
+      "planner_seed": 3656808647
+    },
+    {
+      "environment_seed": 3822493026,
+      "episode_index": 33,
+      "planner_seed": 2891240494
+    },
+    {
+      "environment_seed": 1938679295,
+      "episode_index": 34,
+      "planner_seed": 1006762713
+    },
+    {
+      "environment_seed": 528068889,
+      "episode_index": 35,
+      "planner_seed": 730639209
+    },
+    {
+      "environment_seed": 1603949983,
+      "episode_index": 36,
+      "planner_seed": 3174245546
+    },
+    {
+      "environment_seed": 1313963306,
+      "episode_index": 37,
+      "planner_seed": 1806291200
+    },
+    {
+      "environment_seed": 46711279,
+      "episode_index": 38,
+      "planner_seed": 694369229
+    },
+    {
+      "environment_seed": 2135135639,
+      "episode_index": 39,
+      "planner_seed": 320376420
+    },
+    {
+      "environment_seed": 1097203560,
+      "episode_index": 40,
+      "planner_seed": 2301348700
+    },
+    {
+      "environment_seed": 462956064,
+      "episode_index": 41,
+      "planner_seed": 767603008
+    },
+    {
+      "environment_seed": 748266170,
+      "episode_index": 42,
+      "planner_seed": 2737354560
+    },
+    {
+      "environment_seed": 1881334382,
+      "episode_index": 43,
+      "planner_seed": 3971106771
+    },
+    {
+      "environment_seed": 825889773,
+      "episode_index": 44,
+      "planner_seed": 2593109708
+    },
+    {
+      "environment_seed": 3173902355,
+      "episode_index": 45,
+      "planner_seed": 3650598065
+    },
+    {
+      "environment_seed": 904884356,
+      "episode_index": 46,
+      "planner_seed": 4293304222
+    },
+    {
+      "environment_seed": 4239803770,
+      "episode_index": 47,
+      "planner_seed": 1389999870
+    },
+    {
+      "environment_seed": 1344665094,
+      "episode_index": 48,
+      "planner_seed": 3220424984
+    },
+    {
+      "environment_seed": 2401884492,
+      "episode_index": 49,
+      "planner_seed": 302484013
+    },
+    {
+      "environment_seed": 4133758763,
+      "episode_index": 50,
+      "planner_seed": 2473023862
+    },
+    {
+      "environment_seed": 1616025549,
+      "episode_index": 51,
+      "planner_seed": 2056605698
+    },
+    {
+      "environment_seed": 34569508,
+      "episode_index": 52,
+      "planner_seed": 4188996545
+    },
+    {
+      "environment_seed": 2382552441,
+      "episode_index": 53,
+      "planner_seed": 710973445
+    },
+    {
+      "environment_seed": 3345927413,
+      "episode_index": 54,
+      "planner_seed": 374305643
+    },
+    {
+      "environment_seed": 4034173198,
+      "episode_index": 55,
+      "planner_seed": 2816954676
+    },
+    {
+      "environment_seed": 3619423882,
+      "episode_index": 56,
+      "planner_seed": 64354616
+    },
+    {
+      "environment_seed": 952249994,
+      "episode_index": 57,
+      "planner_seed": 2501198566
+    },
+    {
+      "environment_seed": 2194106452,
+      "episode_index": 58,
+      "planner_seed": 4025257259
+    },
+    {
+      "environment_seed": 1934267878,
+      "episode_index": 59,
+      "planner_seed": 3146727247
+    },
+    {
+      "environment_seed": 3448343759,
+      "episode_index": 60,
+      "planner_seed": 3015559681
+    },
+    {
+      "environment_seed": 1010054982,
+      "episode_index": 61,
+      "planner_seed": 580516690
+    },
+    {
+      "environment_seed": 5780634,
+      "episode_index": 62,
+      "planner_seed": 60901811
+    },
+    {
+      "environment_seed": 1011221774,
+      "episode_index": 63,
+      "planner_seed": 1943390187
+    },
+    {
+      "environment_seed": 3702516251,
+      "episode_index": 64,
+      "planner_seed": 372712633
+    },
+    {
+      "environment_seed": 1020986759,
+      "episode_index": 65,
+      "planner_seed": 2400751685
+    },
+    {
+      "environment_seed": 929890859,
+      "episode_index": 66,
+      "planner_seed": 2546363725
+    },
+    {
+      "environment_seed": 4160521525,
+      "episode_index": 67,
+      "planner_seed": 1801376910
+    },
+    {
+      "environment_seed": 1923767000,
+      "episode_index": 68,
+      "planner_seed": 3041576590
+    },
+    {
+      "environment_seed": 3304160627,
+      "episode_index": 69,
+      "planner_seed": 2085596505
+    },
+    {
+      "environment_seed": 3700136627,
+      "episode_index": 70,
+      "planner_seed": 3235055217
+    },
+    {
+      "environment_seed": 438596179,
+      "episode_index": 71,
+      "planner_seed": 408498767
+    },
+    {
+      "environment_seed": 1401882711,
+      "episode_index": 72,
+      "planner_seed": 1341010496
+    },
+    {
+      "environment_seed": 4075882781,
+      "episode_index": 73,
+      "planner_seed": 3588259558
+    },
+    {
+      "environment_seed": 3097732116,
+      "episode_index": 74,
+      "planner_seed": 1343917750
+    },
+    {
+      "environment_seed": 493116178,
+      "episode_index": 75,
+      "planner_seed": 4017676708
+    },
+    {
+      "environment_seed": 1858581898,
+      "episode_index": 76,
+      "planner_seed": 4147146335
+    },
+    {
+      "environment_seed": 3674090028,
+      "episode_index": 77,
+      "planner_seed": 3801008556
+    },
+    {
+      "environment_seed": 917346609,
+      "episode_index": 78,
+      "planner_seed": 3501894221
+    },
+    {
+      "environment_seed": 119237528,
+      "episode_index": 79,
+      "planner_seed": 2081249793
+    },
+    {
+      "environment_seed": 2657909230,
+      "episode_index": 80,
+      "planner_seed": 375522752
+    },
+    {
+      "environment_seed": 2670289017,
+      "episode_index": 81,
+      "planner_seed": 1194316887
+    },
+    {
+      "environment_seed": 4158222337,
+      "episode_index": 82,
+      "planner_seed": 2187875147
+    },
+    {
+      "environment_seed": 3574156326,
+      "episode_index": 83,
+      "planner_seed": 1862422866
+    },
+    {
+      "environment_seed": 3155468430,
+      "episode_index": 84,
+      "planner_seed": 3298541278
+    },
+    {
+      "environment_seed": 1429881105,
+      "episode_index": 85,
+      "planner_seed": 2156005508
+    },
+    {
+      "environment_seed": 3752937444,
+      "episode_index": 86,
+      "planner_seed": 2049736293
+    },
+    {
+      "environment_seed": 2314681506,
+      "episode_index": 87,
+      "planner_seed": 1408995399
+    },
+    {
+      "environment_seed": 3317450194,
+      "episode_index": 88,
+      "planner_seed": 2521489250
+    },
+    {
+      "environment_seed": 2676050152,
+      "episode_index": 89,
+      "planner_seed": 1632386445
+    },
+    {
+      "environment_seed": 2864067459,
+      "episode_index": 90,
+      "planner_seed": 3235171581
+    },
+    {
+      "environment_seed": 557562330,
+      "episode_index": 91,
+      "planner_seed": 4164998285
+    },
+    {
+      "environment_seed": 3043174830,
+      "episode_index": 92,
+      "planner_seed": 1349052566
+    },
+    {
+      "environment_seed": 618672224,
+      "episode_index": 93,
+      "planner_seed": 597077048
+    },
+    {
+      "environment_seed": 3278974080,
+      "episode_index": 94,
+      "planner_seed": 323393371
+    },
+    {
+      "environment_seed": 2635337158,
+      "episode_index": 95,
+      "planner_seed": 866686921
+    },
+    {
+      "environment_seed": 3187172655,
+      "episode_index": 96,
+      "planner_seed": 283388920
+    },
+    {
+      "environment_seed": 4185365998,
+      "episode_index": 97,
+      "planner_seed": 3304629676
+    },
+    {
+      "environment_seed": 1587318812,
+      "episode_index": 98,
+      "planner_seed": 1227696103
+    },
+    {
+      "environment_seed": 490852933,
+      "episode_index": 99,
+      "planner_seed": 3934065233
+    }
+  ]
+}

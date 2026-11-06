@@ -1,0 +1,19 @@
+task: humanoid-walk
+stage: evaluate
+checkpoint_reused: true
+new_fits: 0
+num_samples:
+- 64
+- 128
+- 256
+- 512
+- 1024
+horizon:
+- 3
+- 6
+- 9
+fitting_orders: 3
+evaluation_episodes: 100
+base:
+  num_samples: 512
+  horizon: 3
