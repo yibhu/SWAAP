@@ -2068,6 +2068,9 @@
       "file": "saved-results.part01.tar",
       "sha256": "8c7d96ddad87f59a656fb232458566e6fed958baa01f50adf31f8bad7c415c04",
       "bytes": 33095680,
+      "urls": [
+        "https://github.com/yibhu/SWAAP/releases/download/assets-v1/saved-results.part01.tar"
+      ],
       "profiles": [
         "saved-results"
       ],

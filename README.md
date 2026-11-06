@@ -10,46 +10,61 @@ and history-dependent DINO-WM experiments on simulation benchmarks.
 
 ## Installation
 
-Use Python 3.12 for saved numerical results and CPU plotting:
+For saved numerical results and CPU plotting, use Python 3.12.
+From a clean Linux or WSL shell:
 
 ```bash
-python -m venv .venv
+git clone https://github.com/yibhu/SWAAP.git
+cd SWAAP
+python3.12 -m venv .venv
 source .venv/bin/activate
 python -m pip install '.[saved,plots]'
 ```
 
-Model execution uses separate environments for incompatible simulator and
-backbone versions. Follow [installation](docs/installation.md), then install this
-package inside the chosen environment with `python -m pip install --no-deps .`.
-Do not install the CPU plotting extras into an older simulator environment.
+Model execution requires separate environments for incompatible
+simulator and backbone versions. See
+[installation](docs/installation.md). Inside a qualified model
+environment, install SWAAP with `python -m pip install --no-deps .`.
 
 ## Reproduce saved tables and figures
 
-From a source checkout that includes `data/saved`:
+The saved numerical results are publicly available under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+Download, verify, and install the released archive:
 
 ```bash
-swaap reproduce saved --data-root data/saved --output outputs/paper --figures
-```
-
-The command verifies input checksums, recomputes the adopted tables and available
-figures, and writes `outputs/paper/tables`, `outputs/paper/figures`, and
-`reproduction.json`. It loads no world model and runs no simulator.
-
-The code-only source snapshot excludes numerical assets. Install their separate
-bundle when using that snapshot:
-
-```bash
+swaap bundles download saved-results --bundle-dir bundles --root artifacts
+swaap bundles verify saved-results --bundle-dir bundles --root artifacts
 swaap bundles install saved-results --bundle-dir bundles --root artifacts
 swaap reproduce saved --data-root artifacts/results/saved --output outputs/paper --figures
 ```
 
-Historical training-curve/PCA files are distinguished from figures with released
-plotting arrays in the [paper reproduction guide](docs/paper_coverage.md).
+The archive is hosted in the
+[assets-v1 GitHub Release](https://github.com/yibhu/SWAAP/releases/tag/assets-v1).
+Its SHA-256 is recorded in the bundle manifest and verified by
+the downloader.
+
+Reproduction checks retained numerical input identities,
+recomputes the adopted tables and available figures, and writes
+`outputs/paper/tables`, `outputs/paper/figures`, and
+`reproduction.json`.
+
+This CPU pathway does not load world models, rerun attacks, or
+execute simulators. Historical figures without retained plotting
+arrays are identified separately in
+[paper coverage](docs/paper_coverage.md).
 
 ## Run a real SWAAP example
 
-After installing the TD-MPC2 environment, place the two minimal-bundle archives
-listed in `assets/bundle_manifest.json` in `bundles/`, then run:
+The `minimal` profile includes model checkpoints and collected buffers.
+It is not part of the CC BY 4.0 `saved-results` release.
+Redistribution clearance is pending, so this real-model example
+is not yet runnable using public assets alone.
+
+Once the two minimal archives are cleared and available, install
+the TD-MPC2 environment, place both archives listed in
+`assets/bundle_manifest.json` in `bundles/`, then run:
 
 ```bash
 swaap bundles verify minimal --bundle-dir bundles --root artifacts
