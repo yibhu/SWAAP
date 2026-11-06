@@ -141,6 +141,14 @@ experiments provide different evidence.
 
 ## Citation and licensing
 
+Original SWAAP-authored source code is released under the
+[MIT License](LICENSE). Adapted third-party components retain
+their separately identified licenses, including the CC BY-NC 4.0
+I-JEPA-derived helpers.
+
+Saved numerical results are distributed separately under CC BY 4.0.
+Custom checkpoints, collected buffers and third-party assets are
+not automatically licensed under MIT.
 Citation metadata is in [CITATION.cff](CITATION.cff). Third-party terms are retained
 in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) and `licenses/`; those grants do
 not override other components. See [licensing](docs/licensing.md) for source,
