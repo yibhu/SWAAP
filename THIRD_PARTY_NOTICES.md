@@ -36,10 +36,12 @@ These restrictions are not replaced by DINO-WM's top-level MIT license:
 | DINO-WM vendored R3M encoder helpers | [R3M](https://github.com/facebookresearch/r3m), MIT; source copyright headers retained | `licenses/R3M-MIT.txt` |
 | Trained HIQL runtime framework adaptation | [OGBench](https://github.com/seohongpark/ogbench), MIT | `licenses/OGBench-MIT.txt`; this code license does not establish a grant for the custom policy checkpoint. |
 
-DINO-WM's Push-T source also identifies an adaptation from Implicit Behavior
-Cloning. Its exact source/version attribution remains an author release-review
-item. Do not describe this mixed-origin vendor directory as uniformly MIT or
-silently rewrite source code to avoid attribution.
+DINO-WM's Push-T environment (`src/swaap/dino/_vendor/env/pusht/pusht_env.py`)
+credits Implicit Behavioral Cloning (https://github.com/google-research/ibc).
+The official IBC repository is Apache-2.0; its upstream license is preserved
+as `licenses/IBC-Apache-2.0.txt`. DINO-WM retains its own MIT notice and
+other third-party terms. The precise IBC source revision underlying the
+historical adaptation is not established; no broader MIT grant is implied.
 
 The adopted state-only ManiSkill runtime uses ManiSkill2 0.5.3 with SAPIEN
 2.2.2. `licenses/ManiSkill2-0.5.3-Apache-2.0.txt` retains its versioned code
