@@ -3170,6 +3170,15 @@
     },
     "minimal": {
       "description": "One fixed-target Humanoid-Walk SWAAP construction, matched fitting and endpoint evaluation; one exact order, without unrelated fitted models.",
+      "included_nonrequired_aliases": [
+        {
+          "asset_id": "tdmpc2.mw-push.sensitivity-run2.order1.permutations",
+          "shares_bytes_with": "tdmpc2.humanoid-walk.sensitivity-run1.order1.permutations",
+          "sha256": "3235d073f693090a4253602cad1acfeadfd23bef6e41c93d005f1d45fb9f4628",
+          "bytes": 402872,
+          "reason": "The deduplicated endpoints archive is shared with other profiles; minimal installs only its nine required asset IDs."
+        }
+      ],
       "asset_ids": [
         "tdmpc2.humanoid-walk.original",
         "tdmpc2.humanoid-walk.clean-bank",
