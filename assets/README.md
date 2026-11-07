@@ -52,35 +52,6 @@ additional fitting-order alias with identical bytes, documented in the
 bundle manifest. See the release's minimal-asset licensing notice for
 the CC BY 4.0 project-generated assets and upstream MIT checkpoint.
 
-## Public reproduction downloads
-
-The `saved-results` and `minimal` profiles are publicly hosted in the
-[assets-v1 GitHub Release](https://github.com/yibhu/SWAAP/releases/tag/assets-v1).
-Other archival profiles are not part of this public release.
-
-In an environment with SWAAP installed, download and install the
-numerical reproduction inputs with:
-
-```bash
-swaap bundles download saved-results --bundle-dir bundles --root artifacts
-swaap bundles verify saved-results --bundle-dir bundles --root artifacts
-swaap bundles install saved-results --bundle-dir bundles --root artifacts
-```
-
-For the representative real-model Humanoid-Walk example, use its
-qualified TD-MPC2 environment and run:
-
-```bash
-swaap bundles download minimal --bundle-dir bundles --root artifacts
-swaap bundles verify minimal --bundle-dir bundles --root artifacts
-swaap bundles install minimal --bundle-dir bundles --root artifacts
-```
-
-The minimal profile requires nine artifacts. Its archives include one
-additional fitting-order alias with identical bytes, documented in the
-bundle manifest. See the release's minimal-asset licensing notice for
-the CC BY 4.0 project-generated assets and upstream MIT checkpoint.
-
 ## Install a supplied distribution directory
 
 Place the profile's component archives in one directory, for example `bundles/`,

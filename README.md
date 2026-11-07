@@ -74,7 +74,6 @@ After setting up the qualified TD-MPC2 environment described in
 
 ```bash
 swaap bundles download minimal --bundle-dir bundles --root artifacts
-swaap bundles download minimal --bundle-dir bundles --root artifacts
 swaap bundles verify minimal --bundle-dir bundles --root artifacts
 swaap bundles install minimal --bundle-dir bundles --root artifacts
 swaap run --config configs/examples/humanoid-walk_smoke.yaml --artifact-root artifacts --output outputs/hwalk-example
