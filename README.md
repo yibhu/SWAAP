@@ -57,16 +57,24 @@ arrays are identified separately in
 
 ## Run a real SWAAP example
 
-The `minimal` profile includes model checkpoints and collected buffers.
-It is not part of the CC BY 4.0 `saved-results` release.
-Redistribution clearance is pending, so this real-model example
-is not yet runnable using public assets alone.
+The `minimal` profile is now publicly available in the
+[assets-v1 GitHub Release](https://github.com/yibhu/SWAAP/releases/tag/assets-v1).
 
-Once the two minimal archives are cleared and available, install
-the TD-MPC2 environment, place both archives listed in
-`assets/bundle_manifest.json` in `bundles/`, then run:
+It contains the checkpoints, transition banks, target, poison, support data,
+and fitting orders for the representative Humanoid-Walk real-model workflow.
+The two archives provide nine required artifacts, with one documented
+duplicate-content MW-Push fitting-order alias.
+
+Project-generated assets in this profile are licensed under CC BY 4.0.
+The original pretrained TD-MPC2 checkpoint retains its upstream MIT license.
+See the [minimal-asset license notice](https://github.com/yibhu/SWAAP/releases/download/assets-v1/MINIMAL_ASSETS_LICENSES.md).
+
+After setting up the qualified TD-MPC2 environment described in
+[installation](docs/installation.md) and installing SWAAP, run:
 
 ```bash
+swaap bundles download minimal --bundle-dir bundles --root artifacts
+swaap bundles download minimal --bundle-dir bundles --root artifacts
 swaap bundles verify minimal --bundle-dir bundles --root artifacts
 swaap bundles install minimal --bundle-dir bundles --root artifacts
 swaap run --config configs/examples/humanoid-walk_smoke.yaml --artifact-root artifacts --output outputs/hwalk-example

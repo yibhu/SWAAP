@@ -1180,6 +1180,12 @@
       "file": "endpoints__minimal.part01.tar",
       "sha256": "d803cf2357383bad3aea0a0043484af41cf0858063835c5a37bdbadffdb7ac26",
       "bytes": 19712000,
+      "urls": [
+        "https://github.com/yibhu/SWAAP/releases/download/assets-v1/endpoints__minimal.part01.tar"
+      ],
+      "urls": [
+        "https://github.com/yibhu/SWAAP/releases/download/assets-v1/endpoints__minimal.part01.tar"
+      ],
       "profiles": [
         "endpoints",
         "minimal"
@@ -2024,6 +2030,12 @@
       "file": "main__minimal.part01.tar",
       "sha256": "2acf0f7e1029d1f149444d0ebe2bf6a96efcbdd9154227da5dd1cb5c021d4d0b",
       "bytes": 286494720,
+      "urls": [
+        "https://github.com/yibhu/SWAAP/releases/download/assets-v1/main__minimal.part01.tar"
+      ],
+      "urls": [
+        "https://github.com/yibhu/SWAAP/releases/download/assets-v1/main__minimal.part01.tar"
+      ],
       "profiles": [
         "main",
         "minimal",
